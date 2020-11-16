@@ -1,8 +1,14 @@
 body {
   margin: 0;
+  background-color: #335e7f
 }
+
+a  ~.linkITxt{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
 .header {
-  background-color: grey;
+  background-image: linear-gradient(#335e7f, transparent);
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -10,6 +16,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+
 }
 
 .header::after {
@@ -56,10 +63,11 @@ nav li {
 }
 
 nav ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
+  font-family: 'tenor sans';
 }
 
 nav ul li a:hover {
