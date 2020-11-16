@@ -1,237 +1,119 @@
-<<<<<<< HEAD
 body {
   margin: 0;
-}
-=======
-
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  height: 100vh;
-  overflow: hidden;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  grid-template-areas: "header" "main";
+  background-color: #335e7f;
 }
 
-h1 {
-  font-family: "Times New Roman", serif;
-  letter-spacing: 0.1vw;
-  text-align: center;
+a  ~.linkITxt{
+  font-family: 'Tenor Sans', sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-/*MAIN*/
-main {
-  grid-area: main;
-  overflow: auto;
-}
-
-#headline {
-  display: none;
-}
-
-.source {
-  text-decoration: underline;
-  color: black;
-  font-size: 0.9rem;
-}
-
-.source:hover {
-  color: #84BD77;
-}
-
-header {
-  padding: 20px;
+.header {
+  background-image: linear-gradient(#335e7f, transparent);
+  height: 10vh;
   display: flex;
-  align-items: baseline;
+  justify-content: center;
+  align-items:center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 
-article {
-  padding: 30px;
-  width: 55em;
-  font-size: 16px;
-  line-height: 1.5em;
+.header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-article h2 {
-  font-weight: 500;
-  font-size: 28px;
+.container {
+  margin: 0 0 0 auto;
+  height: 10vh;
+  display: flex;
+  justify-content: right;
+  align-items:center;
 }
+
 
 .logo {
-  margin: 0 30px 0 10px;
-  height: 100%;
-}
-
-/*HEADER*/
-header {
-  grid-area: header;
-  width: 100%;
-  height: 10vh;
-  text-align: center;
-  font-family: sans-serif;
-  z-index: 1;
-  background-color: white;
-}
-
-#logoSmall {
-  display: block;
   float: left;
-  height: 10vh;
-  width: auto;
-}
-
-#logo {
-  display: none;
-  max-height: 15vh;
-  width: auto;
-  max-width: 35%;
-}
-
-header h1 {
   padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 3%;
-  font-size: 1.7rem;
-  white-space: nowrap;
-  width: 100%;
   height: 10vh;
+  margin-left: 5%;
 }
 
-/*NAV*/
 nav {
-  width: 100%;
-  float: right;
+    float: right;
+
 }
 
 nav ul {
-  margin: 0;
+  margin: 0 70px 0 0;
   padding: 0;
-  display: block;
-  max-height: 0;
-  overflow: hidden;
+
+  list-style:none;
+
+
 }
 
-nav ul a {
-  text-align: center;
-  width: 100%;
+nav li {
+  display:inline-block;
+  margin-left: 70px;
+
+  position: relative;
+}
+
+nav ul li a {
   color: white;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: inline-block;
-  line-height: 22.5vh;
-  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'tenor sans';
 }
 
-nav ul a:hover {
-  color: green;
+nav ul li a:hover {
+  color: orange;
 }
 
-/*hides checkbox icon*/
-input[type=checkbox] {
-  display: none;
-}
-
-/*icons in nav*/
-.menuIcon {
+nav ul li a::before {
+  content: '';
   display: block;
-  padding-top: 2px;
-  height: 9vh;
+  height: 2px;
+  background-color: orange;
+
+
   position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
+  bottom: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
 }
 
-/*open and close menu bar*/
-#close {
-  display: none;
+nav ul li a:hover::before{
+  width: 100%;
+
+}
+/*---------------------------------------------------------------------------------Index*/
+
+#index {
+
 }
 
-#menuToggle:checked ~ ul {
-  max-height: 100%;
-  height: 100%;
+.indexInfo{
+  display:flex;
+  flex-direction: row;
 }
 
-#menuToggle:checked ~ label #menu {
-  display: none;
+#indexBigLogo{
+
 }
 
-#menuToggle:checked ~ label #close {
-  display: block;
-}
 
-@media only screen and (min-width: 700px) {
-  /*HEADER*/
-  header {
-    height: 15vh;
-  }
 
-  header h1 {
-    display: none;
-  }
+/*---------------------------------------------------------------------------------AboutUs*/
 
-  /*switch displaying logo and icons*/
-  #menu {
-    display: none;
-  }
+/*---------------------------------------------------------------------------------Problem*/
 
-  #logoSmall {
-    display: none;
-  }
+/*---------------------------------------------------------------------------------Solution*/
 
-  #logo {
-    display: block;
-  }
+/*---------------------------------------------------------------------------------Privacy*/
 
-  /*Horizontal navigation*/
-  nav {
-    width: 75%;
-    position: absolute;
-    top: 0;
-    right: -20px;
-  }
-
-  nav ul {
-    justify-content: space-evenly;
-  }
-
-  nav li {
-    display: inline-flex;
-    margin: 10%;
-    justify-content: space-evenly;
-  }
-
-  nav ul a {
-    position: absolute;
-    top: 0;
-    background: none;
-    color: black;
-    font-size: 1.2rem;
-    width: auto;
-    padding: 0 3%;
-  }
-
-  /*MAIN*/
-  #headline {
-    display: block;
-    font-size: 2.5rem;
-  }
-
-  main {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-}
->>>>>>> 1a4c7387784c9dfdb859f214849b2ea1cacd25a8
+/*---------------------------------------------------------------------------------@Media*/
