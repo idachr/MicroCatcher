@@ -12,6 +12,7 @@ a  ~.linkITxt{
   font-family: 'Tenor Sans', sans-serif;
 }
 
+/*---------------------------------------------------------------------------------HEADER*/
 .header {
   background-color: #335e7f;
   height: 15vh;
@@ -48,22 +49,17 @@ a  ~.linkITxt{
 
 nav {
     float: right;
-
 }
 
 nav ul {
   margin: 0 70px 0 0;
   padding: 0;
-
   list-style:none;
-
-
 }
 
 nav li {
   display:inline-block;
   margin-left: 70px;
-
   position: relative;
 }
 
@@ -84,8 +80,6 @@ nav ul li a::before {
   display: block;
   height: 2px;
   background-color: #fba100;
-
-
   position: absolute;
   bottom: 0;
   width: 0;
@@ -94,9 +88,20 @@ nav ul li a::before {
 
 nav ul li a:hover::before{
   width: 100%;
-
 }
 
+#skip {
+  background: orange;
+  color: black;
+  font-size: 1.2rem;
+  left: -50%;
+  padding: 1%;
+  position: absolute;
+}
+
+#skip:focus {
+  left: 20%;
+}
 
 /*---------------------------------------------------------------------------------Index*/
 
