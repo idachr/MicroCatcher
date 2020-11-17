@@ -8,9 +8,10 @@ h1 {
   color: white;
 }
 
-a  ~.linkITxt{
+a  {
   font-family: 'Tenor Sans', sans-serif;
 }
+
 
 /*---------------------------------------------------------------------------------HEADER*/
 .header {
@@ -104,8 +105,8 @@ nav ul li a:hover::before{
   left: 20%;
 }
 
-/*---------------------------------------------------------------------------------Index*/
 
+/*---------------------------------------------------------------------------------Index*/
 #index {
 padding-top: 10%;
 padding-bottom: 10%;
@@ -162,3 +163,22 @@ background-color: #335e7f;
 /*---------------------------------------------------------------------------------Privacy*/
 
 /*---------------------------------------------------------------------------------@Media*/
+/*HORIZONTALTABLET*/
+@media only screen and (max-width: 1024px) {
+
+}
+
+/*HORIZONTAL MOBIL*/
+@media only screen and (max-width: 896px) {
+
+}
+
+/*VERTICAL TABLET*/
+@media only screen and (max-width: 768px) {
+
+}
+
+/*VERTICAL MOBIL*/
+@media only screen and (max-width: 414px) {
+
+}
