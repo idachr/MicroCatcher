@@ -12,6 +12,10 @@ a  {
   font-family: 'Tenor Sans', sans-serif;
 }
 
+p {
+font-family: 'Open Sans', sans-serif;
+}
+
 
 /*---------------------------------------------------------------------------------HEADER*/
 .header {
@@ -46,10 +50,6 @@ a  {
   padding: 0;
   width: 10vw;
   margin-left: 10%;
-}
-
-.logo:hover {
-  width: 12vw;
 }
 
 nav {
@@ -161,7 +161,7 @@ footer .footerInfo ul li a {
   width: 10vw;
 }
 
-.footerInfo a {
+.footerInfo a, h3 {
   color: white;
   text-decoration:none;
 }
@@ -183,6 +183,7 @@ footer .footerInfo ul li a {
   display:flex;
   flex-direction: row;
   width: 100%;
+
 }
 
 .indexInfo img {
@@ -199,6 +200,7 @@ footer .footerInfo ul li a {
   margin-left:auto;
   margin-right:auto;
   width: 50vw;
+
 }
 
 .indexBigLogo .contain {
@@ -288,6 +290,13 @@ background-color: #222222;
   display:flex;
   flex-direction: row;
   width: 100%;
+}
+
+.aboutInfo p {
+  background-color: white;
+  padding: 4%;
+  font-size: 20px;
+  border-radius: 15px/15px;
 }
 
 .aboutInfo img {
