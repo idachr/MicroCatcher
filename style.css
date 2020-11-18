@@ -123,44 +123,30 @@ footer{
   font-family:'Tenor Sans', sans-serif;
 }
 
-footer div {
+footer .footerInfo {
   margin:auto;
 }
 
-footer div ul{
+footer .footerInfo ul{
   list-style:none;
 }
 
-footer div ul li {
+footer .footerInfo ul li {
   padding: 2%;
 }
 
-footer div ul li a {
+footer .footerInfo ul li a {
   color: black;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-footer div ul li a:hover {
+.footerInfo ul li a:hover {
   color:black;
+  text-decoration:underline;
 }
 
-footer div ul li a::before {
-  content: '';
-  display: block;
-  height: 2px;
-  background-color: black;
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  transition: all ease-in-out 250ms;
-}
-
-footer div ul li a:hover::before{
-  width: 100%;
-}
-
-footer img {
-  width: 10vw;
+.footerInfo img {
+  width: 15vw;
 }
 
 
