@@ -113,19 +113,31 @@ nav ul li a:hover::before{
 footer{
   display:flex;
   flex-direction: row;
-  background-color:#60c8cc;
+  background-color:black;
   align-items: center;
   justify-content: space-between;
-  color: #222222;
+  color: #dddddd;
   text-align:center;
   text-transform: uppercase;
   font-size: 20px;
   font-family:'Tenor Sans', sans-serif;
   font-weight: bold;
+  width: 100%;
+}
+
+footer li {
+  font-size: 15px;
+  color: #aaaaaa;
 }
 
 footer .footerInfo {
   margin:auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+
 }
 
 footer .footerInfo ul{
@@ -133,22 +145,31 @@ footer .footerInfo ul{
 }
 
 footer .footerInfo ul li {
-  padding: 2%;
+
 }
 
 footer .footerInfo ul li a {
-  color: #222222;
+  color: #aaaaaa;
   text-decoration: none;
 }
 
 .footerInfo ul li a:hover {
-  color:black;
   text-decoration:underline;
 }
 
 .footerInfo img {
-  width: 15vw;
+  width: 10vw;
 }
+
+.footerInfo a {
+  color: white;
+  text-decoration:none;
+}
+
+.footerInfo a:hover {
+  text-decoration:underline;
+}
+
 
 
 /*---------------------------------------------------------------------------------Index*/
@@ -325,7 +346,7 @@ background-color: #222222;
 }
 
 #about3 {
-  
+
 }
 
 
