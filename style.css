@@ -113,10 +113,10 @@ nav ul li a:hover::before{
 footer{
   display:flex;
   flex-direction: row;
-  background-color:#fbc726;
+  background-color:#FFB726;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: black;
   text-align:center;
   text-transform: uppercase;
   font-size: 20px;
@@ -132,16 +132,31 @@ footer div ul{
 }
 
 footer div ul li {
-  padding: 1%;
+  padding: 2%;
 }
 
 footer div ul li a {
-  color: white;
+  color: black;
   text-decoration:none;
 }
 
 footer div ul li a:hover {
-  color:#fba100;
+  color:black;
+}
+
+footer div ul li a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
+}
+
+footer div ul li a:hover::before{
+  width: 100%;
 }
 
 footer img {
