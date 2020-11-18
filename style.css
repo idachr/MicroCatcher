@@ -128,7 +128,7 @@ background-color: #335e7f;
   margin-right: auto;
 }
 
-#indexBigLogo{
+.indexBigLogo{
   font-size: 2rem;
   display: block;
   margin-left:auto;
@@ -136,22 +136,66 @@ background-color: #335e7f;
   width: 50vw;
 }
 
-#indexBigLogo .contain {
+.indexBigLogo .contain {
   text-align:center;
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
 }
 
-#indexBigLogo img {
+.indexBigLogo img {
   display:block;
   width: 40%;
 }
 
-#indexBigLogo h1 {
+.indexBigLogo h1 {
   margin: 0;
 }
+
+#index2 {
+  background-image: url(bilder/Bølger.jpg);
+  height: 70vh;
+  width: 95vw;
+  margin-top: 5%;
+  margin-left:auto;
+  margin-right: auto;
+  background-position:center;
+  background-attachment:fixed;
+  background-size: cover;
+  border-radius: 15px/15px;
+}
+
+#index2 .indexBigPictureInfo {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+}
+
+#index2 .indexBigPictureInfo2 {
+  width: 50%
+}
+
+#index3 {
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: white;
+}
+
+#index3 .indexBigLogo .contain h1{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  color: black;
+}
+
+
 
 
 
