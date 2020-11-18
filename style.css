@@ -174,9 +174,9 @@ footer .footerInfo ul li a {
 
 /*---------------------------------------------------------------------------------Index*/
 #index {
-padding-top: 10%;
-padding-bottom: 10%;
-background-color: #222222;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #222222;
 }
 
 .indexInfo{
@@ -223,10 +223,7 @@ background-color: #222222;
   background-image: url(bilder/Bølger.jpg);
   height: 70vh;
   width: 95vw;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left:auto;
-  margin-right: auto;
+  margin: 5% auto;
   background-position:center;
   background-attachment:fixed;
   background-size: cover;
