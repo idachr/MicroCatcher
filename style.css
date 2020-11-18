@@ -96,13 +96,14 @@ nav ul li a:hover::before{
   position: absolute;
   left: -50%;
   padding: 1%;
-  background: orange;
+  background: #fba100;
   color: black;
   font-size: 1.2rem;
 }
 
 #skip:focus {
-  left: 20%;
+  z-index: 1;
+  left: 0;
 }
 
 
@@ -163,7 +164,7 @@ background-color: #335e7f;
 /*---------------------------------------------------------------------------------Privacy*/
 
 /*---------------------------------------------------------------------------------@Media*/
-/*HORIZONTALTABLET*/
+/*HORIZONTAL TABLET*/
 @media only screen and (max-width: 1024px) {
 
 }
