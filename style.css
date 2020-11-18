@@ -77,14 +77,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FFB726;
+  color: #60c8cc;
 }
 
 nav ul li a::before {
   content: '';
   display: block;
   height: 2px;
-  background-color: #FFB726;
+  background-color: #60c8cc;
   position: absolute;
   bottom: 0;
   width: 0;
@@ -100,7 +100,7 @@ nav ul li a:hover::before{
   position: absolute;
   left: -50%;
   padding: 1%;
-  background: #fba100;
+  background: #60c8cc;
   color: black;
   font-size: 1.2rem;
 }
@@ -113,7 +113,7 @@ nav ul li a:hover::before{
 footer{
   display:flex;
   flex-direction: row;
-  background-color:#FFB726;
+  background-color:#60c8cc;
   align-items: center;
   justify-content: space-between;
   color: #222222;
@@ -121,6 +121,7 @@ footer{
   text-transform: uppercase;
   font-size: 20px;
   font-family:'Tenor Sans', sans-serif;
+  font-weight: bold;
 }
 
 footer .footerInfo {
@@ -172,7 +173,7 @@ background-color: #222222;
 }
 
 .indexBigLogo{
-  font-size: 2rem;
+  font-size: 1.85rem;
   display: block;
   margin-left:auto;
   margin-right:auto;
@@ -239,11 +240,94 @@ background-color: #222222;
   color: white;
 }
 
+.knapp {
+  background-color:#60c8cc;
+  color: black;
+  text-decoration: none;
+  margin: 1% 0;
+  padding:1%;
+  border-radius: 20px/20px;
+}
+
+.knapp:hover {
+  transform: scale(1.2);
+
+}
+
 
 
 
 
 /*---------------------------------------------------------------------------------AboutUs*/
+
+#about1 {
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: #222222;
+}
+
+.aboutInfo{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.aboutInfo img {
+  width: 40vw;
+  border-radius: 15px/15px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutBigLogo{
+  font-size: 1.85rem;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50vw;
+}
+
+.aboutBigLogo .contain {
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.aboutBigLogo img {
+  display:block;
+  width: 40%;
+}
+
+.aboutBigLogo h1 {
+  margin: 0;
+}
+
+#about2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#about2 .person {
+  display: block;
+  margin: auto;
+  margin: 2%;
+  text-align:center;
+}
+
+#about2 .person img {
+  width: 95%;
+  border-radius: 50%;
+}
+
+#about3 {
+  
+}
+
 
 /*---------------------------------------------------------------------------------Problem*/
 
