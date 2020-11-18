@@ -116,7 +116,7 @@ footer{
   background-color:#FFB726;
   align-items: center;
   justify-content: space-between;
-  color: black;
+  color: #222222;
   text-align:center;
   text-transform: uppercase;
   font-size: 20px;
@@ -136,7 +136,7 @@ footer .footerInfo ul li {
 }
 
 footer .footerInfo ul li a {
-  color: black;
+  color: #222222;
   text-decoration: none;
 }
 
