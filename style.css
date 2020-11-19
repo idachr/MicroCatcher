@@ -45,12 +45,14 @@ font-size: 20px;
 
 .knapp:hover {
   transform: scale(1.2);
-
 }
 
 :focus {
-  border: solid #60c8cc;
+  outline: solid #60c8cc;
+
 }
+
+
 
 /*---------------------------------------------------------------------------------HEADER*/
 .header {
