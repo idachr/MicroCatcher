@@ -45,6 +45,10 @@ font-size: 20px;
 
 .knapp:hover {
   transform: scale(1.2);
+}
+
+:focus {
+  outline: solid #60c8cc;
 
 }
 
@@ -310,26 +314,85 @@ background-color: #222222;
 
 /*---------------------------------------------------------------------------------AboutUs*/
 /* ABOUT US*/
+
+#about {
+  padding-top: 15%;
+  padding-bottom: 10%;
+  background-color: #222222;
+}
+
+.aboutHeader{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.aboutHeader img {
+  width: 45vw;
+  border-radius: 15px/15px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutHeaderText{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 45vw;
+
+}
+
+.aboutHeaderText .contain {
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.aboutHeaderText img {
+  display:block;
+  width: 40%;
+}
+
+.aboutHeaderText h1 {
+  margin: 0;
+}
+
 #about1 {
 padding-top: 10%;
 padding-bottom: 10%;
-background-color: #222222;
+background-color: white;
 }
 
 .aboutInfo{
   display:flex;
   flex-direction: row;
   width: 100%;
+
+}
+
+.aboutInfo h1 {
+  color: black;
 }
 
 .aboutInfo p {
-  background-color: white;
   padding: 4%;
   border-radius: 15px/15px;
 }
 
-.aboutInfo img {
-  width: 40vw;
+.aboutInfo .aboutBilde{
+  width: 50vw;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.aboutInfo .aboutBilde img {
+  width: 45vw;
   border-radius: 15px/15px;
   display:block;
   margin-left: auto;
@@ -351,7 +414,9 @@ background-color: #222222;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
   height: 100%;
+  width: 45vw;
 }
 
 .aboutBigLogo img {
@@ -395,12 +460,9 @@ background-color: #222222;
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem {
-<<<<<<< HEAD
   padding: 10%;
   background-image: url(bilder/Boss/skittentVann.jpg);
   background-size: cover;
-=======
->>>>>>> e534b4e841ee70f4d4e4373773548edb40c6291d
   max-width: 100%;
 }
 
