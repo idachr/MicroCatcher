@@ -416,25 +416,36 @@ background-color: #222222;
 #problem2{
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 .problemInfo{
   display: flex;
   flex-direction: row;
+  margin: 5% auto;
 }
 
-.problemInfo img{
-  width: 40vw;
+.problemInfo .problemInfoBilde{
+  width: 50vw;
+}
+
+.problemInfo .problemInfoBilde img {
+  width: 45vw;
   display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 30px;
+  margin-left: auto;
   margin-right: auto;
   border-radius: 15px/15px;
 }
 
-.problemInfo p{
-  padding: 4%;
-  font-size: 20px;
+.problemInfo .problemInfoText {
+  width: 50vw;
+}
+
+.problemInfo .problemInfoText .problemInfoTextBox {
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 #problem3{
