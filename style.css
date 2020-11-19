@@ -12,9 +12,9 @@ h1 {
 
 h2 {
   font-family: 'Tenor Sans', sans-serif;
+  color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  color: white;
 }
 
 h3 {
@@ -75,7 +75,7 @@ textarea {
 
 /*---------------------------------------------------------------------------------HEADER*/
 .header {
-  background-color: #222222;;
+  background-color: #222222;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -466,10 +466,7 @@ background-color: white;
 
 #about2 .person {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: auto 5%;
   text-align:center;
   width: 20vw;
   height: auto;
@@ -721,7 +718,7 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
+  /*background-position: absolute;*/
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -744,39 +741,33 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Privacy*/
-#privacyMain {
-  padding-top: 10%;
-  padding-bottom: 10%;
+#privacy {
+  padding: 10% 20% 0 20%;
   background-color: #222222;
 }
 
-#privacyMain h1 {
-  text-align: center;
+#privacy h1{
 }
 
-#privacyMain h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
-  margin: 5% 0 0 20%;
-}
-
-.privacyContainor {
+.privacyItem {
   background-color: white;
-  margin: 0 20%;
+  margin-top: 5%;
+  padding: 2%;
+  color: black;
   border-radius: 15px/15px;
 }
 
-.privacyContainor p {
-  padding: 2%;
-}
-
-.privacyText a {
+.privacyItem h2 {
   color: black;
-  text-decoration: none;
+  font-size: 1.7rem;
 }
 
-.privacyText a:hover{
-  text-decoration: underline black;
+.privacyItem a {
+  color: black;
+}
+
+.privacyItem a:hover {
+  text-decoration: underline;
 }
 
 /*--------------------------------------------------------------------------------- Sources*/
@@ -840,6 +831,7 @@ background-color: white;
 }
 
 
+/*Newcomer, P, n.d.*/
 /*--------------------------------------------------------------------------------- Internet Explorer*/
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE10+ CSS styles go here */
