@@ -33,14 +33,34 @@ font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 }
 
+label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-transform:uppercase;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid white;
+  border-radius: 10px/10px;
+}
+
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid white;
+  border-radius: 10px/10px;
+}
+
 .knapp {
   font-family:'Open Sans', sans-serif;
   background-color:#60c8cc;
   color: black;
   text-decoration: none;
   margin: 1% 0;
-  padding:1%;
+  padding:1.5%;
   border-radius: 20px/20px;
+  border: 0;
 }
 
 .knapp:hover {
@@ -261,8 +281,9 @@ footer .footerInfo ul li a {
   height: 70vh;
   width: 95vw;
   margin: 5% auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -450,19 +471,45 @@ background-color: white;
   color: black;
 }
 
-
-
 #about3 {
+  background-color: #222222;
+  padding: 5% 0;
+}
 
+#about3 .aboutBigPicture {
+  background-image: url(bilder/contactBackgroundNew.jpg);
+  height: auto;
+  width: 95vw;
+  margin: 0 auto;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
+  background-size: cover;
+  border-radius: 15px/15px;
+}
+
+#about3 .aboutBigPictureInfo {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2%;
+  width: 50%;
+  background-color: rgba(34, 34, 34, 0.5);
+  border-radius: 15px/0;
+  height: 100%;
+}
+
+#about3 .aboutBigPictureInfo2 {
+  width: 50%;
 }
 
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem {
-  padding: 10%;
-  background-image: url(bilder/Boss/skittentVann.jpg);
-  background-size: cover;
-  max-width: 100%;
+  padding:0;
+  width: 100vw;
 }
 
 .problemHead {
@@ -535,8 +582,9 @@ background-color: white;
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -662,8 +710,9 @@ background-color: white;
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
