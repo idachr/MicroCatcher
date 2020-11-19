@@ -6,6 +6,8 @@ body {
 h1 {
   font-family: 'Tenor Sans', sans-serif;
   color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
 }
 
 a  {
@@ -187,7 +189,7 @@ footer .footerInfo ul li a {
 }
 
 .indexInfo img {
-  width: 40vw;
+  width: 45vw;
   border-radius: 15px/15px;
   display:block;
   margin-left: auto;
@@ -195,11 +197,10 @@ footer .footerInfo ul li a {
 }
 
 .indexBigLogo{
-  font-size: 1.85rem;
   display: block;
   margin-left:auto;
   margin-right:auto;
-  width: 50vw;
+  width: 45vw;
 
 }
 
@@ -251,6 +252,12 @@ footer .footerInfo ul li a {
 padding-top: 10%;
 padding-bottom: 10%;
 background-color: #222222;
+
+}
+
+#index3 .indexInfo .indexBigLogo {
+  width: 40vw;
+
 }
 
 #index3 .indexBigLogo .contain h1{
@@ -260,6 +267,13 @@ background-color: #222222;
   color: white;
 }
 
+#index3 img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+}
+
 .knapp {
   background-color:#60c8cc;
   color: black;
@@ -267,6 +281,7 @@ background-color: #222222;
   margin: 1% 0;
   padding:1%;
   border-radius: 20px/20px;
+  font-style: bold;
 }
 
 .knapp:hover {
