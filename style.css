@@ -456,6 +456,12 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem {
+<<<<<<< HEAD
+  padding: 10%;
+  background-image: url(bilder/Boss/skittentVann.jpg);
+  background-size: cover;
+=======
+>>>>>>> e534b4e841ee70f4d4e4373773548edb40c6291d
   max-width: 100%;
 }
 
