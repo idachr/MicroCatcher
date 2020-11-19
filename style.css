@@ -395,19 +395,24 @@ background-color: #222222;
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem {
-  padding: 10%;
-  background-image: url(bilder/skittentVann.jpg);
-  background-size: cover;
   max-width: 100%;
+}
+
+.problemHead {
+  padding: 10% 0 5% 0;
+  background-color: #222222;
 }
 
 .problemHead h1{
   text-align: center;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .problemHead img{
-  width: 40vw;
-  max-width: 100vw;
+  width: 95vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -418,6 +423,11 @@ background-color: #222222;
   display: flex;
   flex-direction: row;
   margin: 5% auto;
+}
+
+.problemInfo .problemInfoText h1{
+  color:black;
+  text-align:center;
 }
 
 .problemInfo .problemInfoBilde{
