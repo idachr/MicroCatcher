@@ -14,12 +14,14 @@ h2 {
   font-family: 'Tenor Sans', sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
+  color: white;
 }
 
 h3 {
   font-family: 'Tenor Sans', sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
+  color: white;
 }
 
 a  {
@@ -34,7 +36,7 @@ font-size: 20px;
 
 /*---------------------------------------------------------------------------------HEADER*/
 .header {
-  background-image: linear-gradient(#222222 75%, transparent 25%);
+  background-color: #222222;;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -42,6 +44,7 @@ font-size: 20px;
   position: fixed;
   top: 0;
   width: 100%;
+  margin: 0;
 }
 
 .header::after {
@@ -175,7 +178,7 @@ footer .footerInfo ul li a {
   width: 10vw;
 }
 
-.footerInfo a, h3 {
+.footerInfo h3, a {
   color: white;
   text-decoration:none;
 }
@@ -638,6 +641,49 @@ background-color: #222222;
 
 .privacyText a:hover{
   color: #60c8cc; /*MÅ BYTTE FARGE*/
+}
+
+/*--------------------------------------------------------------------------------- Sources*/
+
+
+#sources {
+  text-align: center;
+  background-color: #222222;
+  padding: 10% 0 10% 0;
+  margin: 0;
+}
+
+#sources h1 {
+  color: white;
+}
+
+#sources .sourcesBox {
+  background-color: white;
+  padding: 2% 0;
+  width: 80vw;
+  border-radius: 15px/15px;
+}
+
+#sources .sourcesBox h2 {
+  color: black;
+}
+
+#sources .sourcesBox h3 {
+  color: black;
+}
+
+#sources ul {
+  margin: 0;
+  padding: 0;
+}
+
+#sources ul li {
+  list-style: none;
+  color: black;
+}
+
+#sources .sourcesBox {
+  margin: 2% auto;
 }
 
 /*---------------------------------------------------------------------------------@Media*/
