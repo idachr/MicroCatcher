@@ -421,6 +421,28 @@ background-color: #222222;
   padding: 4%;
   font-size: 20px;
 }
+
+#problem3{
+  background-image: url(bilder/waterPollution.jpg);
+  height: 70vh;
+  width: 95vw;
+  margin: 5% auto;
+  background-position:center;
+  background-attachment:fixed;
+  background-size: cover;
+  border-radius: 15px/15px;
+}
+
+#problem3 .problemSeeThroughInfo{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+}
 /*---------------------------------------------------------------------------------Solution*/
 
 #solution1 {
