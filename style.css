@@ -455,17 +455,27 @@ background-color: white;
   display: flex;
   flex-direction: row;
   width: 100%;
+  background-color: #222222;
+
 }
 
 #about2 .person {
   display: block;
-  margin: 2% auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align:center;
+  width: 20vw;
+  height: auto;
+  background-color: white;
+  border-radius: 15px/15px;
 }
 
 #about2 .person img {
   width: 95%;
   border-radius: 50%;
+  margin: 5% auto;
 }
 
 #about2 .person h3 {
