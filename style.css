@@ -395,7 +395,7 @@ background-color: #222222;
 /*---------------------------------------------------------------------------------Problem*/
 #problem {
   padding: 10%;
-  background-image: url(bilder/skittentVann.jpg);
+  background-image: url(bilder/Boss/skittentVann.jpg);
   background-size: cover;
   max-width: 100%;
 }
