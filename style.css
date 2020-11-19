@@ -22,7 +22,7 @@ font-size: 20px;
 
 /*---------------------------------------------------------------------------------HEADER*/
 .header {
-  background-color: #222222;
+  background-image: linear-gradient(#222222 75%, transparent 25%);
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -30,7 +30,6 @@ font-size: 20px;
   position: fixed;
   top: 0;
   width: 100%;
-
 }
 
 .header::after {
@@ -283,7 +282,6 @@ background-color: #222222;
   margin: 1% 0;
   padding:1%;
   border-radius: 20px/20px;
-  font-style: bold;
 }
 
 .knapp:hover {
@@ -555,6 +553,39 @@ background-color: #222222;
 
 
 /*---------------------------------------------------------------------------------Privacy*/
+#privacyMain {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #222222;
+}
+
+#privacyMain h1 {
+  text-align: center;
+}
+
+#privacyMain h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin: 5% 0 0 20%;
+}
+
+.privacyContainor {
+  background-color: white;
+  margin: 0 20%;
+  border-radius: 15px/15px;
+}
+
+.privacyContainor p {
+  padding: 2%;
+}
+
+.privacyText a {
+  color: black;
+}
+
+.privacyText a:hover{
+  color: #60c8cc; /*MÅ BYTTE FARGE*/
+}
 
 /*---------------------------------------------------------------------------------@Media*/
 /*HORIZONTAL TABLET*/
