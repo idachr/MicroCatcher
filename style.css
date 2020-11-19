@@ -16,6 +16,7 @@ a  {
 
 p {
 font-family: 'Open Sans', sans-serif;
+font-size: 20px;
 }
 
 
@@ -177,7 +178,7 @@ footer .footerInfo ul li a {
 /*---------------------------------------------------------------------------------Index*/
 /* INDEX */
 #index {
-  padding-top: 10%;
+  padding-top: 15%;
   padding-bottom: 10%;
   background-color: #222222;
 }
@@ -311,7 +312,6 @@ background-color: #222222;
 .aboutInfo p {
   background-color: white;
   padding: 4%;
-  font-size: 20px;
   border-radius: 15px/15px;
 }
 
@@ -379,8 +379,124 @@ background-color: #222222;
 
 
 /*---------------------------------------------------------------------------------Problem*/
+#problem {
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: #222222;
+}
 
+.problemHead h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.problemHead img{
+  width: 40vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
 /*---------------------------------------------------------------------------------Solution*/
+
+#solution1 {
+  width: 100%;
+  background-color: #222222;
+}
+
+#solution1 .solutionFront{
+  display: block;
+  margin: 0 auto;
+  padding: 10% 0 5% 0;
+  width: 90vw;
+
+}
+
+#solution1 .solutionFront img {
+  height: 70vh;
+  display:block;
+  margin: 0 auto;
+  border-radius:15px/15px;
+}
+
+#solution2 {
+}
+
+#solution2 .solutionInfo {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
+#solution2 .solutionInfo .solutionBilde {
+  width: 50vw;
+}
+
+#solution2 .solutionInfo .solutionBilde img {
+  width: 45vw;
+  display:block;
+  margin: 5% auto;
+  border-radius:15px/15px;
+}
+
+#solution2 .solutionInfo .solutionText {
+  width: 50vw;
+}
+
+#solution2 .solutionInfo .solutionText .solutionTextBox {
+  color: black;
+  width: 45vw;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  margin: auto;
+}
+
+#solution2 .solutionInfo .solutionText .solutionTextBox h1 {
+  color: black;
+  text-align:center;
+}
+
+#solution3 {
+}
+
+#solution3 .solutionInfo {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
+#solution3 .solutionInfo .solutionBilde {
+  width: 50vw;
+}
+
+#solution3 .solutionInfo .solutionBilde img {
+  width: 45vw;
+  display:block;
+  margin: 5% auto;
+  border-radius:15px/15px;
+}
+
+#solution3 .solutionInfo .solutionText {
+  width: 50vw;
+}
+
+#solution3 .solutionInfo .solutionText .solutionTextBox {
+  color: black;
+  width: 45vw;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  margin: auto;
+}
+
+#solution3 .solutionInfo .solutionText .solutionTextBox h1 {
+  color: black;
+  text-align:center;
+}
+
 
 /*---------------------------------------------------------------------------------Privacy*/
 
