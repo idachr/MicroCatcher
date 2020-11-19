@@ -373,7 +373,24 @@ background-color: #222222;
 
 
 /*---------------------------------------------------------------------------------Problem*/
+#problem {
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: #222222;
+}
 
+.problemHead h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.problemHead img{
+  width: 40vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
 /*---------------------------------------------------------------------------------Solution*/
 
 /*---------------------------------------------------------------------------------Privacy*/
