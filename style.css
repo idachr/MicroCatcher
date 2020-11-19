@@ -37,14 +37,19 @@ label {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color: white;
+  text-transform:uppercase;
 }
 
 input {
   font-family: 'Open Sans', sans-serif;
+  border: 2px solid white;
+  border-radius: 10px/10px;
 }
 
 textarea {
   font-family: 'Open Sans', sans-serif;
+  border: 2px solid white;
+  border-radius: 10px/10px;
 }
 
 .knapp {
@@ -472,7 +477,7 @@ background-color: white;
 }
 
 #about3 .aboutBigPicture {
-  background-image: url(bilder/Bølger.jpg);
+  background-image: url(bilder/contactBackground.jpg);
   height: auto;
   width: 95vw;
   margin: 0 auto;
