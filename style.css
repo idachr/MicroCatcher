@@ -69,7 +69,6 @@ textarea {
 
 :focus {
   outline: solid #60c8cc;
-
 }
 
 
@@ -282,8 +281,9 @@ footer .footerInfo ul li a {
   height: 70vh;
   width: 95vw;
   margin: 5% auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -477,12 +477,13 @@ background-color: white;
 }
 
 #about3 .aboutBigPicture {
-  background-image: url(bilder/contactBackground.jpg);
+  background-image: url(bilder/contactBackgroundNew.jpg);
   height: auto;
   width: 95vw;
   margin: 0 auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -507,10 +508,8 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem {
-  padding: 10%;
-  background-image: url(bilder/Boss/skittentVann.jpg);
-  background-size: cover;
-  max-width: 100%;
+  padding:0;
+  width: 100vw;
 }
 
 .problemHead {
@@ -583,8 +582,9 @@ background-color: white;
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -710,8 +710,9 @@ background-color: white;
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
-  background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -746,7 +747,6 @@ background-color: white;
 
 #privacyMain h2 {
   font-family: 'Open Sans', sans-serif;
-  color: white;
   font-size: 1.5rem;
   margin: 5% 0 0 20%;
 }
@@ -778,10 +778,6 @@ background-color: white;
   background-color: #222222;
   padding: 10% 0 10% 0;
   margin: 0;
-}
-
-#sources h1 {
-  color: white;
 }
 
 #sources .sourcesBox {
@@ -832,4 +828,30 @@ background-color: white;
 /*VERTICAL MOBIL*/
 @media only screen and (max-width: 414px) {
 
+}
+
+
+/*--------------------------------------------------------------------------------- Internet Explorer*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  h1 {
+    width: 100%;
+  }
+
+  h2 {
+    width: 100%
+  }
+
+  h3 {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .header img {
+    position: absolute;
+    left: -10%;
+  }
 }
