@@ -717,8 +717,8 @@ background-color: white;
 
 #solution4 .solutionBigPicture {
   background-image: url(bilder/Bølger.jpg);
-  height: 70vh;
-  width: 95vw;
+  height: 3840px;
+  width: 5760px;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
