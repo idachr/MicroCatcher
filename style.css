@@ -332,7 +332,7 @@ background-color: #222222;
 }
 
 .aboutBigLogo .contain {
-  text-align:center;
+  text-align:left;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -367,6 +367,12 @@ background-color: #222222;
   border-radius: 50%;
 }
 
+#about2 .person h3 {
+  color: black;
+}
+
+
+
 #about3 {
 
 }
@@ -390,6 +396,30 @@ background-color: #222222;
   margin-left: auto;
   margin-right: auto;
   width: 50%
+}
+
+#problem2{
+  display: flex;
+  flex-direction: column;
+}
+.problemInfo{
+  display: flex;
+  flex-direction: row;
+}
+
+.problemInfo img{
+  width: 40vw;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-right: auto;
+  border-radius: 15px/15px;
+}
+
+.problemInfo p{
+  padding: 4%;
+  font-size: 20px;
 }
 /*---------------------------------------------------------------------------------Solution*/
 
