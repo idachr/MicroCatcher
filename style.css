@@ -279,6 +279,7 @@ footer .footerInfo ul li a {
 }
 
 #index2 {
+  /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
   background-image: url(bilder/fish2.jpg);
   height: 70vh;
   width: 95vw;
@@ -499,6 +500,7 @@ background-color: white;
 }
 
 #about3 .aboutBigPicture {
+  /* https://pxhere.com/no/photo/952291 */
   background-image: url(bilder/contactBackgroundNew.jpg);
   height: auto;
   width: 95vw;
@@ -590,6 +592,7 @@ background-color: white;
   padding: 5% 0;
 }
 #problem3 .problemSeeThroughPicture{
+  /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
   background-image: url(bilder/fish1.jpeg);
   height: 70vh;
   width: 95vw;
@@ -718,6 +721,7 @@ background-color: white;
 }
 
 #solution4 .solutionBigPicture {
+  /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
   background-image: url(bilder/trash3.png);
   height: 70vh;
   width: 95vw;
