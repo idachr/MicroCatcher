@@ -811,6 +811,18 @@ background-color: white;
 #sources ul li {
   list-style: none;
   color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align:left;
+  padding: 0 2%;
+}
+
+#sources ul li a {
+  color: black;
+  font-family: 'Open sans', sans-serif;
+}
+
+#sources ul li a:hover {
+  text-decoration:underline;
 }
 
 #sources .sourcesBox {
