@@ -84,6 +84,7 @@ textarea {
   top: 0;
   width: 100%;
   margin: 0;
+  box-shadow: 2px 2px 5px #222222;
 }
 
 .header::after {
@@ -811,12 +812,12 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------@Media*/
 /*HORIZONTAL TABLET*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
 
 }
 
 /*HORIZONTAL MOBIL*/
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 896px) and (orientation: landscape) {
 
 }
 
