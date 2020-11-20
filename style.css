@@ -84,7 +84,7 @@ textarea {
   top: 0;
   width: 100%;
   margin: 0;
-  box-shadow: 2px 2px 5px 5px #222222;
+  box-shadow: 0 0 5px 5px #222222;
 }
 
 .header::after {
@@ -901,6 +901,10 @@ background-color: white;
 
   p {
     width: 100%;
+  }
+
+  .header {
+    border-collapse: separate;
   }
 
   .header img {
