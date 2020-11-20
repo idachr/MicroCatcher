@@ -279,6 +279,7 @@ footer .footerInfo ul li a {
 }
 
 #index2 {
+  /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
   background-image: url(bilder/fish2.jpg);
   height: 70vh;
   width: 95vw;
@@ -297,12 +298,11 @@ footer .footerInfo ul li a {
   justify-content: center;
   text-align: center;
   width: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   height: 100%;
 }
 
 #index2 .indexBigPictureInfo h1{
-  color: black;
   text-shadow: 1px 0.5px #000000;
 }
 
@@ -314,7 +314,6 @@ footer .footerInfo ul li a {
 padding-top: 10%;
 padding-bottom: 10%;
 background-color: #222222;
-
 }
 
 #index3 .indexInfo .indexBigLogo {
@@ -499,6 +498,7 @@ background-color: white;
 }
 
 #about3 .aboutBigPicture {
+  /* https://pxhere.com/no/photo/952291 */
   background-image: url(bilder/contactBackgroundNew.jpg);
   height: auto;
   width: 95vw;
@@ -590,6 +590,7 @@ background-color: white;
   padding: 5% 0;
 }
 #problem3 .problemSeeThroughPicture{
+  /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
   background-image: url(bilder/fish1.jpeg);
   height: 70vh;
   width: 95vw;
@@ -718,6 +719,7 @@ background-color: white;
 }
 
 #solution4 .solutionBigPicture {
+  /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
   background-image: url(bilder/trash3.png);
   height: 70vh;
   width: 95vw;
@@ -820,7 +822,7 @@ background-color: white;
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
   .header {
-
+    max-height: 10vh;
   }
 
   /*---------------------------------------------------------------------------------Index*/
@@ -861,6 +863,9 @@ background-color: white;
 /*VERTICAL TABLET*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------HEADER*/
+  .header {
+    max-height: 10vh;
+  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -871,6 +876,9 @@ background-color: white;
   /*---------------------------------------------------------------------------------Solution*/
 
   /*---------------------------------------------------------------------------------Privacy*/
+  #privacy {
+    padding: 10% 10%;
+  }
 
   /*---------------------------------------------------------------------------------Sources*/
 
@@ -889,6 +897,9 @@ background-color: white;
   /*---------------------------------------------------------------------------------Solution*/
 
   /*---------------------------------------------------------------------------------Privacy*/
+  #privacy {
+    padding: 10% 0;
+  }
 
   /*---------------------------------------------------------------------------------Sources*/
 
