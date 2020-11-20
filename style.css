@@ -385,7 +385,6 @@ background-color: #222222;
 
 #about1 {
 padding-top: 10%;
-padding-bottom: 10%;
 background-color: white;
 }
 
@@ -467,7 +466,7 @@ background-color: white;
 
 #about2 .person {
   display: block;
-  margin: auto 5%;
+  margin: 2% 2.5% 0 2.5%;
   text-align:center;
   width: 20vw;
   height: auto;
@@ -713,7 +712,7 @@ background-color: white;
 }
 
 #solution4 .solutionBigPicture {
-  background-image: url(bilder/Bølger.jpg);
+  background-image: url(bilder/trash3.png);
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
