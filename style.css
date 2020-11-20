@@ -441,7 +441,7 @@ background-color: white;
   align-items: center;
   flex-direction: column;
   margin: auto;
-  height: 100%;
+  height: auto; /*100%*/
   width: 45vw;
 }
 
