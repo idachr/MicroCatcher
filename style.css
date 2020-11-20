@@ -61,6 +61,7 @@ textarea {
   padding:1.5%;
   border-radius: 20px/20px;
   border: 0;
+  font-style: bold;
 }
 
 .knapp:hover {
@@ -278,7 +279,7 @@ footer .footerInfo ul li a {
 }
 
 #index2 {
-  background-image: url(bilder/Bølger.jpg);
+  background-image: url(bilder/fish2.jpg);
   height: 70vh;
   width: 95vw;
   margin: 5% auto;
@@ -296,8 +297,13 @@ footer .footerInfo ul li a {
   justify-content: center;
   text-align: center;
   width: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
   height: 100%;
+}
+
+#index2 .indexBigPictureInfo h1{
+  color: black;
+  text-shadow: 1px 0.5px #000000;
 }
 
 #index2 .indexBigPictureInfo2 {
@@ -584,7 +590,7 @@ background-color: white;
   padding: 5% 0;
 }
 #problem3 .problemSeeThroughPicture{
-  background-image: url(bilder/waterPollution.jpg);
+  background-image: url(bilder/fish1.jpeg);
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
@@ -813,6 +819,9 @@ background-color: white;
 /*HORIZONTAL TABLET*/
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
+  .header {
+    
+  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -823,6 +832,9 @@ background-color: white;
   /*---------------------------------------------------------------------------------Solution*/
 
   /*---------------------------------------------------------------------------------Privacy*/
+  #privacy {
+    padding: 15% 10%;
+  }
 
   /*---------------------------------------------------------------------------------Sources*/
 
