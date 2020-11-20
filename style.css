@@ -297,7 +297,7 @@ footer .footerInfo ul li a {
   justify-content: center;
   text-align: center;
   width: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   height: 100%;
 }
 
@@ -820,7 +820,7 @@ background-color: white;
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
   .header {
-    
+
   }
 
   /*---------------------------------------------------------------------------------Index*/
