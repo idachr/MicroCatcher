@@ -311,7 +311,6 @@ footer .footerInfo ul li a {
   margin: 5% auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -528,7 +527,6 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -623,7 +621,6 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -751,7 +748,6 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  /*background-position: absolute;*/
   background-size: cover;
   border-radius: 15px/15px;
 }
