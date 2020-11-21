@@ -131,7 +131,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.2rem;
-  font-family: 'tenor sans';
+  font-family: 'tenor sans', sans-serif;
 }
 
 nav ul li a:hover {
@@ -171,7 +171,7 @@ i {
   top: 0;
   right: 0;
   cursor: pointer;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -360,8 +360,6 @@ background-color: #222222;
 }
 
 
-
-
 /*---------------------------------------------------------------------------------AboutUs*/
 #about {
   padding-top: 15%;
@@ -373,7 +371,6 @@ background-color: #222222;
   display:flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 .aboutHeader img {
@@ -654,6 +651,7 @@ background-color: white;
   display:block;
   margin: 0 auto;
   border-radius:15px/15px;
+  max-width: 90vw;
 }
 
 #solution2 {
@@ -662,11 +660,10 @@ background-color: white;
 #solution2 .solutionInfo {
   display: flex;
   flex-direction: row;
-  height: 70vh;
 }
 
 #solution2 .solutionInfo .solutionImage{
-  width: 50vw;
+  flex: 50vw;
 }
 
 #solution2 .solutionInfo .solutionImage img {
@@ -677,7 +674,7 @@ background-color: white;
 }
 
 #solution2 .solutionInfo .solutionText {
-  width: 50vw;
+  flex: 50vw;
 }
 
 #solution2 .solutionInfo .solutionText .solutionTextBox {
@@ -701,12 +698,10 @@ background-color: white;
 #solution3 .solutionInfo {
   display: flex;
   flex-direction: row;
-  height: 70vh;
-  width: 50vw;
 }
 
 #solution3 .solutionInfo .solutionImage {
-  width: 50vw;
+  flex: 50%;
 }
 
 #solution3 .solutionInfo .solutionImage img {
@@ -717,12 +712,11 @@ background-color: white;
 }
 
 #solution3 .solutionInfo .solutionText {
-  width: 50vw;
+  flex: 50vw;
 }
 
 #solution3 .solutionInfo .solutionText .solutionTextBox {
   color: black;
-  width: 45vw;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -764,9 +758,6 @@ background-color: white;
   height: 100%;
 }
 
-#solution4 .solutionBigPictureInfo2 {
-  width: 50%;
-}
 
 
 /*---------------------------------------------------------------------------------Privacy*/
@@ -946,12 +937,13 @@ background-color: white;
     flex-direction: column;
   }
 
-  #solution2 .solutionInfo .solutionText {
-    width: 100%;
+  #solution3 .solutionInfo {
+    display: flex;
+    flex-direction: column;
   }
 
-  #solution2 .solutionInfo .solutionBilde {
-    width: 100%;
+  #solution4 .solutionBigPicture {
+    height: 30vh;
   }
 
   /*---------------------------------------------------------------------------------Privacy*/
