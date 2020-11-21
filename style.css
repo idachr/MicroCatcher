@@ -110,6 +110,8 @@ textarea {
   margin-left: 10%;
 }
 
+
+/*Navigation bar*/
 nav {
     float: right;
 }
@@ -153,6 +155,29 @@ nav ul li a:hover::before{
   width: 100%;
 }
 
+
+/*Hamburger menu*/
+input[type=checkbox] {
+  display: none;
+}
+
+#menu, #close {
+  display: none;
+}
+
+i {
+  color: white;
+  display: block;
+  padding-top: 2px;
+  height: 9vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+
+/*Skip to content button*/
 /*Ryan, P, 2020*/
 #skip {
   position: absolute;
@@ -168,6 +193,8 @@ nav ul li a:hover::before{
   left: 0;
 }
 
+
+/*---------------------------------------------------------------------------------Footer*/
 footer{
   display:flex;
   flex-direction: row;
@@ -231,10 +258,6 @@ footer .footerInfo ul li a {
 
 
 /*---------------------------------------------------------------------------------Index*/
-i {
-  color: white;
-}
-
 #index {
   padding-top: 15%;
   padding-bottom: 10%;
@@ -782,8 +805,6 @@ background-color: white;
 }
 
 /*--------------------------------------------------------------------------------- Sources*/
-
-
 #sources {
   text-align: center;
   background-color: #222222;
@@ -880,6 +901,32 @@ background-color: white;
   /*---------------------------------------------------------------------------------HEADER*/
   .header {
     max-height: 10vh;
+  }
+
+  .container {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: block;
+  }
+
+  #toggle:checked ~ .header {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #toggle:checked ~ .container {
+    display: flex;
+    flex-direction: column;
   }
 
   /*---------------------------------------------------------------------------------Index*/
