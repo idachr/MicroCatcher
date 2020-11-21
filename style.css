@@ -167,7 +167,6 @@ i {
   color: white;
   display: block;
   padding: 2%;
-  height: 9vh;
   position: absolute;
   top: 0;
   right: 0;
@@ -258,7 +257,7 @@ footer .footerInfo ul li a {
 
 /*---------------------------------------------------------------------------------Index*/
 #index {
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 10%;
   background-color: #222222;
 }
@@ -784,7 +783,7 @@ background-color: white;
 
 .privacyItem {
   background-color: white;
-  margin-top: 5%;
+  margin-top: 10%;
   padding: 2%;
   color: black;
   border-radius: 15px/15px;
@@ -912,14 +911,28 @@ background-color: white;
   }
 
   .header {
-    height: 100vh;
   }
 
   #toggle:checked ~ .header {
     height: 100vh;
     width: 100vw;
   }
-
+  #toggle:checked ~ nav {
+    height: 100vh;
+    width: 100vw;
+  }
+  #toggle:checked ~ ul {
+    height: 100vh;
+    width: 100vw;
+  }
+  #toggle:checked ~ li {
+    height: 100vh;
+    width: 100vw;
+  }
+  #toggle:checked ~ a {
+    height: 100vh;
+    width: 100vw;
+  }
   #toggle:checked ~ .container {
     display: flex;
     flex-direction: column;
