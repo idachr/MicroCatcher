@@ -668,11 +668,11 @@ background-color: white;
   height: 70vh;
 }
 
-#solution2 .solutionInfo .solutionBilde {
+#solution2 .solutionInfo .solutionImage{
   width: 50vw;
 }
 
-#solution2 .solutionInfo .solutionBilde img {
+#solution2 .solutionInfo .solutionImage img {
   width: 45vw;
   display:block;
   margin: 5% auto;
