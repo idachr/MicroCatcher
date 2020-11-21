@@ -625,7 +625,6 @@ background-color: white;
   margin: 0 auto;
   padding: 10% 0 5% 0;
   width: 90vw;
-
 }
 
 #solution1 .solutionFront img {
@@ -910,7 +909,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
-    padding: 10% 0;
+    padding: 10% 1%;
   }
 
   /*---------------------------------------------------------------------------------Sources*/
