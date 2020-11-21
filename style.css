@@ -705,13 +705,14 @@ background-color: white;
   display: flex;
   flex-direction: row;
   height: 70vh;
-}
-
-#solution3 .solutionInfo .solutionBilde {
   width: 50vw;
 }
 
-#solution3 .solutionInfo .solutionBilde img {
+#solution3 .solutionInfo .solutionImage {
+  width: 50vw;
+}
+
+#solution3 .solutionInfo .solutionImage img {
   width: 45vw;
   display:block;
   margin: 5% auto;
@@ -945,6 +946,17 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
+  #solution2 .solutionInfo {
+    flex-direction: column;
+  }
+
+  #solution2 .solutionInfo .solutionText {
+    width: 100%;
+  }
+
+  #solution2 .solutionInfo .solutionBilde {
+    width: 100%;
+  }
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
