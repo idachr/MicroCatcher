@@ -61,7 +61,7 @@ textarea {
   padding:1.5%;
   border-radius: 20px/20px;
   border: 0;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .knapp:hover {
@@ -71,7 +71,6 @@ textarea {
 :focus {
   outline: solid #60c8cc;
 }
-
 
 
 /*---------------------------------------------------------------------------------Header*/
@@ -85,7 +84,7 @@ textarea {
   top: 0;
   width: 100%;
   margin: 0;
-  box-shadow: 0 0 5px 5px #222222;
+  box-shadow: 0 0 5px 2px #222222;
 }
 
 .header::after {
@@ -101,7 +100,6 @@ textarea {
   justify-content: right;
   align-items:center;
 }
-
 
 .logo {
   float: left;
@@ -168,12 +166,13 @@ input[type=checkbox] {
 i {
   color: white;
   display: block;
-  padding-top: 2px;
+  padding: 2%;
   height: 9vh;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
+  font-family: "Open Sans";
 }
 
 
@@ -857,9 +856,6 @@ background-color: white;
 /*HORIZONTAL TABLET*/
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
-  .header {
-    max-height: 10vh;
-  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -899,10 +895,6 @@ background-color: white;
 /*VERTICAL TABLET*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------HEADER*/
-  .header {
-    max-height: 10vh;
-  }
-
   .container {
     display: none;
   }
@@ -917,6 +909,10 @@ background-color: white;
 
   #toggle:checked ~ label #close {
     display: block;
+  }
+
+  .header {
+    height: 100vh;
   }
 
   #toggle:checked ~ .header {
@@ -960,7 +956,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
-    padding: 10% 1;
+    padding: 10% 1%;
   }
 
   /*---------------------------------------------------------------------------------Sources*/
