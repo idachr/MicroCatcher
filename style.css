@@ -305,6 +305,8 @@ footer .footerInfo ul li a {
 }
 
 #index2 {
+  display: flex;
+  flex-direction:row;
   /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
   background-image: url(bilder/fish2.jpg);
   height: 70vh;
@@ -861,7 +863,12 @@ background-color: white;
     /*transition: max-height .2s ease-out;*/
   }
 
+  .knapp {
+    margin: 2%;
+  }
+
   /*---------------------------------------------------------------------------------Index*/
+
 
   /*---------------------------------------------------------------------------------AboutUs*/
 
@@ -881,6 +888,40 @@ background-color: white;
   /*---------------------------------------------------------------------------------HEADER*/
 
   /*---------------------------------------------------------------------------------Index*/
+  .indexInfo{
+    padding-top: 10%;
+    display:flex;
+    flex-direction: column;}
+
+    .indexInfo img {
+      width: 85vw;
+    }
+
+    .indexBigLogo{
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+      width: 95vw;
+
+    }
+
+    #index2 .indexBigPictureInfo{
+      width: 100%;
+    }
+
+    #index3 {
+      padding-top: 2%;
+      padding-bottom: 5%;
+    }
+
+    #index2 .indexBigPictureInfo2 {
+      width: 0;
+    }
+
+    #index3 .indexInfo img {
+      margin-bottom: 2%;
+      width: 50vw;
+    }
 
   /*---------------------------------------------------------------------------------AboutUs*/
 
