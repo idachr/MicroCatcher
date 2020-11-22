@@ -596,12 +596,7 @@ background-color: white;
   margin-right: auto;
   border-radius: 15px/15px;
 }
-.probleminfoIllustrasjonBilde img{
-  width: 45vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px/15px;
+
 }
 .problemInfo .problemInfoText {
   width: 50vw;
