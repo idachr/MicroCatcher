@@ -569,6 +569,7 @@ background-color: white;
 .problemFront img{
   width: 100%;
   height: 70vh;
+  max-height: 100vh;
   display:block;
   margin: 0 auto;
   border-radius:15px/15px;
@@ -591,6 +592,7 @@ background-color: white;
 
 .problemInfo .problemInfoBilde img {
   width: 45vw;
+  max-height: 100vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -602,6 +604,10 @@ background-color: white;
   width: 50vw;
 }
 
+.problemInfo .problemInfoText p{
+  text-align: center;
+  margin: 20px;
+}
 .problemInfo .problemInfoText .problemInfoTextBox {
   width: 45vw;
   display: flex;
