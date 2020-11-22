@@ -819,7 +819,7 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------@Media*/
 /*HORIZONTAL TABLET*/
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
   /*---------------------------------------------------------------------------------HEADER*/
   .header {
     height: 10vh;
@@ -832,6 +832,9 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
+  #solution1 {
+  }
+
   #solution1 #solutionFront img {
     height: 60vh;
   }
@@ -855,7 +858,7 @@ background-color: white;
 }
 
 /*HORIZONTAL MOBIL*/
-@media only screen and (max-width: 896px) and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 896px) {
   /*---------------------------------------------------------------------------------HEADER*/
 
   .container {
@@ -897,7 +900,17 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img{
-    height: 90vh;
+    max-height: none;
+    height: 60vh;
+  }
+
+  #solutionBigPicture {
+    max-height: none;
+    height: 60vh;
+  }
+
+  #solutionBigPictureBackground {
+    height: 60vh;
   }
 
   /*---------------------------------------------------------------------------------Privacy*/
