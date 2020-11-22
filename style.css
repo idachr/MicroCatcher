@@ -259,7 +259,6 @@ footer .footerInfo ul li a {
 }
 
 
-
 /*---------------------------------------------------------------------------------Index*/
 #index {
   padding-top: 10%;
@@ -349,7 +348,6 @@ background-color: #222222;
 
 #index3 .indexInfo .indexBigLogo {
   width: 40vw;
-
 }
 
 #index3 .indexBigLogo .contain h1{
@@ -492,7 +490,6 @@ background-color: white;
 #aboutTeam {
   display: flex;
   flex-direction: row;
-
 }
 
 #about2 .person {
@@ -647,6 +644,8 @@ background-color: white;
   border-radius: 15px/0;
   height: 100vw;
 }
+
+
 /*---------------------------------------------------------------------------------Solution*/
 #solution1 {
   max-width: 100vw;
@@ -678,7 +677,7 @@ background-color: white;
 }
 
 .solutionInfo .solutionText{
-  flex: 50vw;
+  width: 50vw;
   color: black;
   display: flex;
   flex-direction:column;
@@ -689,11 +688,12 @@ background-color: white;
 }
 
 .solutionInfo .solutionImage{
-  flex: 50vw;
+  width: 50vw;
 }
 
 .solutionInfo .solutionImage img {
   width: 45vw;
+  max-height: 100vh;
   display: block;
   margin: 5% auto;
   border-radius:15px/15px;
@@ -732,7 +732,6 @@ background-color: white;
   color: white;
   text-align: center;
 }
-
 
 
 /*---------------------------------------------------------------------------------Privacy*/
@@ -813,6 +812,8 @@ background-color: white;
 #sources .sourcesBox {
   margin: 2% auto;
 }
+
+
 
 /*---------------------------------------------------------------------------------@Media*/
 /*HORIZONTAL TABLET*/
@@ -964,6 +965,9 @@ background-color: white;
    flex: 100vw;
  }
 
+ .solutionInfo .solutionImage img {
+   width: 100vw;
+ }
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
