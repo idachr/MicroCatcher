@@ -675,7 +675,7 @@ background-color: white;
 }
 
 #solution2 .solutionInfo .solutionTextBox {
-  flex: 50%;
+  flex: 50vw;
   color: black;
   width: 45vw;
   display: flex;
@@ -683,11 +683,12 @@ background-color: white;
   justify-content: center;
   align-items:center;
   margin: auto;
+  padding: 2%;
 }
 
 #solution2 .solutionInfo .solutionTextBox h1 {
   color: black;
-  text-align:center;
+  text-align: left;
 }
 
 #solution3 {
@@ -699,7 +700,7 @@ background-color: white;
 }
 
 #solution3 .solutionInfo .solutionImage {
-  flex: 50%;
+  flex: 50vw;
 }
 
 #solution3 .solutionInfo .solutionImage img {
@@ -713,18 +714,18 @@ background-color: white;
   flex: 50vw;
 }
 
-#solution3 .solutionInfo .solutionText .solutionTextBox {
+#solution3 .solutionInfo .solutionText {
   color: black;
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items:center;
   margin: auto;
+  padding: 2%;
 }
 
-#solution3 .solutionInfo .solutionText .solutionTextBox h1 {
+#solution3 .solutionInfo .solutionText h2 {
   color: black;
-  text-align:center;
 }
 
 #solution4 {
@@ -884,12 +885,10 @@ background-color: white;
 
   #toggle:checked ~ .container {
     display: block;
-    flex-direction: column;
   }
 
   #toggle:checked ~ .header {
     flex-direction: column;
-    height: 100vh;
     /*transition: max-height .2s ease-out;*/
   }
 
