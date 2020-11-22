@@ -562,7 +562,6 @@ background-color: white;
 
 .problemFront img{
   width: 100%;
-  height: 70vh;
   max-height: 100vh;
   display:block;
   margin: 0 auto;
@@ -582,12 +581,15 @@ background-color: white;
 
 .problemInfo .problemInfoBilde{
   width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .problemInfo .problemInfoBilde img {
   width: 45vw;
+  margin-top: 40px;
   max-height: 100vh;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px/15px;
@@ -603,15 +605,12 @@ background-color: white;
 }
 .problemInfo .problemInfoText .problemInfoTextBox {
   width: 45vw;
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
   margin: auto;
 }
 
 .problemInfo .problemInfoText .problemInfoTextBox h2 {
   color: black;
+  text-align: center;
 }
 
 #problem3{
@@ -639,9 +638,25 @@ background-color: white;
   width: 50vw;
   background-color: rgba(34, 34, 34, 0.5);
   border-radius: 15px/0;
-  height: 100vw;
+  height: 100%;
+  max-height: 100vh;
 }
-
+@media screen and (max-width:800px) {
+  .problemInfo{
+    flex-direction:column;
+    width: 100%;
+    margin: auto;
+  }
+  .problemInfoBilde{
+    width: auto !important;
+  }
+  .problemInfoText{
+    width: auto !important;
+  }
+  .problemInfoTextBox{
+    width: auto !important;
+  }
+}
 
 /*---------------------------------------------------------------------------------Solution*/
 #solution1 {
