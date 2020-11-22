@@ -832,14 +832,17 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution1 {
-    padding-top: 5%;
+  #solution1 #solutionFront img {
+    height: 60vh;
   }
 
-  #solution1 #solutionFront img {
+  #solutionBigPicture {
     height: 50vh;
   }
 
+  #solutionBigPictureBackground {
+    height: 50vh;
+  }
 
 
   /*---------------------------------------------------------------------------------Privacy*/
@@ -893,8 +896,8 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution1 #solutionFront {
-    height: 50vh;
+  #solution1 #solutionFront img{
+    height: 90vh;
   }
 
   /*---------------------------------------------------------------------------------Privacy*/
