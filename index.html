@@ -11,17 +11,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="bilder/logoIkonKvadrat.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
     <title>Micro Catcher</title>
 </head>
 
 <body>
     <header>
         <div class="header">
-            <a href="#main" id="skip">Skip to content</a>
+            <a href="#main" id="skip" tabindex="0">
+                Skip to content
+            </a>
+
             <a href="index.html">
                 <!--Logo made with Wix Logo Maker-->
                 <img src="bilder/logoMedTekst.png" alt="Logo" class="logo">
             </a>
+
+            <input type="checkbox" id="toggle">
+            <label for="toggle" id="test">
+                <i class="fas fa-bars" id="menu" tabindex="0">
+                    <h2>
+                        Menu
+                    </h2>
+                </i>
+                <i class="fas fa-times" id="close" tabindex="0">
+                    <h2>
+                        Close
+                    </h2>
+                </i>
+            </label>
+
             <div class="container">
                 <nav>
                     <ul>
@@ -53,14 +73,15 @@
 
 
     <main id="main">
-
         <div id="index">
             <div class="indexInfo">
                 <div class="indexBigLogo">
                     <div class="contain">
                         <h1>
                             A change is a change, even if it is
-                            <span style="color: #60c8cc">Micro</span>
+                            <span style="color: #60c8cc">
+                                Micro
+                            </span>
                         </h1>
                         <!-- https://commons.wikimedia.org/wiki/File:Underwater_world.jpg-->
                             <a href="aboutus.html" class="knapp">
@@ -69,7 +90,7 @@
                     </div>
                 </div>
                 <!-- https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/-->
-                <img src="bilder/Underwater.jpg" alt="Photograph of ocean and sunset">
+                <img src="bilder/Underwater.jpg" alt="Ocean">
             </div>
         </div>
 
@@ -90,11 +111,11 @@
             <div class="indexInfo">
                 <!--Regjeringen, 2019-->
                 <!--Bitsies!, 2018-->
-                <img src="bilder/mapBlåMedHullsvg.svg" alt="Map of robots">
+                <img src="bilder/mapBlåMedHullsvg.svg" alt="Map of where the micro catcher are placed">
                 <div class="indexBigLogo">
                     <div class="contain">
                         <h1>
-                          The location of all our <span style="color: #60c8cc">Micro Catchers</span> we have so far released into the ocean
+                          The location of all our <span style="color: #60c8cc">Micro Catchers</span> we have set to work in the ocean
                         </h1>
                         <a href="solution.html" class="knapp">
                             Learn more about the catchers

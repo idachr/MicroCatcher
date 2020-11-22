@@ -61,7 +61,7 @@ textarea {
   padding:1.5%;
   border-radius: 20px/20px;
   border: 0;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .knapp:hover {
@@ -73,19 +73,19 @@ textarea {
 }
 
 
-
 /*---------------------------------------------------------------------------------Header*/
 .header {
   background-color: #222222;
-  height: 15vh;
+  min-height: 15vh;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items:center;
   position: fixed;
   top: 0;
   width: 100%;
   margin: 0;
-  box-shadow: 0 0 5px 5px #222222;
+  box-shadow: 0 0 5px 2px #222222;
 }
 
 .header::after {
@@ -96,12 +96,11 @@ textarea {
 
 .container {
   margin: 0 0 0 auto;
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   justify-content: right;
   align-items:center;
 }
-
 
 .logo {
   float: left;
@@ -110,6 +109,8 @@ textarea {
   margin-left: 10%;
 }
 
+
+/*Navigation bar*/
 nav {
     float: right;
 }
@@ -131,7 +132,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.2rem;
-  font-family: 'tenor sans';
+  font-family: 'tenor sans', sans-serif;
 }
 
 nav ul li a:hover {
@@ -153,6 +154,29 @@ nav ul li a:hover::before{
   width: 100%;
 }
 
+
+/*Hamburger menu*/
+input[type=checkbox] {
+  display: none;
+}
+
+#menu, #close {
+  display: none;
+}
+
+i {
+  color: white;
+  display: block;
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/*Skip to content button*/
 /*Ryan, P, 2020*/
 #skip {
   position: absolute;
@@ -168,8 +192,10 @@ nav ul li a:hover::before{
   left: 0;
 }
 
+
+/*---------------------------------------------------------------------------------Footer*/
 footer{
-  display:flex;
+  display: flex;
   flex-direction: row;
   background-color:black;
   align-items: center;
@@ -232,7 +258,7 @@ footer .footerInfo ul li a {
 
 /*---------------------------------------------------------------------------------Index*/
 #index {
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 10%;
   background-color: #222222;
 }
@@ -286,7 +312,6 @@ footer .footerInfo ul li a {
   margin: 5% auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -336,13 +361,9 @@ background-color: #222222;
 }
 
 
-
-
 /*---------------------------------------------------------------------------------AboutUs*/
-/* ABOUT US*/
-
 #about {
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 10%;
   background-color: #222222;
 }
@@ -351,7 +372,6 @@ background-color: #222222;
   display:flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 .aboutHeader img {
@@ -505,7 +525,6 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -529,20 +548,23 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Problem*/
-#problem {
-}
-
-.problemHead {
-  padding: 10% 0 5% 0;
+#problem1 {
+  width: 100%;
   background-color: #222222;
 }
 
-.problemHead img{
-  width: 95vw;
+.problemFront {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px/15px;
+  margin: 0 auto;
+  padding: 10% 0 5% 0;
+  width: 90vw;
+}
+
+.problemFront img{
+  height: 70vh;
+  display:block;
+  margin: 0 auto;
+  border-radius:15px/15px;
 }
 
 .problemInfo{
@@ -567,7 +589,13 @@ background-color: white;
   margin-right: auto;
   border-radius: 15px/15px;
 }
-
+.probleminfoIllustrasjon img{
+  width: 45vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px/15px;
+}
 .problemInfo .problemInfoText {
   width: 50vw;
 }
@@ -597,7 +625,6 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-position: absolute;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -614,7 +641,6 @@ background-color: white;
   height: 100%;
 }
 /*---------------------------------------------------------------------------------Solution*/
-
 #solution1 {
   width: 100%;
   background-color: #222222;
@@ -625,7 +651,6 @@ background-color: white;
   margin: 0 auto;
   padding: 10% 0 5% 0;
   width: 90vw;
-
 }
 
 #solution1 .solutionFront img {
@@ -633,33 +658,24 @@ background-color: white;
   display:block;
   margin: 0 auto;
   border-radius:15px/15px;
+  max-width: 90vw;
 }
 
-#solution2 {
-}
-
-#solution2 .solutionInfo {
+.solutionInfo {
   display: flex;
   flex-direction: row;
-  height: 70vh;
+}
+.solutionInfo .solutionText h1 {
+  color: black;
+  text-align: left;
 }
 
-#solution2 .solutionInfo .solutionBilde {
-  width: 50vw;
+.solutionInfo .solutionText h2 {
+  color: black;
 }
 
-#solution2 .solutionInfo .solutionBilde img {
-  width: 45vw;
-  display:block;
-  margin: 5% auto;
-  border-radius:15px/15px;
-}
-
-#solution2 .solutionInfo .solutionText {
-  width: 50vw;
-}
-
-#solution2 .solutionInfo .solutionText .solutionTextBox {
+.solutionInfo .solutionText{
+  flex: 50vw;
   color: black;
   width: 45vw;
   display: flex;
@@ -667,50 +683,18 @@ background-color: white;
   justify-content: center;
   align-items:center;
   margin: auto;
+  padding: 2%;
 }
 
-#solution2 .solutionInfo .solutionText .solutionTextBox h1 {
-  color: black;
-  text-align:center;
+.solutionInfo .solutionImage{
+  flex: 50vw;
 }
 
-#solution3 {
-}
-
-#solution3 .solutionInfo {
-  display: flex;
-  flex-direction: row;
-  height: 70vh;
-}
-
-#solution3 .solutionInfo .solutionBilde {
-  width: 50vw;
-}
-
-#solution3 .solutionInfo .solutionBilde img {
+.solutionInfo .solutionImage img {
   width: 45vw;
   display:block;
   margin: 5% auto;
   border-radius:15px/15px;
-}
-
-#solution3 .solutionInfo .solutionText {
-  width: 50vw;
-}
-
-#solution3 .solutionInfo .solutionText .solutionTextBox {
-  color: black;
-  width: 45vw;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  margin: auto;
-}
-
-#solution3 .solutionInfo .solutionText .solutionTextBox h1 {
-  color: black;
-  text-align:center;
 }
 
 #solution4 {
@@ -726,7 +710,6 @@ background-color: white;
   margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  /*background-position: absolute;*/
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -743,9 +726,6 @@ background-color: white;
   height: 100%;
 }
 
-#solution4 .solutionBigPictureInfo2 {
-  width: 50%;
-}
 
 
 /*---------------------------------------------------------------------------------Privacy*/
@@ -759,7 +739,7 @@ background-color: white;
 
 .privacyItem {
   background-color: white;
-  margin-top: 5%;
+  margin-top: 10%;
   padding: 2%;
   color: black;
   border-radius: 15px/15px;
@@ -779,8 +759,6 @@ background-color: white;
 }
 
 /*--------------------------------------------------------------------------------- Sources*/
-
-
 #sources {
   text-align: center;
   background-color: #222222;
@@ -833,9 +811,6 @@ background-color: white;
 /*HORIZONTAL TABLET*/
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
-  .header {
-    max-height: 10vh;
-  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -857,6 +832,34 @@ background-color: white;
 /*HORIZONTAL MOBIL*/
 @media only screen and (max-width: 896px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
+  .header {
+  }
+
+  .container {
+    display: none;
+    flex-direction: column;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: block;
+  }
+
+  #toggle:checked ~ .container {
+    display: block;
+  }
+
+  #toggle:checked ~ .header {
+    flex-direction: column;
+    /*transition: max-height .2s ease-out;*/
+  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -872,12 +875,10 @@ background-color: white;
 
 }
 
+
 /*VERTICAL TABLET*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------HEADER*/
-  .header {
-    max-height: 10vh;
-  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -886,6 +887,14 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
+ .solutionInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+ .solutionBigPicture {
+    height: 30vh;
+  }
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
@@ -910,7 +919,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
-    padding: 10% 0;
+    padding: 10% 1%;
   }
 
   /*---------------------------------------------------------------------------------Sources*/

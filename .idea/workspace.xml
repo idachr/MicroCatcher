@@ -37,13 +37,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,6 +62,7 @@
       <workItem from="1605453350109" duration="2055000" />
       <workItem from="1605515758810" duration="5085000" />
       <workItem from="1605630211332" duration="2003000" />
+      <workItem from="1605990587146" duration="15924000" />
     </task>
     <servers />
   </component>
@@ -71,18 +74,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1605788676805" />
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1605519398188">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1606039996262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605519398188" />
-    <state x="91" y="2" key="new project wizard" timestamp="1605461424063">
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606039996262" />
+    <state x="91" y="2" key="new project wizard" timestamp="1606039997683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1605461424063" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1605518129541">
+    <state x="91" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1606039997683" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1605978150500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605518129541" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605978150500" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605778998615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
