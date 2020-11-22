@@ -957,7 +957,45 @@ background-color: white;
   /*---------------------------------------------------------------------------------HEADER*/
 
   /*---------------------------------------------------------------------------------Index*/
+  .aboutInfo{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aboutInfo .aboutBilde{
+    max-width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
 
+  .aboutInfo .aboutBilde img {
+    /*max-width: 75vw;*/
+    border-radius: 15px/15px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    max-width: 500px;
+}
+    .aboutBigLogo .contain {
+      text-align:left;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+      height: auto; /*100%*/
+      width: auto;
+}
+
+.aboutBigLogo{
+  font-size: 1.85rem;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 85vw;
+}
   /*---------------------------------------------------------------------------------AboutUs*/
 
   /*---------------------------------------------------------------------------------Problem*/
