@@ -76,7 +76,7 @@ textarea {
 /*---------------------------------------------------------------------------------Header*/
 .header {
   background-color: #222222;
-  height: 15vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -96,7 +96,7 @@ textarea {
 
 .container {
   margin: 0 0 0 auto;
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   justify-content: right;
   align-items:center;
@@ -195,7 +195,7 @@ i {
 
 /*---------------------------------------------------------------------------------Footer*/
 footer{
-  display:flex;
+  display: flex;
   flex-direction: row;
   background-color:black;
   align-items: center;
@@ -862,8 +862,12 @@ background-color: white;
 /*HORIZONTAL MOBIL*/
 @media only screen and (max-width: 896px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------HEADER*/
+  .header {
+  }
+
   .container {
     display: none;
+    flex-direction: column;
   }
 
   #menu {
@@ -879,13 +883,14 @@ background-color: white;
   }
 
   #toggle:checked ~ .container {
-    display: flex;
+    display: block;
     flex-direction: column;
   }
 
   #toggle:checked ~ .header {
     flex-direction: column;
     height: 100vh;
+    /*transition: max-height .2s ease-out;*/
   }
 
   /*---------------------------------------------------------------------------------Index*/
