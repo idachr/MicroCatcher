@@ -673,11 +673,8 @@ background-color: white;
   border-radius:15px/15px;
 }
 
-#solution2 .solutionInfo .solutionText {
-  flex: 50vw;
-}
-
-#solution2 .solutionInfo .solutionText .solutionTextBox {
+#solution2 .solutionInfo .solutionTextBox {
+  flex: 50%;
   color: black;
   width: 45vw;
   display: flex;
@@ -687,7 +684,7 @@ background-color: white;
   margin: auto;
 }
 
-#solution2 .solutionInfo .solutionText .solutionTextBox h1 {
+#solution2 .solutionInfo .solutionTextBox h1 {
   color: black;
   text-align:center;
 }
@@ -898,29 +895,6 @@ background-color: white;
     display: block;
   }
 
-  .header {
-  }
-
-  #toggle:checked ~ .header {
-    height: 100vh;
-    width: 100vw;
-  }
-  #toggle:checked ~ nav {
-    height: 100vh;
-    width: 100vw;
-  }
-  #toggle:checked ~ ul {
-    height: 100vh;
-    width: 100vw;
-  }
-  #toggle:checked ~ li {
-    height: 100vh;
-    width: 100vw;
-  }
-  #toggle:checked ~ a {
-    height: 100vh;
-    width: 100vw;
-  }
   #toggle:checked ~ .container {
     display: flex;
     flex-direction: column;
