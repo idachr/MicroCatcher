@@ -363,7 +363,7 @@ background-color: #222222;
 
 /*---------------------------------------------------------------------------------AboutUs*/
 #about {
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 10%;
   background-color: #222222;
 }
@@ -887,17 +887,12 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution2 .solutionInfo {
+ .solutionInfo {
     display: flex;
     flex-direction: column;
   }
 
-  #solution3 .solutionInfo {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #solution4 .solutionBigPicture {
+ .solutionBigPicture {
     height: 30vh;
   }
 

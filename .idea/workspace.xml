@@ -36,6 +36,21 @@
       <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder\Boss" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +62,7 @@
       <workItem from="1605453350109" duration="2055000" />
       <workItem from="1605515758810" duration="5085000" />
       <workItem from="1605630211332" duration="2003000" />
-      <workItem from="1605990587146" duration="15318000" />
+      <workItem from="1605990587146" duration="15924000" />
     </task>
     <servers />
   </component>
