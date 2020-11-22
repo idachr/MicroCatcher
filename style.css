@@ -976,7 +976,7 @@ background-color: white;
     flex-direction: column;
   }
 
-  #solutionReverse {
+  #solutionInfoReverse {
     display: flex;
     flex-direction: column-reverse;
   }
