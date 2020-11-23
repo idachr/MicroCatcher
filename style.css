@@ -83,7 +83,7 @@ textarea {
   align-items:center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   margin: 0;
   box-shadow: 0 0 5px 2px #222222;
 }
@@ -112,13 +112,13 @@ textarea {
 
 /*Navigation bar*/
 nav {
-    float: right;
+  float: right;
 }
 
 nav ul {
   margin: 0 70px 0 0;
   padding: 0;
-  list-style:none;
+  list-style: none;
 }
 
 nav li {
@@ -844,9 +844,6 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution1 {
-  }
-
   #solution1 #solutionFront img {
     height: 60vh;
   }
@@ -872,10 +869,10 @@ background-color: white;
 /*---------------------------------------------------------------------------------Horizontal mobile*/
 @media only screen and (orientation: landscape) and (max-width: 896px) {
   /*---------------------------------------------------------------------------------Header*/
-
   .container {
     display: none;
     flex-direction: column;
+    max-height: 0;
   }
 
   #menu {
@@ -890,15 +887,10 @@ background-color: white;
     display: block;
   }
 
-  #toggle:checked ~ ul {
+  #toggle:checked ~ .container {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #toggle:checked ~ .header {
-    flex-direction: column;
-    /*transition: max-height .2s ease-out;*/
+    transition: max-height .2s ease-out;
+    display: block;
   }
 
   .button {
@@ -1169,6 +1161,10 @@ background-color: white;
   .header img {
     position: absolute;
     left: -10%;
+  }
+
+  nav ul {
+    margin: 0;
   }
 
 /*Background pictures*/
