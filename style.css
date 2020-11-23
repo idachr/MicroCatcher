@@ -694,8 +694,7 @@ background-color: white;
   }
 }
 /*---------------------------------------------------------------------------------Solution*/
-/*Ser slik ut pga mediaen som står rett over, snakker om det på neste møtet*/
-  #solution1 {
+#solution1 {
   max-width: 100vw;
   background-color: #222222;
 }
