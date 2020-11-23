@@ -52,7 +52,7 @@ textarea {
   border-radius: 10px/10px;
 }
 
-.knapp {
+.button {
   font-family:'Open Sans', sans-serif;
   background-color:#60c8cc;
   color: black;
@@ -64,7 +64,7 @@ textarea {
   font-weight: bold;
 }
 
-.knapp:hover {
+.button:hover {
   transform: scale(1.2);
 }
 
@@ -216,7 +216,7 @@ footer{
 
 
 footer .footerInfo {
-  margin:auto;
+  margin: auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -308,7 +308,7 @@ footer .footerInfo ul li a {
   display: flex;
   flex-direction:row;
   /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
-  background-image: url(image/fish2.jpg);
+  background-image: url(image/fishingShoals.jpg);
   height: 70vh;
   width: 95vw;
   margin: 5% auto;
@@ -551,7 +551,7 @@ background-color: white;
   width: 50%;
 }
 
-#about3 .knapp {
+#about3 .button {
   width: 30%;
 }
 
@@ -631,7 +631,7 @@ background-color: white;
 }
 #problem3 .problemSeeThroughPicture{
   /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
-  background-image: url(image/fish1.jpeg);
+  background-image: url(image/fishingShoalsCoralreef.jpeg);
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
@@ -717,7 +717,7 @@ background-color: white;
 
 #solutionBigPictureBackground {
   /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
-  background-image: url(image/trash3.png);
+  background-image: url(image/pollutedBeach.png);
   display: flex;
   height: 70vh;
   width: 95vw;
@@ -899,7 +899,7 @@ background-color: white;
     /*transition: max-height .2s ease-out;*/
   }
 
-  .knapp {
+  .button {
     margin: 2%;
   }
 
