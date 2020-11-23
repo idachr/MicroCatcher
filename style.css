@@ -213,8 +213,6 @@ footer{
   width: 100%;
 }
 
-
-
 footer .footerInfo {
   margin: auto;
   width: 100%;
@@ -222,7 +220,6 @@ footer .footerInfo {
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
-
 }
 
 footer ul{
@@ -830,7 +827,7 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------@Media*/
-/*HORIZONTAL TABLET*/
+/*---------------------------------------------------------------------------------Horizontal tablet*/
 @media only screen and (orientation: landscape) and (max-width: 1024px) {
   /*---------------------------------------------------------------------------------Header*/
   .header {
@@ -869,7 +866,7 @@ background-color: white;
 
 }
 
-/*HORIZONTAL MOBIL*/
+/*---------------------------------------------------------------------------------Horizontal mobile*/
 @media only screen and (orientation: landscape) and (max-width: 896px) {
   /*---------------------------------------------------------------------------------Header*/
 
@@ -932,7 +929,7 @@ background-color: white;
 }
 
 
-/*VERTICAL TABLET*/
+/*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------Header*/
   .header {
@@ -1050,7 +1047,7 @@ background-color: white;
 
 }
 
-/*VERTICAL MOBIL*/
+/*---------------------------------------------------------------------------------Vertical mobile*/
 @media only screen and (max-width: 414px) {
   h1 {
     font-size: 2.2rem;
