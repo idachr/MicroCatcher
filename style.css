@@ -297,8 +297,9 @@ footer .footerInfo ul li a {
   width: 40%;
 }
 
-.indexBigLogo h1 {
-  margin: 0;
+.indexBigLogo .contain h2 {
+  text-align: center;
+  color: white;
 }
 
 #index2 {
@@ -326,12 +327,14 @@ footer .footerInfo ul li a {
   height: 100%;
 }
 
-#index2 .indexBigPictureInfo h1{
-  text-shadow: 1px 0.5px #000000;
-}
-
 #index2 .indexBigPictureInfo2 {
   width: 50%;
+}
+
+#index2 .indexBigPictureInfo h2{
+  text-shadow: 1px 0.5px #000000;
+  color: white;
+  text-align: center;
 }
 
 #index3 {
@@ -887,8 +890,10 @@ background-color: white;
     display: block;
   }
 
-  #toggle:checked ~ .container {
-    display: block;
+  #toggle:checked ~ ul {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   #toggle:checked ~ .header {
