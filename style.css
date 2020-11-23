@@ -522,7 +522,8 @@ background-color: white;
 }
 
 #about3 .aboutBigPicture {
-  /* https://pxhere.com/no/photo/952291 */
+  /* https://pxhere.com/no/photo/952291 gammelt bilde*/
+  /*Wikipedia. (2006). Norwegian Fjord. [Photograph]. Wikipedia. https://commons.wikimedia.org/wiki/File:Norwegian_Fjord.jpg*/
   background-image: url(image/fjord.jpg); /*alternativt barcode(litt mye som skjer bak teksten, fjord(fin), norwegianNature (litt dårlig kvalitet)*/
   height: auto;
   width: 95vw;
@@ -653,57 +654,7 @@ background-color: white;
   max-height: 100vh;
 }
 
-/*Dette må flyttes nedrest i media sammen med resten, finn ut hvilken av de som passer best til denne:)*/
-@media screen and (max-width:800px) {
-  .problemInfo {
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-  }
 
-  .problemInfoBilde {
-    width: auto !important;
-  }
-
-  .problemInfoText {
-    width: auto !important;
-  }
-
-  .problemInfoTextBox {
-    width: auto !important;
-  }
-
-  .problemSeeThroughPicture {
-    height: 20vh !important;
-  }
-
-  .problemSeeThroughInfo h1 {
-    font-size: 1rem !important;
-  }
-
-  @media screen and (max-width: 300px) {
-    #problem2 h1 {
-      font-size: 22px !important;
-    }
-
-    #problem2 p {
-      font-size: 13px !important;
-    }
-
-    .problemInfoTextBox h2 {
-      font-size: 22px !important;
-    }
-
-    .problemSeeThroughPicture {
-      height: 20vh !important;
-      background-attachment: initial !important;
-    }
-
-    .problemSeeThroughInfo .knapp {
-      font-size: 10px !important;
-    }
-  }
-}
 /*---------------------------------------------------------------------------------Solution*/
 #solution1 {
   max-width: 100vw;
@@ -1027,6 +978,27 @@ background-color: white;
   /*---------------------------------------------------------------------------------AboutUs*/
 
   /*---------------------------------------------------------------------------------Problem*/
+  .problemInfo {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  .problemInfoBilde {
+    width: auto;
+  }
+
+  .problemInfoText {
+    width: auto;
+  }
+
+  .problemInfoTextBox {
+    width: auto;
+  }
+
+  .problemSeeThroughPicture {
+    height: 20vh;
+  }
+
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img {
@@ -1138,6 +1110,11 @@ background-color: white;
   /*---------------------------------------------------------------------------------AboutUs*/
 
   /*---------------------------------------------------------------------------------Problem*/
+  .problemSeeThroughPicture {
+    height: 20vh;
+    background-attachment: initial;
+  }
+
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img {
