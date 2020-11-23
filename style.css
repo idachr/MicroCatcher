@@ -517,14 +517,18 @@ background-color: white;
   padding: 5% 0;
 }
 
+#about3 h2{
+  color: white;
+}
+
 #about3 .aboutBigPicture {
   /* https://pxhere.com/no/photo/952291 */
-  background-image: url(image/contactBackground.jpg);
+  background-image: url(image/fjord.jpg); /*alternativt barcode(litt mye som skjer bak teksten, fjord(fin), norwegianNature (litt dårlig kvalitet)*/
   height: auto;
   width: 95vw;
   margin: 0 auto;
-  background-attachment:fixed;
-  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
 }
@@ -546,6 +550,13 @@ background-color: white;
   width: 50%;
 }
 
+#about3 .knapp {
+  width: 30%;
+}
+
+#about3 textarea {
+  height: 20vh;
+}
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem1 {
