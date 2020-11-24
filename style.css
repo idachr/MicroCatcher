@@ -982,12 +982,19 @@ background-color: white;
     width: auto;
   }
 
-  .problemInfoText {
-    width: auto;
+  .problemInfo .problemInfoBilde {
+    width: 100vw;
+  }
+  .problemInfo .problemInfoBilde img {
+    width: 85vw;
   }
 
-  .problemInfoTextBox {
-    width: auto;
+  .problemInfo .problemInfoText {
+    width: 100vw;
+  }
+
+  .problemInfo .problemInfoText .problemInfoTextBox{
+    width: 85vw;
   }
 
   .problemSeeThroughPicture {
