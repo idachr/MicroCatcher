@@ -1007,6 +1007,9 @@ background-color: white;
   width: 85vw;
   }
 
+  #about2{
+    width: 100vw;
+  }
 
 #aboutTeam {
   flex-direction: column;
