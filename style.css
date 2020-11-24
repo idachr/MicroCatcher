@@ -431,7 +431,7 @@ background-color: white;
 }
 
 .aboutInfo .aboutBilde{
-  width: 50vw;
+  /*width: 50vw;*/
   display: flex;
   align-items:center;
   justify-content:center;
@@ -441,9 +441,10 @@ background-color: white;
   width: 45vw;
   border-radius: 15px/15px;
   display:block;
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
   margin-bottom: 5vw;
+
 }
 
 .aboutBigLogo{
@@ -487,6 +488,7 @@ background-color: white;
 #aboutTeam {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #about2 .person {
@@ -1143,17 +1145,18 @@ background-color: white;
   }
   .aboutInfo{
     flex-direction: column;
-    width: 40vw;
+    width: auto;
   }
   .aboutInfo .aboutBilde{
-    max-width: 50vw;
+    max-width: auto;
     display: block;
-    align-items: center;
   }
 
   .aboutInfo .aboutBilde img {
     width: 80vw;
     display: grid;
+    margin-left: auto;
+
   }
 
 .aboutBigLogo .contain {
@@ -1179,7 +1182,7 @@ background-color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: auto;
+  width: 90vw;
   }
 
 #about2 .person img {
