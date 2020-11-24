@@ -981,6 +981,14 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------AboutUs*/
 
+#about3 .aboutBigPictureInfo {
+  width: 100%}
+}
+
+#about3 .aboutBigPictureInfo2 {
+  width: 0;
+}
+
   /*---------------------------------------------------------------------------------Problem*/
   .problemInfo {
     flex-direction: column;
