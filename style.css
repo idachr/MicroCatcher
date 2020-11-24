@@ -488,7 +488,7 @@ background-color: white;
 #aboutTeam {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
 }
 
 #about2 .person {
@@ -1182,7 +1182,7 @@ background-color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 90vw;
+  width: 85vw;
   }
 
 #about2 .person img {
