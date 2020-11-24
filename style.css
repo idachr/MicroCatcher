@@ -628,7 +628,7 @@ background-color: white;
   background-color: #222222;
   padding: 5% 0;
 }
-#problem3 .problemSeeThroughPicture{
+#problem3 #problemSeeThroughPicture{
   /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
   background-image: url(image/fishingShoalsCoralreef.jpeg);
   height: 70vh;
@@ -641,7 +641,7 @@ background-color: white;
 
 }
 
-#problem3 .problemSeeThroughInfo{
+#problem3 #problemSeeThroughInfo{
   display: flex;
   flex-direction:column;
   align-items: center;
@@ -951,9 +951,9 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------Solution*/
-#solution1 {
-  padding-top: 25%;
-}
+  #solution1 {
+    padding-top: 25%;
+  }
 
   #solution1 #solutionFront img{
     max-height: none;
@@ -1034,7 +1034,7 @@ background-color: white;
     width: 40vw;
     align-content: center;
   }
-  
+
   .aboutInfo .aboutBilde{
     max-width: 50vw;
     display: block;
@@ -1109,12 +1109,15 @@ background-color: white;
     width: 100vw;
   }
 
-  .problemInfo .problemInfoText .problemInfoTextBox{
+  #problemInfo .problemInfoText .problemInfoTextBox{
     width: 85vw;
   }
 
-  #problem3 .problemSeeThroughInfo {
+  #problem3 #problemSeeThroughInfo {
     width: 100%;
+  }
+  #problem3 #problemSeeThroughInfo2 {
+    width: 0;
   }
 
 
@@ -1245,7 +1248,7 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Problem*/
-  .problemSeeThroughPicture {
+  #problemSeeThroughPicture {
     height: 20vh;
     background-attachment: initial;
   }
