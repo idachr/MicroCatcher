@@ -971,62 +971,66 @@ background-color: white;
     height: 10vh;
   }
 
-  footer{
+  footer {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  }
 
   /*---------------------------------------------------------------------------------Index*/
-  .indexInfo{
+  .indexInfo {
     padding-top: 10%;
-    display:flex;
-    flex-direction: column;}
+    display: flex;
+    flex-direction: column;
+  }
 
-    .indexInfo img {
-      width: 85vw;
-    }
+  .indexInfo img {
+    width: 85vw;
+  }
 
-    .indexBigLogo{
-      display: block;
-      margin-left:auto;
-      margin-right:auto;
-      width: 95vw;
+  .indexBigLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
 
-    }
+  }
 
-    #index2 .indexBigPictureInfo{
-      width: 100%;
-    }
+  #index2 .indexBigPictureInfo {
+    width: 100%;
+  }
 
-    #index3 {
-      padding-top: 2%;
-      padding-bottom: 5%;
-    }
+  #index3 {
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
 
-    #index2 .indexBigPictureInfo2 {
-      width: 0;
-    }
+  #index2 .indexBigPictureInfo2 {
+    width: 0;
+  }
 
-    #index3 .indexInfo img {
-      margin-bottom: 2%;
-      width: 50vw;
-    }
+  #index3 .indexInfo img {
+    margin-bottom: 2%;
+    width: 50vw;
+  }
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
+  #about3 .aboutBigPictureInfo {
+    width: 100%
+  }
 
-#about3 .aboutBigPictureInfo {
-  width: 100%
-}
+  #about3 .aboutBigPictureInfo2 {
+    width: 0;
+  }
 
-#about3 .aboutBigPictureInfo2 {
-  width: 0;
-}
 
   /*---------------------------------------------------------------------------------Problem*/
 
   .problemInfo{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: auto;
   }
 
   .problemInfo .problemInfoBilde{
@@ -1142,39 +1146,39 @@ background-color: white;
     display: grid;
   }
 
-.aboutBigLogo .contain {
+  .aboutBigLogo .contain {
       width: auto;
   }
 
-.aboutBigLogo{
+  .aboutBigLogo{
   width: 85vw;
   }
 
 
-#aboutTeam {
+  #aboutTeam {
   flex-direction: column;
   flex-wrap: wrap;
   }
-#about2 h2 {
+  #about2 h2 {
   color: white;
   text-align: center;
   }
-#about2 .person {
+  #about2 .person {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 95vw;
   }
 
-#about2 .person img {
+  #about2 .person img {
   width: 60%;
 
   }
-#about3 .aboutBigPictureInfo {
+  #about3 .aboutBigPictureInfo {
   width: 100%;
 }
 
-#about3 .aboutBigPictureInfo2 {
+  #about3 .aboutBigPictureInfo2 {
     width: 100%;
   }
   /*---------------------------------------------------------------------------------AboutUs*/
