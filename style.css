@@ -996,11 +996,13 @@ background-color: white;
   .contain h1{
     font-size: 25px;
   }
+
   .aboutInfo{
     flex-direction: column;
     width: 40vw;
     align-content: center;
   }
+  
   .aboutInfo .aboutBilde{
     max-width: 50vw;
     display: block;
@@ -1012,41 +1014,43 @@ background-color: white;
     display: grid;
   }
 
-.aboutBigLogo .contain {
-      width: auto;
+  .aboutBigLogo .contain {
+    width: auto;
   }
 
-.aboutBigLogo{
+  .aboutBigLogo{
   width: 85vw;
   }
 
 
-#aboutTeam {
-  flex-direction: column;
-  flex-wrap: wrap;
-  }
-#about2 h2 {
-  color: white;
-  text-align: center;
-  }
-#about2 .person {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
-  width: 40vw;
+  #aboutTeam {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
-#about2 .person img {
-  width: 60%;
+  #about2 h2 {
+    color: white;
+    text-align: center;
   }
 
-#about3 .aboutBigPictureInfo {
-  width: 100%
-}
+  #about2 .person {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    width: 40vw;
+  }
 
-#about3 .aboutBigPictureInfo2 {
-  width: 0;
-}
+  #about2 .person img {
+    width: 60%;
+    }
+
+  #about3 .aboutBigPictureInfo {
+    width: 100%
+  }
+
+  #about3 .aboutBigPictureInfo2 {
+    width: 0;
+  }
 
 
   /*---------------------------------------------------------------------------------Problem*/
