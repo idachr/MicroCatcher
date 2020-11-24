@@ -50,7 +50,6 @@ textarea {
   font-family: 'Tenor Sans', sans-serif;
   border: 2px solid white;
   border-radius: 10px/10px;
-  height: 20vh;
 }
 
 .button {
@@ -108,7 +107,6 @@ textarea {
   padding: 0;
   width: 10vw;
   margin-left: 10%;
-  color: white;
 }
 
 
@@ -226,7 +224,6 @@ footer .footerInfo {
 
 footer ul{
   list-style:none;
-  padding: 0;
 }
 
 footer li {
@@ -239,7 +236,7 @@ footer li {
 footer .footerInfo ul li a {
   color: #aaaaaa;
   text-decoration: none;
-  padding: 2%;
+  padding: 2% 5%;
 }
 
 .footerInfo ul li a:hover {
@@ -558,6 +555,9 @@ background-color: white;
   width: 30%;
 }
 
+#about3 textarea {
+  height: 20vh;
+}
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem1 {
@@ -639,6 +639,7 @@ background-color: white;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
+
 }
 
 #problem3 .problemSeeThroughInfo{
@@ -729,7 +730,6 @@ background-color: white;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
-  color: white;
 }
 
 #solutionBigPictureTextBox {
@@ -877,15 +877,6 @@ background-color: white;
   .container {
     display: none;
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li {
-    margin: 1%;
     max-height: 0;
   }
 
@@ -912,10 +903,6 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------Index*/
-
-  #index {
-    padding-top: 25%;
-  }
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
@@ -1022,6 +1009,9 @@ background-color: white;
   width: 85vw;
   }
 
+  #about2{
+    width: 100vw;
+  }
 
   #aboutTeam {
     flex-direction: column;
@@ -1170,70 +1160,41 @@ background-color: white;
     display: grid;
   }
 
-  .aboutBigLogo .contain {
+.aboutBigLogo .contain {
       width: auto;
   }
 
-  .aboutBigLogo{
-    width: 85vw;
+.aboutBigLogo{
+  width: 85vw;
   }
 
+#about2{
+  width: 100vw;
+}
 
-  #aboutTeam {
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
-  #about2 h2 {
-    color: white;
-    text-align: center;
+#aboutTeam {
+  flex-direction: column;
+  flex-wrap: wrap;
   }
-  #about2 .person {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 95vw;
+#about2 h2 {
+  color: white;
+  text-align: center;
   }
 
-  #about2 .person img {
-    width: 60%;
-
-    }
-  #about3 .aboutBigPictureInfo {
-    width: 100%;
-  }
-  .aboutBigLogo .contain {
-    width: auto;
+#about2 .person {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
   }
 
-  .aboutBigLogo{
-   width: 85vw;
+#about2 .person img {
+  width: 60vw;
   }
 
-
-  #aboutTeam {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  #about2 h2 {
-    color: white;
-    text-align: center;
-  }
-
-  #about2 .person {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 95vw;
-  }
-
-  #about2 .person img {
-   width: 60%;
-
-  }
-  #about3 .aboutBigPictureInfo {
-   width: 100%;
-  }
+#about3 .aboutBigPictureInfo {
+  width: 100%;
+}
 
   #about3 .aboutBigPictureInfo2 {
     width: 100%;
