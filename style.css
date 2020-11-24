@@ -1063,25 +1063,20 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Index*/
   .aboutInfo{
-    display:flex;
     flex-direction: column;
-    width: 100%;
+    width: 40vw;
   }
   .aboutInfo .aboutBilde{
-    max-width: 90%;
-    display: flex;
-    align-items:center;
-    justify-content:center;
+    max-width: 50vw;
+    display: block;
+    align-items: center;
   }
 
   .aboutInfo .aboutBilde img {
-    /*max-width: 75vw;*/
-    border-radius: 15px/15px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5vw;
-    max-width: 500px;
+    width: 80vw;
+    display: grid;
+
+
 }
     .aboutBigLogo .contain {
       text-align:left;
@@ -1095,12 +1090,36 @@ background-color: white;
 }
 
 .aboutBigLogo{
-  font-size: 1.85rem;
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
   width: 85vw;
 }
+
+
+#aboutTeam {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#about2 h2 {
+  color: white;
+  text-align: center;
+}
+#about2 .person {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 95vw;
+}
+
+#about2 .person img {
+  width: 60%;
+
+}
+#about3 .aboutBigPictureInfo {
+  width: 100%;
+}
+
+#about3 .aboutBigPictureInfo2 {
+    width: 100%;
+  }
   /*---------------------------------------------------------------------------------AboutUs*/
 
   /*---------------------------------------------------------------------------------Problem*/
