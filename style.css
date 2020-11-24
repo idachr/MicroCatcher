@@ -225,6 +225,7 @@ footer .footerInfo {
 
 footer ul{
   list-style:none;
+  padding: 0;
 }
 
 footer li {
@@ -237,7 +238,7 @@ footer li {
 footer .footerInfo ul li a {
   color: #aaaaaa;
   text-decoration: none;
-  padding: 2% 5%;
+  padding: 2%;
 }
 
 .footerInfo ul li a:hover {
@@ -903,6 +904,7 @@ background-color: white;
     align-items:center;
     text-align:center;
     margin: 0;
+    padding: 0;
   }
 
   nav ul li {
@@ -936,6 +938,10 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------Index*/
+
+  #index {
+    padding-top: 25%;
+  }
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
@@ -977,6 +983,7 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------Index*/
+
   .indexInfo {
     padding-top: 10%;
     display: flex;
