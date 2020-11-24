@@ -96,8 +96,9 @@ textarea {
 
 .container {
   margin: 0 0 0 auto;
-  min-height: 10vh;
+  height: auto;
   display: flex;
+  flex: row;
   justify-content: right;
   align-items:center;
 }
@@ -105,7 +106,7 @@ textarea {
 .logo {
   float: left;
   padding: 0;
-  width: 10vw;
+  width: 20vw;
   margin-left: 10%;
 }
 
@@ -629,34 +630,39 @@ background-color: white;
   background-color: #222222;
   padding: 5% 0;
 }
-#problem3 .problemSeeThroughPicture{
+#problem3 #problemSeeThroughPicture{
+  display: flex;
+  flex-direction:row;
   /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
   background-image: url(image/fishingShoalsCoralreef.jpeg);
   height: 70vh;
   width: 95vw;
-  margin: 0 auto;
+  margin: 5% auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
-
 }
 
-#problem3 .problemSeeThroughInfo{
+#problem3 #problemSeeThroughInfo{
+
   display: flex;
   flex-direction:column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 50%;
   background-color: rgba(34, 34, 34, 0.5);
-  border-radius: 15px/0;
   height: 100%;
-  max-height: 100vh;
 }
 
-#problem3 h2 {
+#problem3 #problemSeeThroughInfo h2 {
   color: white;
   text-align: center;
+}
+
+#problem #problemSeeThroughInfo2 {
+  width: 50%;
 }
 
 
@@ -874,10 +880,33 @@ background-color: white;
 /*---------------------------------------------------------------------------------Horizontal mobile*/
 @media only screen and (orientation: landscape) and (max-width: 896px) {
   /*---------------------------------------------------------------------------------Header*/
-  .container {
-    display: none;
+  .header {
     flex-direction: column;
-    max-height: 0;
+    height: 28vh;
+  }
+
+  .container {
+    flex-direction: column;
+    display: none;
+    margin:0;
+    background: #222222;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 1%;
   }
 
   #menu {
@@ -896,6 +925,10 @@ background-color: white;
     height: 100vh;
     transition: max-height .2s ease-out;
     display: block;
+  }
+
+  #toggle:checked ~ .logo {
+    width: 0;
   }
 
   .button {
@@ -982,7 +1015,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------AboutUs*/
 
 #about3 .aboutBigPictureInfo {
-  width: 100%}
+  width: 100%
 }
 
 #about3 .aboutBigPictureInfo2 {
@@ -990,18 +1023,16 @@ background-color: white;
 }
 
   /*---------------------------------------------------------------------------------Problem*/
-  .problemInfo {
+
+  .problemInfo{
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: auto;
-  }
-  .problemInfoBilde {
-    width: auto;
   }
 
-  .problemInfo .problemInfoBilde {
+  .problemInfo .problemInfoBilde{
     width: 100vw;
   }
+
   .problemInfo .problemInfoBilde img {
     width: 85vw;
   }
@@ -1010,13 +1041,19 @@ background-color: white;
     width: 100vw;
   }
 
-  .problemInfo .problemInfoText .problemInfoTextBox{
+  .problemInfo .problemInfoText .problemInfoTextBox {
     width: 85vw;
+    margin: auto;
   }
 
-  #problem3 .problemSeeThroughInfo {
+  #problem3 #problemSeeThroughInfo{
     width: 100%;
   }
+
+  #problem3 #problemSeeThroughInfo2 {
+    width: 0;
+  }
+
 
 
   /*---------------------------------------------------------------------------------Solution*/
