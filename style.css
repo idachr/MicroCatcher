@@ -96,9 +96,8 @@ textarea {
 
 .container {
   margin: 0 0 0 auto;
-  height: auto;
+  min-height: 10vh;
   display: flex;
-  flex: row;
   justify-content: right;
   align-items:center;
 }
@@ -106,7 +105,7 @@ textarea {
 .logo {
   float: left;
   padding: 0;
-  width: 20vw;
+  width: 10vw;
   margin-left: 10%;
 }
 
@@ -631,39 +630,34 @@ background-color: white;
   background-color: #222222;
   padding: 5% 0;
 }
-#problem3 #problemSeeThroughPicture{
-  display: flex;
-  flex-direction:row;
+#problem3 .problemSeeThroughPicture{
   /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
   background-image: url(image/fishingShoalsCoralreef.jpeg);
   height: 70vh;
   width: 95vw;
-  margin: 5% auto;
+  margin: 0 auto;
   background-attachment:fixed;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
+
 }
 
-#problem3 #problemSeeThroughInfo{
-
+#problem3 .problemSeeThroughInfo{
   display: flex;
   flex-direction:column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   width: 50%;
   background-color: rgba(34, 34, 34, 0.5);
+  border-radius: 15px/0;
   height: 100%;
+  max-height: 100vh;
 }
 
-#problem3 #problemSeeThroughInfo h2 {
+#problem3 h2 {
   color: white;
   text-align: center;
-}
-
-#problem #problemSeeThroughInfo2 {
-  width: 50%;
 }
 
 
@@ -881,24 +875,8 @@ background-color: white;
 /*---------------------------------------------------------------------------------Horizontal mobile*/
 @media only screen and (orientation: landscape) and (max-width: 896px) {
   /*---------------------------------------------------------------------------------Header*/
-  .header {
-    flex-direction: column;
-    height: 28vh;
-  }
-
   .container {
-    flex-direction: column;
     display: none;
-    margin:0;
-    background: #222222;
-  }
-
-  .logo {
-    margin: 0;
-  }
-
-  nav ul {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
@@ -909,6 +887,7 @@ background-color: white;
 
   nav ul li {
     margin: 1%;
+    max-height: 0;
   }
 
   #menu {
@@ -927,10 +906,6 @@ background-color: white;
     height: 100vh;
     transition: max-height .2s ease-out;
     display: block;
-  }
-
-  #toggle:checked ~ .logo {
-    width: 0;
   }
 
   .button {
@@ -977,73 +952,117 @@ background-color: white;
     height: 10vh;
   }
 
-  footer {
+  footer{
     display: flex;
-    flex-direction: column;
-  }
+    flex-direction: column;}
 
   /*---------------------------------------------------------------------------------Index*/
-
-  .indexInfo {
+  .indexInfo{
     padding-top: 10%;
-    display: flex;
-    flex-direction: column;
-  }
+    display:flex;
+    flex-direction: column;}
 
-  .indexInfo img {
-    width: 85vw;
-  }
+    .indexInfo img {
+      width: 85vw;
+    }
 
-  .indexBigLogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95vw;
+    .indexBigLogo{
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+      width: 95vw;
 
-  }
+    }
 
-  #index2 .indexBigPictureInfo {
-    width: 100%;
-  }
+    #index2 .indexBigPictureInfo{
+      width: 100%;
+    }
 
-  #index3 {
-    padding-top: 2%;
-    padding-bottom: 5%;
-  }
+    #index3 {
+      padding-top: 2%;
+      padding-bottom: 5%;
+    }
 
-  #index2 .indexBigPictureInfo2 {
-    width: 0;
-  }
+    #index2 .indexBigPictureInfo2 {
+      width: 0;
+    }
 
-  #index3 .indexInfo img {
-    margin-bottom: 2%;
-    width: 50vw;
-  }
+    #index3 .indexInfo img {
+      margin-bottom: 2%;
+      width: 50vw;
+    }
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-  #about3 .aboutBigPictureInfo {
-    width: 100%
+  .contain h1{
+    font-size: 25px;
+  }
+  .aboutInfo{
+    flex-direction: column;
+    width: 40vw;
+    align-content: center;
+  }
+  .aboutInfo .aboutBilde{
+    max-width: 50vw;
+    display: block;
+    align-items: center;
   }
 
-  #about3 .aboutBigPictureInfo2 {
-    width: 0;
+  .aboutInfo .aboutBilde img {
+    width: 80vw;
+    display: grid;
   }
+
+.aboutBigLogo .contain {
+      width: auto;
+  }
+
+.aboutBigLogo{
+  width: 85vw;
+  }
+
+
+#aboutTeam {
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+#about2 h2 {
+  color: white;
+  text-align: center;
+  }
+#about2 .person {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  width: 40vw;
+  }
+
+#about2 .person img {
+  width: 60%;
+  }
+
+#about3 .aboutBigPictureInfo {
+  width: 100%}
+}
+
+#about3 .aboutBigPictureInfo2 {
+  width: 0;
+}
 
 
   /*---------------------------------------------------------------------------------Problem*/
-
-  .problemInfo{
-    display: flex;
+  .problemInfo {
     flex-direction: column;
     width: 100%;
     margin: auto;
   }
-
-  .problemInfo .problemInfoBilde{
-    width: 100vw;
+  .problemInfoBilde {
+    width: auto;
   }
 
+  .problemInfo .problemInfoBilde {
+    width: 100vw;
+  }
   .problemInfo .problemInfoBilde img {
     width: 85vw;
   }
@@ -1052,19 +1071,13 @@ background-color: white;
     width: 100vw;
   }
 
-  .problemInfo .problemInfoText .problemInfoTextBox {
+  .problemInfo .problemInfoText .problemInfoTextBox{
     width: 85vw;
-    margin: auto;
   }
 
-  #problem3 #problemSeeThroughInfo{
+  #problem3 .problemSeeThroughInfo {
     width: 100%;
   }
-
-  #problem3 #problemSeeThroughInfo2 {
-    width: 0;
-  }
-
 
 
   /*---------------------------------------------------------------------------------Solution*/
@@ -1135,6 +1148,7 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Index*/
+  /*---------------------------------------------------------------------------------AboutUs*/
   .contain h1{
     font-size: 25px;
   }
@@ -1153,42 +1167,42 @@ background-color: white;
     display: grid;
   }
 
-  .aboutBigLogo .contain {
+.aboutBigLogo .contain {
       width: auto;
   }
 
-  .aboutBigLogo{
+.aboutBigLogo{
   width: 85vw;
   }
 
 
-  #aboutTeam {
+#aboutTeam {
   flex-direction: column;
   flex-wrap: wrap;
   }
-  #about2 h2 {
+#about2 h2 {
   color: white;
   text-align: center;
   }
-  #about2 .person {
+#about2 .person {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 95vw;
   }
 
-  #about2 .person img {
+#about2 .person img {
   width: 60%;
 
   }
-  #about3 .aboutBigPictureInfo {
+#about3 .aboutBigPictureInfo {
   width: 100%;
 }
 
-  #about3 .aboutBigPictureInfo2 {
+#about3 .aboutBigPictureInfo2 {
     width: 100%;
   }
-  /*---------------------------------------------------------------------------------AboutUs*/
+
 
   /*---------------------------------------------------------------------------------Problem*/
   .problemSeeThroughPicture {
