@@ -938,56 +938,57 @@ background-color: white;
     height: 10vh;
   }
 
-  footer{
+  footer {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  }
 
   /*---------------------------------------------------------------------------------Index*/
-  .indexInfo{
+  .indexInfo {
     padding-top: 10%;
-    display:flex;
-    flex-direction: column;}
+    display: flex;
+    flex-direction: column;
+  }
 
-    .indexInfo img {
-      width: 85vw;
-    }
+  .indexInfo img {
+    width: 85vw;
+  }
 
-    .indexBigLogo{
-      display: block;
-      margin-left:auto;
-      margin-right:auto;
-      width: 95vw;
+  .indexBigLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
 
-    }
+  }
 
-    #index2 .indexBigPictureInfo{
-      width: 100%;
-    }
+  #index2 .indexBigPictureInfo {
+    width: 100%;
+  }
 
-    #index3 {
-      padding-top: 2%;
-      padding-bottom: 5%;
-    }
+  #index3 {
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
 
-    #index2 .indexBigPictureInfo2 {
-      width: 0;
-    }
+  #index2 .indexBigPictureInfo2 {
+    width: 0;
+  }
 
-    #index3 .indexInfo img {
-      margin-bottom: 2%;
-      width: 50vw;
-    }
+  #index3 .indexInfo img {
+    margin-bottom: 2%;
+    width: 50vw;
+  }
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
+  #about3 .aboutBigPictureInfo {
+    width: 100%
+  }
 
-#about3 .aboutBigPictureInfo {
-  width: 100%}
-}
-
-#about3 .aboutBigPictureInfo2 {
-  width: 0;
-}
+  #about3 .aboutBigPictureInfo2 {
+    width: 0;
+  }
 
   /*---------------------------------------------------------------------------------Problem*/
   .problemInfo {
@@ -995,6 +996,7 @@ background-color: white;
     width: 100%;
     margin: auto;
   }
+
   .problemInfoBilde {
     width: auto;
   }
@@ -1002,6 +1004,7 @@ background-color: white;
   .problemInfo .problemInfoBilde {
     width: 100vw;
   }
+
   .problemInfo .problemInfoBilde img {
     width: 85vw;
   }
@@ -1010,7 +1013,7 @@ background-color: white;
     width: 100vw;
   }
 
-  .problemInfo .problemInfoText .problemInfoTextBox{
+  .problemInfo .problemInfoText .problemInfoTextBox {
     width: 85vw;
   }
 
