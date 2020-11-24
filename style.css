@@ -1079,13 +1079,6 @@ background-color: white;
 
 }
     .aboutBigLogo .contain {
-      text-align:left;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin: auto;
-      height: auto; /*100%*/
       width: auto;
 }
 
