@@ -641,7 +641,6 @@ background-color: white;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
-
 }
 
 #problem3 #problemSeeThroughInfo{
@@ -1087,7 +1086,7 @@ background-color: white;
   }
 
   .aboutBigLogo{
-  width: 85vw;
+   width: 85vw;
   }
 
   #about2{
