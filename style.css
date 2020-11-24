@@ -1108,39 +1108,39 @@ background-color: white;
     display: grid;
   }
 
-.aboutBigLogo .contain {
+  .aboutBigLogo .contain {
       width: auto;
   }
 
-.aboutBigLogo{
+  .aboutBigLogo{
   width: 85vw;
   }
 
 
-#aboutTeam {
+  #aboutTeam {
   flex-direction: column;
   flex-wrap: wrap;
   }
-#about2 h2 {
+  #about2 h2 {
   color: white;
   text-align: center;
   }
-#about2 .person {
+  #about2 .person {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 95vw;
   }
 
-#about2 .person img {
+  #about2 .person img {
   width: 60%;
 
   }
-#about3 .aboutBigPictureInfo {
+  #about3 .aboutBigPictureInfo {
   width: 100%;
 }
 
-#about3 .aboutBigPictureInfo2 {
+  #about3 .aboutBigPictureInfo2 {
     width: 100%;
   }
   /*---------------------------------------------------------------------------------AboutUs*/
