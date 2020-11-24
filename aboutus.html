@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
-  <link rel="icon" href="bilder/logoIkonKvadrat.png">
+  <link rel="icon" href="image/logoIkonKvadrat.png">
 
   <title>About Us</title>
 </head>
@@ -18,7 +18,8 @@
     <header>
       <div class="header">
       <a href="index.html">
-        <img src="bilder/logoMedTekst.png" alt="Logo" class="logo">
+        <!--Logo made with Wix Logo Maker-->
+        <img src="image/logoMedTekst.png" alt="Micro Catcher" class="logo">
       </a>
       <div class="container">
           <nav>
@@ -33,7 +34,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="aboutus.html">
+                  <a href="aboutus.html" id="chosen">
                     About Us
                   </a>
                 </li>
@@ -66,7 +67,7 @@
                 </div>
             </div>
             <!-- https://commons.wikimedia.org/wiki/File:Morro_Bay,_CA_Sandspit_Coastal_Cleanup_Day_(CCD),_Saturday,_September_17,_2011_6.jpg -->
-            <img src="bilder/cleanupPeople.jpg" alt="Picture of voluenteers">
+            <img src="image/cleanupPeople.jpg" alt="Picture of voluenteers">
         </div>
       </div>
 
@@ -74,7 +75,7 @@
           <div class="aboutInfo">
               <div class="aboutBilde">
                 <!-- http://www.microfinancemonitor.com/super-fast-internet-at-12000-km-speed-reality-as-breakthrough-achieved/34778 -->
-                <img src="bilder/forskere.jpg" alt="Picture of workers">
+                <img src="image/forskere.jpg" alt="Picture of workers">
               </div>
               <div class="aboutBigLogo">
                   <div class="contain">
@@ -88,7 +89,7 @@
             <div class="aboutInfo">
               <div class="aboutBilde">
                 <!-- https://ndla.no/en/subjects/subject:13/topic:1:183267/topic:1:183268/resource:1:152865?filters=urn:filter:ba75ac53-15eb-4c7a-a08a-b8d5cd19a875-->
-                <img src="bilder/oppdrettCropped.jpg" alt="Picture of man infront of fish farm">
+                <img src="image/fishFarming.jpg" alt="Man infront of fish farm">
               </div>
               <div class="aboutBigLogo">
                   <div class="contain">
@@ -104,7 +105,7 @@
             <div class="aboutInfo">
               <div class="aboutBilde">
                 <!-- https://www.pxfuel.com/en/free-photo-xzpmc-->
-                  <img src="bilder/team.jpg" alt="Picture of part of the team">
+                  <img src="image/team.jpg" alt="Part of our team">
                 </div>
               <div class="aboutBigLogo">
                   <div class="contain">
@@ -115,12 +116,12 @@
       </div>
 
       <div id="about2">
-        <h1>
+        <h2>
           The Team
-        </h1>
+        </h2>
         <div id="aboutTeam">
           <div class="person">
-            <img src="bilder/ida.jpeg" alt="Picture of Ida">
+            <img src="image/ida.jpeg" alt="Ida">
             <h3>
               Ida
             </h3>
@@ -130,7 +131,7 @@
           </div>
 
           <div class="person">
-            <img src="bilder/jonasLiten.png" alt="Picture of Jonas">
+            <img src="image/jonas.png" alt="Jonas">
             <h3>
               Jonas
             </h3>
@@ -140,7 +141,7 @@
           </div>
 
         <div class="person">
-          <img src="bilder/arian.JPG" alt="Picture of Arian">
+          <img src="image/arian.jpg" alt="Arian">
           <h3>
             Arian
           </h3>
@@ -151,7 +152,7 @@
 
 
           <div class="person">
-            <img src="bilder/marie.jpg" alt="Picture of Marie">
+            <img src="image/marie.jpg" alt="Marie">
             <h3>
               Marie
             </h3>
@@ -165,6 +166,7 @@
         <div id="about3">
           <div class="aboutBigPicture">
             <div class="aboutBigPictureInfo">
+              <span role="img" aria-label="Alt tekst til bakgrunnsbilde"></span>
 
               <h2>Contact us here</h2>
               <h3>Fields with * are required to fill</h3>
@@ -195,7 +197,7 @@
                 </label><br>
                 <textarea id="message" name="message" rows="3" cols="40" placeholder="How are you so amazing?" required></textarea><br>
 
-                <input type="submit" value="Submit" class="knapp">
+                <input type="submit" value="Submit" class="button" aria-label="Submit">
               </form>
 
             </div>
@@ -218,10 +220,10 @@
         <div class="footerInfo">
           <ul>
             <h3>
-              Find Us
+              Contact Us
             </h3>
             <li>
-              Slottsplassen 1, 0010
+              Slottsplassen 1, 0010<br>Oslo, Norway
             </li>
             <li>
               +47 99 88 77 66

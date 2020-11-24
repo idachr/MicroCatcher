@@ -27,25 +27,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bilder" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\image\Boss" />
       <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder\JONAAAS" />
       <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder\Boss" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,7 +64,8 @@
       <workItem from="1605453350109" duration="2055000" />
       <workItem from="1605515758810" duration="5085000" />
       <workItem from="1605630211332" duration="2003000" />
-      <workItem from="1605990587146" duration="15924000" />
+      <workItem from="1605990587146" duration="17355000" />
+      <workItem from="1606057489803" duration="6129000" />
     </task>
     <servers />
   </component>
@@ -82,13 +85,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1606039997683" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1605978150500">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1606063116424">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605978150500" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605778998615">
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1606063116424" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606143241540">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605778998614" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606143241540" />
   </component>
 </project>
