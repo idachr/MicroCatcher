@@ -50,6 +50,7 @@ textarea {
   font-family: 'Tenor Sans', sans-serif;
   border: 2px solid white;
   border-radius: 10px/10px;
+  height: 20vh;
 }
 
 .button {
@@ -107,6 +108,7 @@ textarea {
   padding: 0;
   width: 10vw;
   margin-left: 10%;
+  color: white;
 }
 
 
@@ -556,9 +558,6 @@ background-color: white;
   width: 30%;
 }
 
-#about3 textarea {
-  height: 20vh;
-}
 
 /*---------------------------------------------------------------------------------Problem*/
 #problem1 {
@@ -640,7 +639,6 @@ background-color: white;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
-
 }
 
 #problem3 .problemSeeThroughInfo{
@@ -731,6 +729,7 @@ background-color: white;
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
+  color: white;
 }
 
 #solutionBigPictureTextBox {
@@ -1042,7 +1041,7 @@ background-color: white;
   }
 
 #about3 .aboutBigPictureInfo {
-  width: 100%}
+  width: 100%
 }
 
 #about3 .aboutBigPictureInfo2 {
@@ -1167,37 +1166,71 @@ background-color: white;
     display: grid;
   }
 
-.aboutBigLogo .contain {
+  .aboutBigLogo .contain {
       width: auto;
   }
 
-.aboutBigLogo{
-  width: 85vw;
+  .aboutBigLogo{
+    width: 85vw;
   }
 
 
-#aboutTeam {
-  flex-direction: column;
-  flex-wrap: wrap;
+  #aboutTeam {
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+  #about2 h2 {
+    color: white;
+    text-align: center;
   }
-#about2 h2 {
-  color: white;
-  text-align: center;
-  }
-#about2 .person {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 95vw;
+  #about2 .person {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95vw;
   }
 
-#about2 .person img {
-  width: 60%;
+  #about2 .person img {
+    width: 60%;
+
+    }
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
+  }
+  .aboutBigLogo .contain {
+    width: auto;
+  }
+
+  .aboutBigLogo{
+   width: 85vw;
+  }
+
+
+  #aboutTeam {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #about2 h2 {
+    color: white;
+    text-align: center;
+  }
+
+  #about2 .person {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95vw;
+  }
+
+  #about2 .person img {
+   width: 60%;
 
   }
-#about3 .aboutBigPictureInfo {
-  width: 100%;
-}
+  #about3 .aboutBigPictureInfo {
+   width: 100%;
+  }
+>>>>>>> Stashed changes
 
 #about3 .aboutBigPictureInfo2 {
     width: 100%;
