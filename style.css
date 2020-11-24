@@ -923,6 +923,7 @@ background-color: white;
       width: 50vw;
     }
 
+
   /*---------------------------------------------------------------------------------AboutUs*/
 
   /*---------------------------------------------------------------------------------Problem*/
@@ -995,5 +996,8 @@ background-color: white;
   .header img {
     position: absolute;
     left: -10%;
+  }
+  nav ul li a::before {
+    position:relative;
   }
 }
