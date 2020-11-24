@@ -621,7 +621,7 @@ background-color: white;
   margin: auto;
 }
 
-.problemInfo .problemInfoText .problemInfoTextBox h2 {
+.problemInfo .problemInfoText  h2 {
   color: black;
   text-align: center;
 }
@@ -983,8 +983,31 @@ background-color: white;
 /*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------Header*/
-  .header {
+  .header{
+    display: flex;
+    flex-direction: column;
     height: auto;
+  }
+
+  .container {
+    margin: auto;
+    height: 20vh;
+  }
+
+  .logo {
+    margin: 2% 0 0 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 2%;
   }
 
   footer{
@@ -1126,7 +1149,7 @@ background-color: white;
     width: 100vw;
   }
 
-  #problemInfo .problemInfoText .problemInfoTextBox{
+  #problemInfo .problemInfoText {
     width: 85vw;
   }
 
@@ -1202,10 +1225,32 @@ background-color: white;
     font-size: 1.8rem;
   }
   /*---------------------------------------------------------------------------------Header*/
-  .header {
-    height: 5vh;
+  .header{
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
 
+  .container {
+    margin: auto;
+    height: 20vh;
+  }
+
+  .logo {
+    margin: 2% 0 0 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 2%;
+  }
   /*---------------------------------------------------------------------------------Footer*/
 
 
@@ -1273,6 +1318,10 @@ background-color: white;
   #problemSeeThroughPicture {
     height: 20vh;
     background-attachment: initial;
+  }
+
+  #problem2 .problemInfo .problemInfoText {
+    margin: 0;
   }
 
 
