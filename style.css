@@ -1243,6 +1243,7 @@ background-color: white;
 #aboutTeam {
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   }
 #about2 h2 {
   color: white;
@@ -1253,7 +1254,7 @@ background-color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 85vw;
+  width: 90vw;
   }
 
 #about2 .person img {
