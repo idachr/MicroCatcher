@@ -980,7 +980,7 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-  .contain h1{
+  /*.contain h1{
     font-size: 25px;
   }
   .aboutInfo{
@@ -1161,6 +1161,9 @@ background-color: white;
   width: 85vw;
   }
 
+#about2{
+  width: 100vw;
+}
 
 #aboutTeam {
   flex-direction: column;
@@ -1170,17 +1173,18 @@ background-color: white;
   color: white;
   text-align: center;
   }
+
 #about2 .person {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 95vw;
+  width: auto;
   }
 
 #about2 .person img {
-  width: 60%;
-
+  width: 60vw;
   }
+
 #about3 .aboutBigPictureInfo {
   width: 100%;
 }
