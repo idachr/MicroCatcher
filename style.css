@@ -498,6 +498,7 @@ background-color: white;
   height: auto;
   background-color: white;
   border-radius: 15px/15px;
+  height: 90vh;
 }
 
 #about2 .person img {
@@ -1033,7 +1034,7 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-  #about {
+/*  #about {
     padding-top: 30%
   }
 
@@ -1097,7 +1098,7 @@ background-color: white;
 
   #about3 .aboutBigPictureInfo2 {
     width: 0;
-  }
+  }*/
 
 
   /*---------------------------------------------------------------------------------Problem*/
@@ -1255,6 +1256,7 @@ background-color: white;
   flex-direction: column;
   flex-wrap: wrap;
   width: 90vw;
+  height: 75vh;
   }
 
 #about2 .person img {
