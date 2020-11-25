@@ -50,21 +50,6 @@ textarea {
   border-radius: 10px/10px;
 }
 
-i {
-  padding: 0 5%;
-  cursor: pointer;
-  font-family: "Open Sans", sans-serif;
-}
-
-i h2 {
-  color: white;
-}
-
-.fas{
-  font-size: 2rem;
-  color: white;
-}
-
 .button {
   font-family:'Open Sans', sans-serif;
   background-color:#60c8cc;
@@ -173,6 +158,21 @@ nav a:hover::before{
 }
 
 /*Hamburger menu*/
+i {
+  padding: 0 5%;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+i h2 {
+  color: white;
+}
+
+.fas{
+  font-size: 2rem;
+  color: white;
+}
+
 input[type=checkbox] {
   display: none;
 }
@@ -861,6 +861,14 @@ background-color: white;
     display: none;
   }
 
+  i h2 {
+    font-size: 1.2rem;
+  }
+
+  .fas {
+    font-size: 1.2rem;
+  }
+
   #menu {
     display: inline-flex;
     flex-wrap: nowrap;
@@ -957,7 +965,67 @@ background-color: white;
 /*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------Header*/
+  nav {
+    display: none;
+  }
 
+  i h2 {
+    font-size: 1.2rem;
+  }
+
+  .fas {
+    font-size: 1.2rem;
+  }
+
+  #menu {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ nav {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 0;
+  }
+
+  #toggle:checked ~ nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #toggle:checked ~ nav li {
+    margin: 5%;
+  }
+
+  #toggle:checked ~ nav a {
+    padding: 5% 20%;
+  }
+
+  nav a::before {
+    margin-left: 30%;
+  }
+
+  nav a:hover::before{
+    width: 40%;
+  }
 
   /*---------------------------------------------------------------------------------Footer*/
   footer{
@@ -1175,6 +1243,79 @@ background-color: white;
     font-size: 1.8rem;
   }
   /*---------------------------------------------------------------------------------Header*/
+  header {
+    min-height: 0;
+    height: 8vh;
+  }
+
+  .logo {
+    width: 27%;
+    padding-top: 2%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  i h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .fas {
+    font-size: 1.2rem;
+  }
+
+  #menu {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4% 2%;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ nav {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 0;
+  }
+
+  #toggle:checked ~ nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #toggle:checked ~ nav li {
+    margin: 5%;
+  }
+
+  #toggle:checked ~ nav a {
+    padding: 5% 20%;
+  }
+
+  nav a::before {
+    margin-left: 30%;
+  }
+
+  nav a:hover::before{
+    width: 40%;
+  }
 
 
   /*---------------------------------------------------------------------------------Footer*/
