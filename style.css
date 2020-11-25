@@ -867,7 +867,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-    height: 13vh;
+    height: 15vh;
     background-color: #222222;
   }
 
@@ -984,7 +984,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-    height: 11vh;
+    height: 17vh;
   }
 
   .logo {
