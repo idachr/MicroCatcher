@@ -1043,7 +1043,7 @@ background-color: white;
   }
 
   #toggle:checked ~ nav li {
-    margin: 20%;
+    margin: 15%;
   }
 
   #toggle:checked ~ nav a {
