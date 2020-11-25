@@ -883,6 +883,7 @@ background-color: white;
     display: flex;
     justify-content: center;
     align-items: start;
+    padding: 0;
   }
 
   #toggle:checked ~ nav ul {
@@ -890,10 +891,12 @@ background-color: white;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
   #toggle:checked ~ nav li {
-    margin: 7%;
+    margin: 5%;
   }
 
   #toggle:checked ~ nav a {
