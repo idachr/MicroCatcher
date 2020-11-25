@@ -1078,7 +1078,7 @@ background-color: white;
   }
 
   .indexInfo{
-    display:flex;
+    display: flex;
     flex-direction: column;}
 
   .indexInfo img {
@@ -1134,10 +1134,10 @@ background-color: white;
 
   .aboutInfo .aboutBilde img {
     width: 80vw;
-    display: grid;
-  }
+    /*display: grid;
+  }*/
 
-  .aboutBigLogo .contain {
+  /*.aboutBigLogo .contain {
     width: auto;
   }
 
