@@ -7,56 +7,62 @@ body {
 }
 
 h1 {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
   font-size: 3rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
   font-size: 2rem;
   text-transform: uppercase;
 }
 
 h3 {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 a  {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, Serif;
 }
 
 label {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
   color: white;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 input {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
   border: 2px solid white;
   border-radius: 10px/10px;
 }
 
 textarea {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif, Serif;
   border: 2px solid white;
   border-radius: 10px/10px;
 }
 
+i {
+  padding: 0 5%;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif, Serif;
+}
+
 .button {
-  font-family:'Open Sans', sans-serif;
-  background-color:#60c8cc;
+  font-family:'Open Sans', sans-serif, Serif;
+  background-color: #60c8cc;
   color: black;
   text-decoration: none;
   margin: 1% 0;
-  padding:1.5%;
+  padding: 1.5%;
   border-radius: 20px/20px;
   border: 0;
   font-weight: bold;
@@ -158,12 +164,6 @@ nav a:hover::before{
 }
 
 /*Hamburger menu*/
-i {
-  padding: 0 5%;
-  cursor: pointer;
-  font-family: "Open Sans", sans-serif;
-}
-
 i h2 {
   color: white;
   margin: 0;
@@ -191,14 +191,14 @@ input[type=checkbox] {
 footer{
   display: flex;
   flex-direction: row;
-  background-color:black;
+  background-color: black;
   align-items: center;
   justify-content: space-between;
-  color: #dddddd;
-  text-align:center;
+  text-align: center;
   text-transform: uppercase;
+  color: #dddddd;
+  font-family:'Tenor Sans', sans-serif, Serif;
   font-size: 20px;
-  font-family:'Tenor Sans', sans-serif;
   font-weight: bold;
   width: 100%;
 }
@@ -213,7 +213,7 @@ footer .footerInfo {
 }
 
 footer ul{
-  list-style:none;
+  list-style: none;
 }
 
 footer li {
@@ -230,16 +230,16 @@ footer .footerInfo ul li a {
 }
 
 .footerInfo ul li a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .footerInfo h3, a {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .footerInfo a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 
@@ -251,31 +251,29 @@ footer .footerInfo ul li a {
 }
 
 .indexInfo{
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 .indexInfo img {
   width: 45vw;
   border-radius: 15px/15px;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .indexBigLogo{
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 45vw;
-
 }
 
 .indexBigLogo .contain {
-  text-align:center;
-  display:flex;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -283,7 +281,7 @@ footer .footerInfo ul li a {
 }
 
 .indexBigLogo img {
-  display:block;
+  display: block;
   width: 40%;
 }
 
@@ -294,21 +292,21 @@ footer .footerInfo ul li a {
 
 #index2 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
   background-image: url(image/fishingShoals.jpg);
   height: 70vh;
   width: 95vw;
   margin: 5% auto;
-  background-attachment:fixed;
-  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
 }
 
 #index2 .indexBigPictureInfo {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -339,14 +337,14 @@ background-color: #222222;
 }
 
 #index3 .indexBigLogo .contain h1{
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
   color: white;
 }
 
 #index3 img {
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 35vw;
@@ -365,7 +363,7 @@ background-color: #222222;
 }
 
 .aboutHeader{
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
 }
@@ -373,21 +371,21 @@ background-color: #222222;
 .aboutHeader img {
   width: 45vw;
   border-radius: 15px/15px;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .aboutHeaderText{
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 45vw;
 }
 
 .aboutHeaderText .contain {
-  text-align:center;
-  display:flex;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -395,7 +393,7 @@ background-color: #222222;
 }
 
 .aboutHeaderText img {
-  display:block;
+  display: block;
   width: 40%;
 }
 
@@ -409,10 +407,9 @@ background-color: white;
 }
 
 .aboutInfo{
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
-
 }
 
 .aboutInfo h1 {
@@ -427,31 +424,30 @@ background-color: white;
 .aboutInfo .aboutBilde{
   /*width: 50vw;*/
   display: flex;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutInfo .aboutBilde img {
   width: 45vw;
   border-radius: 15px/15px;
-  display:block;
+  display: block;
   margin-left: 20px;
   margin-right: auto;
   margin-bottom: 5vw;
-
 }
 
 .aboutBigLogo{
   font-size: 1.85rem;
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 50vw;
 }
 
 .aboutBigLogo .contain {
-  text-align:left;
-  display:flex;
+  text-align: left;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -461,7 +457,7 @@ background-color: white;
 }
 
 .aboutBigLogo img {
-  display:block;
+  display: block;
   width: 40%;
 }
 
@@ -489,7 +485,7 @@ background-color: white;
 #about2 .person {
   display: block;
   margin: 2% 2.5% 0 2.5%;
-  text-align:center;
+  text-align: center;
   width: 20vw;
   background-color: white;
   border-radius: 15px/15px;
@@ -533,7 +529,7 @@ background-color: white;
 
 #about3 .aboutBigPictureInfo {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -574,7 +570,7 @@ background-color: white;
   max-height: 100vh;
   display: block;
   margin: 0 auto;
-  border-radius:15px/15px;
+  border-radius: 15px/15px;
 }
 
 .problemInfo{
@@ -632,15 +628,15 @@ background-color: white;
   height: 70vh;
   width: 95vw;
   margin: 0 auto;
-  background-attachment:fixed;
-  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
 }
 
 #problem3 #problemSeeThroughInfo{
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 50%;
@@ -692,7 +688,7 @@ background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   margin: auto;
   padding: 2%;
 }
@@ -722,15 +718,15 @@ background-color: white;
   display: flex;
   height: 80vh;
   width: 95vw;
-  background-attachment:fixed;
-  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px/15px;
 }
 
 #solutionBigPictureTextBox {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -756,6 +752,7 @@ background-color: white;
 }
 
 #privacy h1{
+  color: white;
 }
 
 .privacyItem {
@@ -787,6 +784,10 @@ background-color: white;
   margin: 0;
 }
 
+#sources h1{
+  color: white;
+}
+
 #sources .sourcesBox {
   background-color: white;
   padding: 2% 0;
@@ -811,7 +812,7 @@ background-color: white;
   list-style: none;
   color: black;
   font-family: 'Open Sans', sans-serif;
-  text-align:left;
+  text-align: left;
   padding: 0 2%;
 }
 
@@ -821,7 +822,7 @@ background-color: white;
 }
 
 #sources ul li a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 #sources .sourcesBox {
@@ -830,7 +831,7 @@ background-color: white;
 
 
 
-/*---------------------------------------------------------------------------------@Media*/
+/*---------------------------------------------------------------------------------Media*/
 /*---------------------------------------------------------------------------------Horizontal tablet*/
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------Header*/
