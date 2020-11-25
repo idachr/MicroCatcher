@@ -671,6 +671,7 @@ background-color: white;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
+  color: white;
 }
 
 .solutionInfo {
@@ -704,6 +705,7 @@ background-color: white;
   display: block;
   margin: 5% auto;
   border-radius: 15px/15px;
+  color: black;
 }
 
 #solutionBigPicture{
