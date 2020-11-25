@@ -113,23 +113,14 @@ header {
 
 .logo {
   float: left;
-  padding: 0;
-  width: 20vw;
-  margin-left: 10%;
+  padding: 1%;
+  width: 15vw;
 }
 
 /*.header::after {
   content: '';
   display: table;
   clear: both;
-}*/
-
-/*.container {
-  margin: 0 0 0 auto;
-  min-height: 10vh;
-  display: flex;
-  justify-content: right;
-  align-items:center;
 }*/
 
 
@@ -188,6 +179,7 @@ input[type=checkbox] {
 
 #menu, #close {
   display: none;
+  float: right;
 }
 
 
@@ -961,6 +953,59 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 768px) {
+  /*---------------------------------------------------------------------------------Header*/
+  nav {
+    display: none;
+  }
+
+  #menu {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ nav {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  #toggle:checked ~ nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #toggle:checked ~ nav li {
+    margin: 7%;
+  }
+
+  #toggle:checked ~ nav a {
+    padding: 5% 20%;
+  }
+
+  nav a::before {
+    margin-left: 30%;
+  }
+
+  nav a:hover::before{
+    width: 40%;
+  }
+
+
   /*---------------------------------------------------------------------------------Footer*/
   footer{
     display: flex;
@@ -1177,32 +1222,57 @@ background-color: white;
     font-size: 1.8rem;
   }
   /*---------------------------------------------------------------------------------Header*/
-  .header{
+  nav {
+    display: none;
+  }
+
+  #menu {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #toggle:checked ~ nav {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  #toggle:checked ~ nav ul {
     display: flex;
     flex-direction: column;
-    height: auto;
+    justify-content: center;
+    text-align: center;
   }
 
-  .container {
-    margin: auto;
-    height: 20vh;
+  #toggle:checked ~ nav li {
+    margin: 7%;
   }
 
-  .logo {
-    margin: 2% 0 0 0;
+  #toggle:checked ~ nav a {
+    padding: 5% 20%;
   }
 
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    text-align:center;
-    margin: 0;
+  nav a::before {
+    margin-left: 30%;
   }
 
-  nav ul li {
-    margin: 0;
-    padding: 2%;
+  nav a:hover::before{
+    width: 40%;
   }
+
   /*---------------------------------------------------------------------------------Footer*/
 
 

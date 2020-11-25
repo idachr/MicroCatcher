@@ -16,54 +16,5 @@ i h2 {
 
 @media only screen and (orientation: landscape) and (max-width: 896px) {
     /*---------------------------------------------------------------------------------Header*/
-    nav {
-        display: none;
-    }
 
-    #menu {
-        display: inline-flex;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    #toggle:checked ~ label #menu {
-        display: none;
-    }
-
-    #toggle:checked ~ label #close {
-        display: inline-flex;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
-    #toggle:checked ~ nav {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-    }
-
-    #toggle:checked ~ nav ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #toggle:checked ~ nav li {
-        margin: 7%;
-    }
-
-    #toggle:checked ~ nav a {
-        padding: 5% 20%;
-    }
-
-    nav a::before {
-        margin-left: 30%;
-    }
-
-    nav a:hover::before {
-        width: 40%;
-    }
 }
