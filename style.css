@@ -859,6 +859,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   nav {
     display: none;
+    background-color: #222222;
   }
 
   i h2 {
@@ -965,22 +966,35 @@ background-color: white;
 /*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------Header*/
+  header {
+    min-height: 0;
+    height: 10vh;
+  }
+
+  .logo {
+    width: 20%;
+    padding-top: 3%;
+  }
+
   nav {
     display: none;
+    background-color: #222222;
   }
 
   i h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    margin: 0;
   }
 
   .fas {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   #menu {
     display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 5%;
   }
 
   #toggle:checked ~ label #menu {
@@ -1255,6 +1269,7 @@ background-color: white;
 
   nav {
     display: none;
+    background-color: #222222;
   }
 
   i h2 {
