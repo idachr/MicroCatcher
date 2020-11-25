@@ -1009,7 +1009,7 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-/*  #about {
+/*#about {
     padding-top: 30%
   }
 
@@ -1225,18 +1225,15 @@ background-color: white;
     width: 80vw;
     display: grid;
     margin-left: auto;
-
   }
 
-.aboutBigLogo .contain {
-      width: auto;
+  .aboutBigLogo .contain {
+    width: auto;
   }
 
-.aboutBigLogo{
-  width: 85vw;
+  .aboutBigLogo{
+    width: 85vw;
   }
-
-
 
   #aboutTeam {
     flex-direction: column;
