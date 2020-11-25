@@ -360,6 +360,10 @@ background-color: #222222;
   background-color: #222222;
 }
 
+#about h1 {
+  color: white;
+}
+
 .aboutHeader{
   display:flex;
   flex-direction: row;
@@ -379,7 +383,6 @@ background-color: #222222;
   margin-left:auto;
   margin-right:auto;
   width: 45vw;
-
 }
 
 .aboutHeaderText .contain {
@@ -471,9 +474,10 @@ background-color: white;
   background-color: #222222;
 }
 
-#about2 h1 {
+#about2 h2 {
   text-align: center;
   padding: 5% 0 0 0;
+  color: white;
 }
 
 #aboutTeam {
@@ -510,7 +514,7 @@ background-color: white;
   padding: 5% 0;
 }
 
-#about3 h2{
+#about3 h3{
   color: white;
 }
 
@@ -562,13 +566,13 @@ background-color: white;
   display: block;
   margin: 0 auto;
   padding: 10% 0 5% 0;
-  width: 90vw;
+  width: 80vw;
 }
 
 .problemFront img{
   width: 100%;
   max-height: 100vh;
-  display:block;
+  display: block;
   margin: 0 auto;
   border-radius:15px/15px;
 }
@@ -580,8 +584,8 @@ background-color: white;
 }
 
 .problemInfo .problemInfoText h1{
-  color:black;
-  text-align:center;
+  color: black;
+  text-align: center;
 }
 
 .problemInfo .problemInfoBilde{
@@ -665,7 +669,8 @@ background-color: white;
 }
 
 #solution1 #solutionFront img {
-  width: 90vw;
+  width: 80vw;
+  height: 70vh;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
