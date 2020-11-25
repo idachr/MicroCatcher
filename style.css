@@ -977,35 +977,34 @@ background-color: white;
     display:flex;
     flex-direction: column;}
 
-    .indexInfo img {
-      width: 85vw;
-    }
+  .indexInfo img {
+    width: 85vw;
+  }
 
-    .indexBigLogo{
-      display: block;
-      margin-left:auto;
-      margin-right:auto;
-      width: 95vw;
+  .indexBigLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+  }
 
-    }
+  #index2 .indexBigPictureInfo{
+    width: 100%;
+  }
 
-    #index2 .indexBigPictureInfo{
-      width: 100%;
-    }
+  #index3 {
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
 
-    #index3 {
-      padding-top: 2%;
-      padding-bottom: 5%;
-    }
+  #index2 .indexBigPictureInfo2 {
+    width: 0;
+  }
 
-    #index2 .indexBigPictureInfo2 {
-      width: 0;
-    }
-
-    #index3 .indexInfo img {
-      margin-bottom: 2%;
-      width: 50vw;
-    }
+  #index3 .indexInfo img {
+    margin-bottom: 2%;
+    width: 50vw;
+  }
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
