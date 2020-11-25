@@ -1264,7 +1264,7 @@ background-color: white;
     width: auto;
   }
   .aboutInfo .aboutBilde{
-    max-width: auto;
+    width: auto;
     display: block;
   }
 
