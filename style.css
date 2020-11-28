@@ -82,16 +82,17 @@ i {
 header {
   background-color: #222222;
   width: 100vw;
-  min-height: 72.66px;
+  height: 80px;
   position: fixed;
   display: flex;
+  align-items: center;
 }
 
 /*Skip to content button*/
 /*Ryan, P, 2020*/
 #skip {
   position: absolute;
-  left: -50%;
+  left: -100%;
   padding: 1%;
   background: #60c8cc;
   color: black;
@@ -114,16 +115,15 @@ header .logo {
 }
 
 nav {
-  padding: 1%;
-
+  width: 70vw;
+  padding-left: 10%;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 nav li {
@@ -158,6 +158,28 @@ nav a:hover::before{
 }
 
 /*Hamburger menu*/
+i h2 {
+  color: white;
+  margin: 0;
+}
+
+.fas{
+  font-size: 2rem;
+  color: white;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#menu, #close {
+  display: none;
+  float: right;
+  padding: 0;
+}
 
 
 
@@ -815,18 +837,18 @@ background-color: white;
 
 #sources ul li a {
   color: black;
+  text-decoration: underline black;
   font-family: 'Open sans', sans-serif;
   word-break: break-word;
 }
 
 #sources ul li a:hover {
-  text-decoration: underline;
+  text-decoration: underline #60c8cc;
 }
 
 #sources .sourcesBox {
   margin: 2% auto;
 }
-
 
 
 /*---------------------------------------------------------------------------------Media*/
@@ -1161,29 +1183,10 @@ background-color: white;
     font-size: 1.8rem;
   }
 
-  #aboutTeam .personGruppe1 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .person {
-    width: 40vw;
-    margin: 5% auto;
-  }
-
-  #aboutTeam .personGruppe2 {
-    flex-direction:column;
-  }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%;
-  }
-
 
   /*---------------------------------------------------------------------------------Header*/
-
-
-  #skip {
-    left: -60%;
+  header {
+    height: 50px;
   }
 
   .logo {
@@ -1191,7 +1194,61 @@ background-color: white;
     padding-top: 2%;
   }
 
+  nav {
+    display: none;
+    background-color: #222222;
+    padding: 0;
+  }
 
+  input[type=checkbox] {
+    display: block;
+    opacity: 0;
+  }
+
+  #menu {
+    display: inline-flex;
+  }
+
+  #toggle:focus ~ label #menu {
+    outline: solid #60c8cc;
+  }
+
+  #toggle:focus ~ label #close {
+    outline: solid #60c8cc;
+  }
+
+  #toggle:checked ~ label #menu {
+    display: none;
+  }
+
+  #toggle:checked ~ label #close {
+    display: inline-flex;
+  }
+
+  #toggle:checked ~ nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 49px;
+    display: block;
+  }
+
+  #toggle:checked ~ nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  #toggle:checked ~ nav li {
+    margin: 10%;
+  }
+
+  #toggle:checked ~ nav a {
+    padding: 5% 20%;
+  }
 
 
   /*---------------------------------------------------------------------------------Footer*/
@@ -1237,38 +1294,15 @@ background-color: white;
     width: 85vw;
     margin: 5% auto;
   }
+
   #aboutTeam .person img {
     width: 40vw;
   }
-
 
   #aboutTeam {
     flex-direction: column;
     width: 100%;
   }
-
-  /*#aboutTeam {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  #about2 h2 {
-    color: white;
-    text-align: center;
-  }
-
-  #about2 .person {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 90vw;
-    height: 75vh;
-  }
-
-  #about2 .person img {
-    width: 60vw;
-  }*/
 
   #about3 .aboutBigPictureInfo {
     width: 100%;
