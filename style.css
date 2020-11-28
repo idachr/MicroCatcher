@@ -670,7 +670,7 @@ background-color: white;
 }
 
 .solutionInfo .solutionText{
-  width: 50vw;
+  width: 60vw;
   color: black;
   display: flex;
   flex-direction: column;
@@ -681,7 +681,7 @@ background-color: white;
 }
 
 .solutionInfo #solutionImages{
-  width: 50vw;
+  width: 40vw;
 }
 
 .solutionInfo #solutionImages img {
