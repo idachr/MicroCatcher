@@ -885,12 +885,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-<<<<<<< HEAD
-    height: 11vh;
-=======
     height: 15vh;
-    background-color: #222222;
->>>>>>> c75176c6cf309e1f7572646317b7feb825c1483c
   }
 
   input[type=checkbox] {
@@ -1031,11 +1026,6 @@ background-color: white;
 /*---------------------------------------------------------------------------------Vertical tablet*/
 
 @media only screen and (max-width: 769px) {
-<<<<<<< HEAD
-=======
-@media only screen and (max-width: 768px) {
-=======
->>>>>>> c75176c6cf309e1f7572646317b7feb825c1483c
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1179,15 +1169,8 @@ background-color: white;
 }
 
   /*---------------------------------------------------------------------------------Problem*/
-  #problem1 {
-<<<<<<< Updated upstream
-    padding-top: 25%
-=======
-    padding-top: 14%
-  }
   .problemFront{
     padding: 0 0 2% 0;
->>>>>>> Stashed changes
   }
 
   .problemInfo {
@@ -1274,13 +1257,6 @@ background-color: white;
     padding: 21% 2% 5%;
   }
 
-<<<<<<< HEAD
-=======
-
-
-  /*---------------------------------------------------------------------------------Sources*/
->>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
-
   /*---------------------------------------------------------------------------------Sources*/
 }
 
@@ -1344,11 +1320,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-<<<<<<< HEAD
     height: 11vw;
-=======
-    height: 8vh;
->>>>>>> c75176c6cf309e1f7572646317b7feb825c1483c
   }
 
   #skip {
