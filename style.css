@@ -590,6 +590,7 @@ background-color: white;
 
 .problemInfo .problemInfoText {
   width: 50vw;
+  padding-left: 5%;
 }
 
 .problemInfo .problemInfoText p{
@@ -677,7 +678,7 @@ background-color: white;
 }
 
 .solutionInfo .solutionText{
-  width: 50vw;
+  width: 60vw;
   color: black;
   display: flex;
   flex-direction: column;
@@ -688,7 +689,7 @@ background-color: white;
 }
 
 .solutionInfo #solutionImages{
-  width: 50vw;
+  width: 40vw;
 }
 
 .solutionInfo #solutionImages img {
@@ -898,6 +899,9 @@ background-color: white;
   #problem1 {
     padding-top: 15%;
   }
+  .problemInfo .problemInfoText {
+    padding-left: 0;
+  }
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 {
@@ -1059,6 +1063,7 @@ background-color: white;
 
   .problemInfo .problemInfoText {
     width: 95vw;
+    padding-left: 0;
   }
 
   #problemInfo .problemInfoText {
