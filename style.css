@@ -85,7 +85,8 @@ header {
   min-height: 72.66px;
   position: fixed;
   top: 0;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*Skip to content button*/
@@ -109,13 +110,6 @@ header {
   padding: 1%;
   width: 15vw;
 }
-
-/*.header::after {
-  content: '';
-  display: table;
-  clear: both;
-}*/
-
 
 /*Navigation bar*/
 #chosen {
@@ -233,12 +227,12 @@ footer li {
 
 footer .footerInfo ul li a {
   color: #aaaaaa;
-  text-decoration: none;
+  text-decoration: underline;
   padding: 5%;
 }
 
 .footerInfo a:hover {
-  text-decoration: underline;
+  text-decoration: underline white;
 }
 
 
@@ -347,7 +341,7 @@ background-color: #222222;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35vw;
+  width: 30vw;
 }
 
 
@@ -1135,7 +1129,7 @@ background-color: white;
   }
 
   .contain {
-    padding: 2%
+    padding: 2%;
   }
 
   .indexInfo{
