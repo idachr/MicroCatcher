@@ -686,12 +686,14 @@ background-color: white;
   padding: 2%;
 }
 
-.solutionInfo .solutionImage{
+.solutionInfo #solutionImages{
   width: 50vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.solutionInfo .solutionImage img {
-  width: 45vw;
+.solutionInfo #solutionImages img {
+  height: 70vh;
   max-height: 100vh;
   display: block;
   margin: 5% auto;
