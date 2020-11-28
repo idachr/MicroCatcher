@@ -333,7 +333,7 @@ background-color: #222222;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30vw;
+  width: 35vw;
 }
 
 
@@ -985,7 +985,7 @@ background-color: white;
     width: 85vw;
   }
 
-  .indexBigLogo{
+  #index2 .indexBigLogo{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1007,7 +1007,12 @@ background-color: white;
 
   #index3 .indexInfo img {
     margin-bottom: 2%;
-    width: 50vw;
+    width: 60vw;
+  }
+
+  #index3 .indexInfo .indexBigLogo {
+    margin: 0;
+    width: 100%;
   }
 
   /*---------------------------------------------------------------------------------AboutUs*/
@@ -1261,6 +1266,9 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Index*/
+
+
+
   /*---------------------------------------------------------------------------------AboutUs*/
   .contain h1{
     font-size: 25px;
@@ -1297,7 +1305,7 @@ background-color: white;
   }
 
   #aboutTeam .person {
-    width: 85vw;
+    width: 75vw;
     margin: 5% auto;
   }
 
