@@ -586,6 +586,7 @@ background-color: white;
 
 .problemInfo .problemInfoText {
   width: 50vw;
+  padding-left: 5%;
 }
 
 .problemInfo .problemInfoText p{
