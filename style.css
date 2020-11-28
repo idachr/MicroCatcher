@@ -566,6 +566,11 @@ background-color: white;
 }
 
 /*---------------------------------------------------------------------------------Problem*/
+#bodyProblem{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 #problem1 {
   width: 100%;
   background-color: #222222;
@@ -689,6 +694,8 @@ background-color: white;
 .solutionInfo {
   display: flex;
   flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .solutionInfo .solutionText h1, h2 {
@@ -712,7 +719,7 @@ background-color: white;
 }
 
 .solutionInfo #solutionImages img {
-  width: 45vw;
+  width: 35vw;
   display: block;
   margin: 5% auto;
   border-radius: 15px/15px;
