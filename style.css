@@ -1025,12 +1025,7 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-<<<<<<< HEAD
-
 @media only screen and (max-width: 769px) {
-=======
-@media only screen and (max-width: 768px) {
->>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1168,8 +1163,6 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------AboutUs*/
-<<<<<<< HEAD
-=======
 
   .aboutBigPictureInfo {
     width: 10%;
@@ -1180,7 +1173,6 @@ background-color: white;
   }
 
 
->>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Problem*/
   #problem1 {
     padding-top: 25%
@@ -1270,18 +1262,12 @@ background-color: white;
     padding: 21% 2% 5%;
   }
 
-<<<<<<< HEAD
-=======
-
-
-  /*---------------------------------------------------------------------------------Sources*/
->>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
 
   /*---------------------------------------------------------------------------------Sources*/
 }
 
-@media only screen and (max-width: 670px) and (orientation: portrait){
 
+@media only screen and (max-width: 670px) and (orientation: portrait){
 /*---------------------------------------------------------------------------------AboutUs*/
 #aboutTeam .personGruppe1 {
   flex-direction:column;
