@@ -474,11 +474,27 @@ background-color: white;
   align-items: baseline;
 }
 
+#aboutTeam .personGruppe1 {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin-left:2%;
+  margin-right: 0;
+}
+
+#aboutTeam .personGruppe2 {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin-left:0;
+  margin-right: 2%;
+}
+
 #about2 .person {
   display: block;
   margin: 2% 2.5% 0 2.5%;
   text-align: center;
-  width: 20vw;
+  width: 22vw;
   background-color: white;
   border-radius: 15px/15px;
   height: 90vh;
@@ -963,6 +979,19 @@ background-color: white;
     padding-top: 25%;
   }
 
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 40vw;
+    margin: 5% auto;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
   /*---------------------------------------------------------------------------------Problem*/
 
   #problem1 {
@@ -996,7 +1025,7 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-@media only screen and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1133,71 +1162,14 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-    /*#about {
-        padding-top: 30%
-      }
 
-      .contain h1{
-        font-size: 25px;
-      }
-
-      .aboutInfo{
-        flex-direction: column;
-        width: 40vw;
-        align-content: center;
-      }
-
-      .aboutInfo .aboutImage{
-        max-width: 50vw;
-        display: block;
-        align-items: center;
-      }
-
-      .aboutInfo .aboutImage img {
-        width: 80vw;
-        /*display: grid;
-      }*/
-
-  /*.aboutBigLogo .contain {
-    width: auto;
-  }
-
-  .aboutBigLogo{
-   width: 85vw;
-  }
-
-  #about2{
-    width: 100vw;
-  }
-
-  #aboutTeam {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  #about2 h2 {
-    color: white;
-    text-align: center;
-  }
-
-  #about2 .person {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    width: 40vw;
-  }
-
-  #about2 .person img {
-    width: 60%;
-    }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%
+  .aboutBigPictureInfo {
+    width: 10%;
   }
 
   #about3 .aboutBigPictureInfo2 {
     width: 0;
-  }*/
+  }
 
 
   /*---------------------------------------------------------------------------------Problem*/
@@ -1292,6 +1264,35 @@ background-color: white;
 
 }
 
+@media only screen and (max-width: 670px) and (orientation: portrait){
+
+/*---------------------------------------------------------------------------------AboutUs*/
+#aboutTeam .personGruppe1 {
+  flex-direction:column;
+}
+
+#aboutTeam .personGruppe2 {
+  flex-direction:column;
+}
+
+#aboutTeam .person {
+  width: 85vw;
+  margin: 5% auto;
+}
+#aboutTeam .person img {
+  width: 40vw;
+}
+
+
+#aboutTeam {
+  flex-direction: column;
+}
+
+#about3 .aboutBigPictureInfo {
+  width: 100%;
+}
+}
+
 /*---------------------------------------------------------------------------------Vertical mobile*/
 @media only screen and (max-width: 414px) and (orientation: portrait) {
   h1 {
@@ -1301,6 +1302,25 @@ background-color: white;
   h2 {
     font-size: 1.8rem;
   }
+
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 40vw;
+    margin: 5% auto;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
+  }
+
+
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1421,7 +1441,29 @@ background-color: white;
     width: 85vw;
   }
 
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 85vw;
+    margin: 5% auto;
+  }
+  #aboutTeam .person img {
+    width: 40vw;
+  }
+
+
   #aboutTeam {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /*#aboutTeam {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -1442,7 +1484,7 @@ background-color: white;
 
   #about2 .person img {
     width: 60vw;
-  }
+  }*/
 
   #about3 .aboutBigPictureInfo {
     width: 100%;
