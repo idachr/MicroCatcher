@@ -84,7 +84,6 @@ header {
   width: 100vw;
   min-height: 72.66px;
   position: fixed;
-  top: 2px;
   display: flex;
 }
 
