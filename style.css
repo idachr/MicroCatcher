@@ -85,7 +85,8 @@ header {
   min-height: 15vh;
   position: fixed;
   top: 0;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*Skip to content button*/
@@ -109,13 +110,6 @@ header {
   padding: 1%;
   width: 15vw;
 }
-
-/*.header::after {
-  content: '';
-  display: table;
-  clear: both;
-}*/
-
 
 /*Navigation bar*/
 #chosen {
