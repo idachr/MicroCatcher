@@ -1134,6 +1134,10 @@ background-color: white;
     padding-top: 25%
   }
 
+  .contain {
+    padding: 2%
+  }
+
   .indexInfo{
     display: flex;
     flex-direction: column;
