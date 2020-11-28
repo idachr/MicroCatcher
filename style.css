@@ -474,11 +474,27 @@ background-color: white;
   align-items: baseline;
 }
 
+#aboutTeam .personGruppe1 {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin-left:2%;
+  margin-right: 0;
+}
+
+#aboutTeam .personGruppe2 {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin-left:0;
+  margin-right: 2%;
+}
+
 #about2 .person {
   display: block;
   margin: 2% 2.5% 0 2.5%;
   text-align: center;
-  width: 20vw;
+  width: 22vw;
   background-color: white;
   border-radius: 15px/15px;
   height: 90vh;
@@ -857,7 +873,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
-    padding: 15% 10%;
+    padding: 15% 2%;
   }
 
   /*---------------------------------------------------------------------------------Sources*/
@@ -962,6 +978,19 @@ background-color: white;
     padding-top: 25%;
   }
 
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 40vw;
+    margin: 5% auto;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
   /*---------------------------------------------------------------------------------Problem*/
 
   #problem1 {
@@ -996,8 +1025,12 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
+<<<<<<< HEAD
 
 @media only screen and (max-width: 769px) {
+=======
+@media only screen and (max-width: 768px) {
+>>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1135,6 +1168,19 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------AboutUs*/
+<<<<<<< HEAD
+=======
+
+  .aboutBigPictureInfo {
+    width: 10%;
+  }
+
+  #about3 .aboutBigPictureInfo2 {
+    width: 0;
+  }
+
+
+>>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Problem*/
   #problem1 {
     padding-top: 25%
@@ -1221,11 +1267,46 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
-    padding: 10% 10%;
+    padding: 21% 2% 5%;
   }
+
+<<<<<<< HEAD
+=======
 
 
   /*---------------------------------------------------------------------------------Sources*/
+>>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
+
+  /*---------------------------------------------------------------------------------Sources*/
+}
+
+@media only screen and (max-width: 670px) and (orientation: portrait){
+
+/*---------------------------------------------------------------------------------AboutUs*/
+#aboutTeam .personGruppe1 {
+  flex-direction:column;
+}
+
+#aboutTeam .personGruppe2 {
+  flex-direction:column;
+}
+
+#aboutTeam .person {
+  width: 85vw;
+  margin: 5% auto;
+}
+#aboutTeam .person img {
+  width: 40vw;
+}
+
+
+#aboutTeam {
+  flex-direction: column;
+}
+
+#about3 .aboutBigPictureInfo {
+  width: 100%;
+}
 }
 
 /*---------------------------------------------------------------------------------Vertical mobile*/
@@ -1237,6 +1318,25 @@ background-color: white;
   h2 {
     font-size: 1.8rem;
   }
+
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 40vw;
+    margin: 5% auto;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
+  }
+
+
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1361,7 +1461,29 @@ background-color: white;
     width: 85vw;
   }
 
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 85vw;
+    margin: 5% auto;
+  }
+  #aboutTeam .person img {
+    width: 40vw;
+  }
+
+
   #aboutTeam {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /*#aboutTeam {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -1382,7 +1504,7 @@ background-color: white;
 
   #about2 .person img {
     width: 60vw;
-  }
+  }*/
 
   #about3 .aboutBigPictureInfo {
     width: 100%;
@@ -1416,7 +1538,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
-    padding: 10% 1%;
+    padding: 15% 3%;
   }
 
   /*---------------------------------------------------------------------------------Sources*/
