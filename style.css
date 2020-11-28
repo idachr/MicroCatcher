@@ -756,7 +756,7 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Privacy*/
 #privacy {
-  padding: 10% 20% 10% 20%;
+  padding: 10% 20%;
   background-color: #222222;
 }
 
@@ -789,7 +789,7 @@ background-color: white;
 #sources {
   text-align: center;
   background-color: #222222;
-  padding: 10% 0 10% 0;
+  padding: 10% 0;
   margin: 0;
 }
 
@@ -872,9 +872,6 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Privacy*/
-  #privacy {
-    padding: 15% 2%;
-  }
 
   /*---------------------------------------------------------------------------------Sources*/
 
@@ -1024,7 +1021,6 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-
 @media only screen and (max-width: 769px) {
   /*---------------------------------------------------------------------------------Header*/
   header {
@@ -1163,6 +1159,13 @@ background-color: white;
   }
 
   /*---------------------------------------------------------------------------------AboutUs*/
+  .aboutHeader {
+    flex-direction: column;
+  }
+
+  .aboutHeader img {
+    width: 90vw;
+  }
 
 #about3 .aboutBigPictureInfo {
   width: 100%;
@@ -1213,10 +1216,6 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution1 {
-    padding-top: 25%;
-  }
-
   #solution1 #solutionFront img {
     height: 40vh;
   }
@@ -1226,7 +1225,6 @@ background-color: white;
   }
 
   .solutionInfo .solutionText {
-    margin: 0 7vw 0 5vw;
     width: 87vw;
     text-align: left;
   }
@@ -1253,40 +1251,36 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Privacy*/
-  #privacy {
-    padding: 21% 2% 5%;
-  }
 
   /*---------------------------------------------------------------------------------Sources*/
 }
 
 @media only screen and (max-width: 670px) and (orientation: portrait){
+  /*---------------------------------------------------------------------------------AboutUs*/
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
 
-/*---------------------------------------------------------------------------------AboutUs*/
-#aboutTeam .personGruppe1 {
-  flex-direction:column;
-}
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
 
-#aboutTeam .personGruppe2 {
-  flex-direction:column;
-}
-
-#aboutTeam .person {
-  width: 85vw;
-  margin: 5% auto;
-}
-#aboutTeam .person img {
-  width: 40vw;
-}
+  #aboutTeam .person {
+    width: 85vw;
+    margin: 5% auto;
+  }
+  #aboutTeam .person img {
+    width: 40vw;
+  }
 
 
-#aboutTeam {
-  flex-direction: column;
-}
+  #aboutTeam {
+    flex-direction: column;
+  }
 
-#about3 .aboutBigPictureInfo {
-  width: 100%;
-}
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
+  }
 }
 
 /*---------------------------------------------------------------------------------Vertical mobile*/
