@@ -874,7 +874,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-    height: 10%;
+    height: 11vh;
   }
 
   input[type=checkbox] {
@@ -1013,12 +1013,10 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-<<<<<<< HEAD
 
 @media only screen and (max-width: 769px) {
 =======
 @media only screen and (max-width: 768px) {
->>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Header*/
   header {
     height: 17.5vh;
@@ -1161,7 +1159,14 @@ background-color: white;
 >>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Problem*/
   #problem1 {
+<<<<<<< Updated upstream
     padding-top: 25%
+=======
+    padding-top: 14%
+  }
+  .problemFront{
+    padding: 0 0 2% 0;
+>>>>>>> Stashed changes
   }
 
   .problemInfo {
@@ -1317,6 +1322,8 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Header*/
   header {
+    min-height: 0;
+    height: 11vw;
   }
 
   #skip {
