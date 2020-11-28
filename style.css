@@ -988,6 +988,10 @@ background-color: white;
     margin: 5% auto;
   }
 
+  #aboutTeam .person img {
+    width: 25vw;
+  }
+
   #aboutTeam .personGruppe2 {
     flex-direction:column;
   }
@@ -1026,7 +1030,7 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1117,22 +1121,20 @@ background-color: white;
     width: 60%;
   }
 
-
   /*---------------------------------------------------------------------------------Footer*/
   footer{
     display: flex;
     flex-direction: column;
   }
-
   /*---------------------------------------------------------------------------------Index*/
+
   #index {
     padding-top: 25%
   }
 
   .indexInfo{
     display: flex;
-    flex-direction: column;
-  }
+    flex-direction: column;}
 
   .indexInfo img {
     width: 85vw;
@@ -1163,10 +1165,45 @@ background-color: white;
     width: 50vw;
   }
 
+
   /*---------------------------------------------------------------------------------AboutUs*/
 
-  .aboutBigPictureInfo {
-    width: 10%;
+  .aboutHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aboutHeader img {
+    width: 85vw;
+    margin-top: 2%;
+  }
+
+  .aboutInfo{
+    flex-direction: column;
+    width: auto;
+  }
+  .aboutInfo .aboutImage{
+    width: auto;
+    display: block;
+  }
+
+  .aboutInfo .aboutImage img {
+    width: 85vw;
+    display: grid;
+    margin-left: auto;
+  }
+
+  .aboutBigLogo .contain {
+    width: auto;
+  }
+
+  .aboutBigLogo{
+    width: 85vw;
+  }
+
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
   }
 
   #about3 .aboutBigPictureInfo2 {
@@ -1175,10 +1212,13 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Problem*/
+
   #problem1 {
     padding-top: 25%
   }
-
+  .problemFront{
+    padding: 0% 0px 2% 0px;
+  }
   .problemInfo {
     flex-direction: column;
     width: 100%;
@@ -1192,7 +1232,6 @@ background-color: white;
   .problemInfo .problemInfoBilde {
     width: 100vw;
   }
-
   .problemInfo .problemInfoBilde img {
     width: 69vw;
   }
@@ -1213,14 +1252,14 @@ background-color: white;
     width: 0;
   }
 
-  #problem3 #problemSeeThroughPicture {
-    height: 40vh;
+#problem3 #problemSeeThroughPicture {
+   height: 40vh;
   }
 
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution1 {
-    padding-top: 25%;
+  #solution1{
+    padding-top: 25%
   }
 
   #solution1 #solutionFront img {
@@ -1257,18 +1296,19 @@ background-color: white;
     width: 0;
   }
 
-
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
     padding: 21% 2% 5%;
   }
 
 
+
   /*---------------------------------------------------------------------------------Sources*/
+
 }
 
-
 @media only screen and (max-width: 670px) and (orientation: portrait){
+
 /*---------------------------------------------------------------------------------AboutUs*/
 #aboutTeam .personGruppe1 {
   flex-direction:column;
@@ -1304,23 +1344,6 @@ background-color: white;
 
   h2 {
     font-size: 1.8rem;
-  }
-
-  #aboutTeam .personGruppe1 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .person {
-    width: 40vw;
-    margin: 5% auto;
-  }
-
-  #aboutTeam .personGruppe2 {
-    flex-direction:column;
-  }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%;
   }
 
 
@@ -1460,9 +1483,11 @@ background-color: white;
     width: 85vw;
     margin: 5% auto;
   }
+
   #aboutTeam .person img {
-    width: 40vw;
+    width: 50vw;
   }
+
 
 
   #aboutTeam {
