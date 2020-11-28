@@ -33,13 +33,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\.idea" />
       <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\image\Boss" />
       <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder\JONAAAS" />
       <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder\Boss" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marie\Documents\GitHub\MicroCatcher\bilder" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +56,7 @@
       <workItem from="1605630211332" duration="2003000" />
       <workItem from="1605990587146" duration="17355000" />
       <workItem from="1606057489803" duration="6129000" />
-      <workItem from="1606411588756" duration="20055000" />
+      <workItem from="1606411588756" duration="20369000" />
     </task>
     <servers />
   </component>

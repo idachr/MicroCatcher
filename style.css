@@ -232,12 +232,12 @@ footer li {
 
 footer .footerInfo ul li a {
   color: #aaaaaa;
-  text-decoration: none;
+  text-decoration: underline;
   padding: 5%;
 }
 
 .footerInfo a:hover {
-  text-decoration: underline;
+  text-decoration: underline white;
 }
 
 
