@@ -377,6 +377,10 @@ background-color: white;
   width: 100%;
 }
 
+.aboutInfo p {
+  text-align: justify;
+}
+
 .aboutInfo h1 {
   color: black;
 }
@@ -584,7 +588,7 @@ background-color: white;
 }
 
 .problemInfo .problemInfoText p{
-  text-align: left;
+  text-align: justify;
   margin: 20px;
 }
 .problemInfo .problemInfoText .problemInfoTextBox {
@@ -658,7 +662,11 @@ background-color: white;
 
 .solutionInfo .solutionText h1, h2 {
   color: black;
-  text-align: left;
+  text-align: center;
+}
+
+.solutionInfo .solutionText p {
+  text-align: justify;
 }
 
 .solutionInfo .solutionText{
