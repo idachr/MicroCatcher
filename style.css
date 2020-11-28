@@ -82,7 +82,7 @@ i {
 header {
   background-color: #222222;
   width: 100vw;
-  min-height: 15vh;
+  min-height: 72.66px;
   position: fixed;
   top: 0;
   align-items: center;
@@ -125,6 +125,7 @@ header {
 nav {
   float: right;
   padding-right: 7vw;
+  padding: 1%;
 }
 
 nav ul {
@@ -679,7 +680,6 @@ background-color: white;
 
 #solution1 #solutionFront img {
   width: 80vw;
-  height: 70vh;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
@@ -1183,14 +1183,36 @@ background-color: white;
 
   #about1 .aboutInfo {
     flex-direction: column;
+    width: 100%;
 
   }
+
+  #about1 .aboutInfo .aboutBigLogo{
+    width: 100%;
+  }
+
+  #about1 .aboutInfo .aboutBigLogo .contain{
+    width: 85vw;
+  }
+
+  #about1 .aboutInfo .aboutImage {
+    width: 100%;
+
+  }
+
+  #about1 .aboutInfo .aboutImage img {
+    width: 85vw;
+    display: block;
+    margin: auto;
+  }
+
 
   #aboutTeam .personGruppe1 {
     flex-direction:column;
   }
 
   #aboutTeam .person {
+    height: 85vh;
     width: 40vw;
     margin: 5% auto;
   }
