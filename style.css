@@ -996,7 +996,8 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+@media only screen and (max-width: 769px) {
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
@@ -1087,20 +1088,22 @@ background-color: white;
     width: 60%;
   }
 
+
   /*---------------------------------------------------------------------------------Footer*/
   footer{
     display: flex;
     flex-direction: column;
   }
-  /*---------------------------------------------------------------------------------Index*/
 
+  /*---------------------------------------------------------------------------------Index*/
   #index {
     padding-top: 25%
   }
 
   .indexInfo{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  }
 
   .indexInfo img {
     width: 85vw;
@@ -1131,83 +1134,12 @@ background-color: white;
     width: 50vw;
   }
 
-
   /*---------------------------------------------------------------------------------AboutUs*/
-    /*#about {
-        padding-top: 30%
-      }
-
-      .contain h1{
-        font-size: 25px;
-      }
-
-      .aboutInfo{
-        flex-direction: column;
-        width: 40vw;
-        align-content: center;
-      }
-
-      .aboutInfo .aboutImage{
-        max-width: 50vw;
-        display: block;
-        align-items: center;
-      }
-
-      .aboutInfo .aboutImage img {
-        width: 80vw;
-        /*display: grid;
-      }*/
-
-  /*.aboutBigLogo .contain {
-    width: auto;
-  }
-
-  .aboutBigLogo{
-   width: 85vw;
-  }
-
-  #about2{
-    width: 100vw;
-  }
-
-  #aboutTeam {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  #about2 h2 {
-    color: white;
-    text-align: center;
-  }
-
-  #about2 .person {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    width: 40vw;
-  }
-
-  #about2 .person img {
-    width: 60%;
-    }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%
-  }
-
-  #about3 .aboutBigPictureInfo2 {
-    width: 0;
-  }*/
-
-
   /*---------------------------------------------------------------------------------Problem*/
-
   #problem1 {
     padding-top: 25%
   }
-  .problemFront{
-    padding: 0% 0px 2% 0px;
-  }
+
   .problemInfo {
     flex-direction: column;
     width: 100%;
@@ -1221,6 +1153,7 @@ background-color: white;
   .problemInfo .problemInfoBilde {
     width: 100vw;
   }
+
   .problemInfo .problemInfoBilde img {
     width: 69vw;
   }
@@ -1241,14 +1174,14 @@ background-color: white;
     width: 0;
   }
 
-#problem3 #problemSeeThroughPicture {
-   height: 40vh;
+  #problem3 #problemSeeThroughPicture {
+    height: 40vh;
   }
 
 
   /*---------------------------------------------------------------------------------Solution*/
-  #solution1{
-    padding-top: 25%
+  #solution1 {
+    padding-top: 25%;
   }
 
   #solution1 #solutionFront img {
@@ -1285,13 +1218,14 @@ background-color: white;
     width: 0;
   }
 
+
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
     padding: 10% 10%;
   }
 
-  /*---------------------------------------------------------------------------------Sources*/
 
+  /*---------------------------------------------------------------------------------Sources*/
 }
 
 /*---------------------------------------------------------------------------------Vertical mobile*/
