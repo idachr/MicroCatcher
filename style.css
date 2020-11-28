@@ -82,10 +82,9 @@ i {
 header {
   background-color: #222222;
   width: 100vw;
-  min-height: 15vh;
+  min-height: 72.66px;
   position: fixed;
-  top: 0;
-  align-items: center;
+  display: flex;
 }
 
 /*Skip to content button*/
@@ -104,18 +103,10 @@ header {
   left: 0;
 }
 
-.logo {
-  float: left;
+header .logo {
   padding: 1%;
   width: 15vw;
 }
-
-/*.header::after {
-  content: '';
-  display: table;
-  clear: both;
-}*/
-
 
 /*Navigation bar*/
 #chosen {
@@ -123,17 +114,16 @@ header {
 }
 
 nav {
-  float: right;
-  padding-right: 7vw;
+  padding: 1%;
+
 }
 
 nav ul {
   list-style: none;
-  width: 50vw;
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
 nav li {
@@ -145,6 +135,7 @@ nav a {
   color: white;
   font-size: 1.5rem;
   white-space: nowrap;
+  width:auto;
 }
 
 nav a:hover {
@@ -167,32 +158,7 @@ nav a:hover::before{
 }
 
 /*Hamburger menu*/
-i h2 {
-  color: white;
-  margin: 0;
-}
 
-.fas{
-  font-size: 2rem;
-  color: white;
-  display: inline-flex;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-
-input[type=checkbox] {
-  display: none;
-}
-
-#menu, #close {
-  display: none;
-  float: right;
-  padding: 0;
-}
-
-#toggle {
-  height: 0;
-}
 
 
 /*---------------------------------------------------------------------------------Footer*/
@@ -684,7 +650,6 @@ background-color: white;
 
 #solution1 #solutionFront img {
   width: 80vw;
-  height: 70vh;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
@@ -859,10 +824,7 @@ background-color: white;
 /*---------------------------------------------------------------------------------Horizontal tablet*/
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------Header*/
-  header {
-    min-height: 0;
-    height: 10vh;
-  }
+
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -893,88 +855,7 @@ background-color: white;
 /*---------------------------------------------------------------------------------Horizontal mobile*/
 @media only screen and (max-width: 896px)  and (orientation: landscape) {
   /*---------------------------------------------------------------------------------Header*/
-  header {
-    min-height: 0;
-    height: 15vh;
-  }
 
-  input[type=checkbox] {
-    display: block;
-    opacity: 0;
-  }
-
-  nav {
-    padding-top: 20%;
-    display: none;
-    background-color: #222222;
-  }
-
-  i h2 {
-    font-size: 1.2rem;
-  }
-
-  .fas {
-    font-size: 1.2rem;
-  }
-
-  #menu {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 2%;
-  }
-
-  #toggle:focus ~ label #menu {
-    outline: solid #60c8cc;
-  }
-
-  #toggle:checked ~ label #menu {
-    display: none;
-  }
-
-  #toggle:focus ~ label #close {
-    outline: solid #60c8cc;
-  }
-
-  #toggle:checked ~ label #close {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 2%;
-  }
-
-  #toggle:checked ~ nav {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding: 0;
-  }
-
-  #toggle:checked ~ nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  #toggle:checked ~ nav li {
-    margin: 5%;
-  }
-
-  #toggle:checked ~ nav a {
-    padding: 5% 20%;
-  }
-  nav a::before {
-    margin-left: 30%;
-  }
-
-  nav a:hover::before{
-    width: 40%;
-  }
 
   /*---------------------------------------------------------------------------------Index*/
   #index {
@@ -1040,94 +921,7 @@ background-color: white;
 /*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 769px) {
   /*---------------------------------------------------------------------------------Header*/
-  header {
-    min-height: 0;
-    height: 17vh;
-  }
 
-  .logo {
-    width: 20%;
-    padding-top: 3%;
-  }
-
-  nav {
-    display: none;
-    background-color: #222222;
-  }
-
-  input[type=checkbox] {
-    display: block;
-    opacity: 0;
-  }
-
-  i h2 {
-    font-size: 2rem;
-    margin: 0;
-  }
-
-  .fas {
-    font-size: 2rem;
-  }
-
-  #menu {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 5%;
-  }
-
-  #toggle:focus ~ label #menu {
-    outline: solid #60c8cc;
-  }
-
-  #toggle:focus ~ label #close {
-    outline: solid #60c8cc;
-  }
-
-  #toggle:checked ~ label #menu {
-    display: none;
-  }
-
-  #toggle:checked ~ label #close {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 5%;
-  }
-
-  #toggle:checked ~ nav {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding: 0;
-  }
-
-  #toggle:checked ~ nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  #toggle:checked ~ nav li {
-    margin: 15%;
-  }
-
-  #toggle:checked ~ nav a {
-    padding: 10% 20%;
-  }
-
-  nav a::before {
-    margin-left: 20%;
-  }
-
-  nav a:hover::before{
-    width: 60%;
-  }
 
 
   /*---------------------------------------------------------------------------------Footer*/
@@ -1188,11 +982,38 @@ background-color: white;
     width: 90vw;
   }
 
+  #about1 .aboutInfo {
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  #about1 .aboutInfo .aboutBigLogo{
+    width: 100%;
+  }
+
+  #about1 .aboutInfo .aboutBigLogo .contain{
+    width: 85vw;
+  }
+
+  #about1 .aboutInfo .aboutImage {
+    width: 100%;
+
+  }
+
+  #about1 .aboutInfo .aboutImage img {
+    width: 85vw;
+    display: block;
+    margin: auto;
+  }
+
+
   #aboutTeam .personGruppe1 {
     flex-direction:column;
   }
 
   #aboutTeam .person {
+    height: 85vh;
     width: 40vw;
     margin: 5% auto;
   }
@@ -1346,10 +1167,7 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Header*/
-  header {
-    min-height: 0;
-    height: 11vw;
-  }
+
 
   #skip {
     left: -60%;
@@ -1360,82 +1178,7 @@ background-color: white;
     padding-top: 2%;
   }
 
-  nav {
-    display: none;
-    background-color: #222222;
-  }
 
-  input[type=checkbox] {
-    display: block;
-    opacity: 0;
-  }
-
-  i h2 {
-    font-size: 1.2rem;
-  }
-
-  .fas {
-    font-size: 1.2rem;
-  }
-
-  #menu {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 4% 2%;
-  }
-
-  #toggle:focus ~ label #menu {
-    outline: solid #60c8cc;
-  }
-
-  #toggle:focus ~ label #close {
-    outline: solid #60c8cc;
-  }
-
-  #toggle:checked ~ label #menu {
-    display: none;
-  }
-
-  #toggle:checked ~ label #close {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 4% 2%;
-  }
-
-  #toggle:checked ~ nav {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding: 0;
-  }
-
-  #toggle:checked ~ nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-  }
-
-  #toggle:checked ~ nav li {
-    margin: 20%;
-  }
-
-  #toggle:checked ~ nav a {
-    padding: 5% 20%;
-  }
-
-  nav a::before {
-    margin-left: 20%;
-  }
-
-  nav a:hover::before{
-    width: 70%;
-  }
 
 
   /*---------------------------------------------------------------------------------Footer*/
