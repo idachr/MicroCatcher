@@ -989,6 +989,10 @@ background-color: white;
     margin: 5% auto;
   }
 
+  #aboutTeam .person img {
+    width: 30vw;
+  }
+
   #aboutTeam .personGruppe2 {
     flex-direction:column;
   }
@@ -1175,6 +1179,19 @@ background-color: white;
 
   .aboutHeader img {
     width: 90vw;
+  }
+
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 40vw;
+    margin: 5% auto;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
   }
 
 #about3 .aboutBigPictureInfo {
