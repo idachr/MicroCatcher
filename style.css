@@ -182,7 +182,6 @@ input[type=checkbox] {
 }
 
 
-
 /*---------------------------------------------------------------------------------Footer*/
 footer{
   display: flex;
@@ -557,6 +556,7 @@ background-color: white;
   height: 20vh;
 }
 
+
 /*---------------------------------------------------------------------------------Problem*/
 #bodyProblem{
   margin-left: 5%;
@@ -677,6 +677,7 @@ background-color: white;
 
 #solution1 #solutionFront img {
   width: 80vw;
+  height: 70vh;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
@@ -762,6 +763,7 @@ background-color: white;
   width: 50vw;
 }
 
+
 /*---------------------------------------------------------------------------------Privacy*/
 #privacy {
   padding: 10% 20%;
@@ -787,10 +789,11 @@ background-color: white;
 
 .privacyItem a {
   color: black;
+  text-decoration: underline;
 }
 
 .privacyItem a:hover {
-  text-decoration: underline;
+  text-decoration: underline #60c8cc;
 }
 
 /*--------------------------------------------------------------------------------- Sources*/
@@ -1147,48 +1150,9 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Privacy*/
 
-  /*---------------------------------------------------------------------------------Sources*/
 }
 
 @media only screen and (max-width: 670px) and (orientation: portrait){
-  /*---------------------------------------------------------------------------------AboutUs*/
-  #aboutTeam .personGruppe1 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .personGruppe2 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .person {
-    width: 85vw;
-    margin: 5% auto;
-  }
-  #aboutTeam .person img {
-    width: 40vw;
-  }
-
-
-  #aboutTeam {
-    flex-direction: column;
-  }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%;
-  }
-}
-
-/*---------------------------------------------------------------------------------Vertical mobile*/
-@media only screen and (max-width: 414px) and (orientation: portrait) {
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  h2 {
-    font-size: 1.8rem;
-  }
-
-
   /*---------------------------------------------------------------------------------Header*/
   header {
     height: 50px;
@@ -1254,6 +1218,48 @@ background-color: white;
   #toggle:checked ~ nav a {
     padding: 5% 20%;
   }
+
+
+  /*---------------------------------------------------------------------------------AboutUs*/
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 85vw;
+    margin: 5% auto;
+  }
+  #aboutTeam .person img {
+    width: 40vw;
+  }
+
+
+  #aboutTeam {
+    flex-direction: column;
+  }
+
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
+  }
+}
+
+/*---------------------------------------------------------------------------------Vertical mobile*/
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+
+  /*---------------------------------------------------------------------------------Header*/
+
 
 
   /*---------------------------------------------------------------------------------Footer*/
