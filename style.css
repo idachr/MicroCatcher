@@ -84,6 +84,7 @@ header {
   width: 100vw;
   position: fixed;
   top: 0;
+  align-items: center;
 }
 
 /*Skip to content button*/
@@ -128,6 +129,7 @@ nav {
 nav ul {
   list-style: none;
   width: 50vw;
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -192,32 +194,31 @@ footer{
   display: flex;
   flex-direction: row;
   background-color: black;
-  align-items: center;
-  justify-content: space-between;
   text-align: center;
   text-transform: uppercase;
   color: #dddddd;
   font-family:'Tenor Sans', sans-serif, Serif;
-  font-size: 20px;
   font-weight: bold;
   width: 100%;
 }
 
 footer .footerInfo {
-  margin: auto;
+  margin: 0;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  overflow: hidden;
+}
+
+.footerInfo h3, a {
+  color: white;
+  text-decoration: none;
 }
 
 footer ul{
   list-style: none;
+  padding: 0;
 }
 
 footer li {
-  font-size: 15px;
   color: #aaaaaa;
   padding: 2%;
   white-space: nowrap;
@@ -226,16 +227,7 @@ footer li {
 footer .footerInfo ul li a {
   color: #aaaaaa;
   text-decoration: none;
-  padding: 2% 5%;
-}
-
-.footerInfo ul li a:hover {
-  text-decoration: underline;
-}
-
-.footerInfo h3, a {
-  color: white;
-  text-decoration: none;
+  padding: 5%;
 }
 
 .footerInfo a:hover {
@@ -422,14 +414,14 @@ background-color: white;
   border-radius: 15px/15px;
 }
 
-.aboutInfo .aboutBilde{
+.aboutInfo .aboutImage{
   /*width: 50vw;*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.aboutInfo .aboutBilde img {
+.aboutInfo .aboutImage img {
   width: 45vw;
   border-radius: 15px/15px;
   display: block;
@@ -478,7 +470,6 @@ background-color: white;
 
 #aboutTeam {
   display: flex;
-  flex-direction: row;
   align-items: baseline;
 }
 
@@ -1100,7 +1091,6 @@ background-color: white;
     display: flex;
     flex-direction: column;
   }
-
   /*---------------------------------------------------------------------------------Index*/
 
   #index {
@@ -1142,30 +1132,30 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-/*#about {
-    padding-top: 30%
-  }
+    /*#about {
+        padding-top: 30%
+      }
 
-  .contain h1{
-    font-size: 25px;
-  }
+      .contain h1{
+        font-size: 25px;
+      }
 
-  .aboutInfo{
-    flex-direction: column;
-    width: 40vw;
-    align-content: center;
-  }
+      .aboutInfo{
+        flex-direction: column;
+        width: 40vw;
+        align-content: center;
+      }
 
-  .aboutInfo .aboutBilde{
-    max-width: 50vw;
-    display: block;
-    align-items: center;
-  }
+      .aboutInfo .aboutImage{
+        max-width: 50vw;
+        display: block;
+        align-items: center;
+      }
 
-  .aboutInfo .aboutBilde img {
-    width: 80vw;
-    /*display: grid;
-  }*/
+      .aboutInfo .aboutImage img {
+        width: 80vw;
+        /*display: grid;
+      }*/
 
   /*.aboutBigLogo .contain {
     width: auto;
@@ -1411,12 +1401,12 @@ background-color: white;
     flex-direction: column;
     width: auto;
   }
-  .aboutInfo .aboutBilde{
+  .aboutInfo .aboutImage{
     width: auto;
     display: block;
   }
 
-  .aboutInfo .aboutBilde img {
+  .aboutInfo .aboutImage img {
     width: 80vw;
     display: grid;
     margin-left: auto;
@@ -1454,10 +1444,6 @@ background-color: white;
   }
 
   #about3 .aboutBigPictureInfo {
-    width: 100%;
-  }
-
-  #about3 .aboutBigPictureInfo2 {
     width: 100%;
   }
 
