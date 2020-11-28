@@ -573,14 +573,14 @@ background-color: white;
 }
 
 .problemInfo .problemInfoBilde{
-  width: 50vw;
+  width: 40vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .problemInfo .problemInfoBilde img {
-  width: 45vw;
+  width: 35vw;
   margin-top: 40px;
   max-height: 100vh;
   margin-left: auto;
