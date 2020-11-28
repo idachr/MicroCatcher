@@ -232,12 +232,12 @@ footer li {
 
 footer .footerInfo ul li a {
   color: #aaaaaa;
-  text-decoration: none;
+  text-decoration: underline;
   padding: 5%;
 }
 
 .footerInfo a:hover {
-  text-decoration: underline;
+  text-decoration: underline white;
 }
 
 
@@ -346,7 +346,7 @@ background-color: #222222;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35vw;
+  width: 30vw;
 }
 
 
@@ -989,6 +989,10 @@ background-color: white;
     margin: 5% auto;
   }
 
+  #aboutTeam .person img {
+    width: 30vw;
+  }
+
   #aboutTeam .personGruppe2 {
     flex-direction:column;
   }
@@ -1130,6 +1134,10 @@ background-color: white;
     padding-top: 25%
   }
 
+  .contain {
+    padding: 2%;
+  }
+
   .indexInfo{
     display: flex;
     flex-direction: column;
@@ -1171,6 +1179,19 @@ background-color: white;
 
   .aboutHeader img {
     width: 90vw;
+  }
+
+  #aboutTeam .personGruppe1 {
+    flex-direction:column;
+  }
+
+  #aboutTeam .person {
+    width: 40vw;
+    margin: 5% auto;
+  }
+
+  #aboutTeam .personGruppe2 {
+    flex-direction:column;
   }
 
 #about3 .aboutBigPictureInfo {
