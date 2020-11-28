@@ -1266,6 +1266,9 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Index*/
+
+
+
   /*---------------------------------------------------------------------------------AboutUs*/
   .contain h1{
     font-size: 25px;
@@ -1302,7 +1305,7 @@ background-color: white;
   }
 
   #aboutTeam .person {
-    width: 85vw;
+    width: 75vw;
     margin: 5% auto;
   }
 
