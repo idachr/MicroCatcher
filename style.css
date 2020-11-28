@@ -965,7 +965,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   #problem1 {
-    padding-top: 25%;
+    padding-top: 15%;
   }
 
   /*---------------------------------------------------------------------------------Solution*/
@@ -1205,7 +1205,9 @@ background-color: white;
   #problem1 {
     padding-top: 25%
   }
-
+  .problemFront{
+    padding: 0% 0px 2% 0px;
+  }
   .problemInfo {
     flex-direction: column;
     width: 100%;
@@ -1220,11 +1222,11 @@ background-color: white;
     width: 100vw;
   }
   .problemInfo .problemInfoBilde img {
-    width: 85vw;
+    width: 69vw;
   }
 
   .problemInfo .problemInfoText {
-    width: 100vw;
+    width: 95vw;
   }
 
   #problemInfo .problemInfoText {
@@ -1237,6 +1239,10 @@ background-color: white;
 
   #problem3 #problemSeeThroughInfo2 {
     width: 0;
+  }
+
+#problem3 #problemSeeThroughPicture {
+   height: 40vh;
   }
 
 
