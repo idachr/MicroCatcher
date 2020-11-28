@@ -825,6 +825,7 @@ background-color: white;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   padding: 0 2%;
+  overflow: scroll;
 }
 
 #sources ul li a {
