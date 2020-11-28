@@ -688,13 +688,10 @@ background-color: white;
 
 .solutionInfo #solutionImages{
   width: 50vw;
-  display: flex;
-  flex-direction: column;
 }
 
 .solutionInfo #solutionImages img {
-  height: 70vh;
-  max-height: 100vh;
+  width: 45vw;
   display: block;
   margin: 5% auto;
   border-radius: 15px/15px;
@@ -990,6 +987,7 @@ background-color: white;
     height: 60vh;
   }
 
+
   /*---------------------------------------------------------------------------------Privacy*/
 
   /*---------------------------------------------------------------------------------Sources*/
@@ -1213,6 +1211,7 @@ background-color: white;
     width: 100%;
     margin: auto;
   }
+
   .problemInfoBilde {
     width: auto;
   }
@@ -1235,6 +1234,7 @@ background-color: white;
   #problem3 #problemSeeThroughInfo {
     width: 100%;
   }
+
   #problem3 #problemSeeThroughInfo2 {
     width: 0;
   }
@@ -1253,20 +1253,14 @@ background-color: white;
     flex-direction: column;
   }
 
-  #solutionInfoReverse {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
   .solutionInfo .solutionText {
     margin: 0 7vw 0 5vw;
     width: 87vw;
     text-align: left;
   }
 
-  .solutionInfo .solutionImage img {
-    width: 60vw;
-    margin: 5vw 20vw;
+  #solutionImages img {
+    width: 90vw;
   }
 
   #solutionBigPicture {
@@ -1307,6 +1301,10 @@ background-color: white;
   header {
     min-height: 0;
     height: 8vh;
+  }
+
+  #skip {
+    left: -60%;
   }
 
   .logo {
