@@ -677,6 +677,7 @@ background-color: white;
 
 #solution1 #solutionFront img {
   width: 80vw;
+  height: 70vh;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
