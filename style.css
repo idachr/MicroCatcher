@@ -835,6 +835,7 @@ background-color: white;
 #sources ul li a {
   color: black;
   font-family: 'Open sans', sans-serif;
+  word-break: break-word;
 }
 
 #sources ul li a:hover {
