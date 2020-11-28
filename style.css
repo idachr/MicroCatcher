@@ -886,7 +886,6 @@ background-color: white;
   header {
     min-height: 0;
     height: 15vh;
-    background-color: #222222;
   }
 
   input[type=checkbox] {
@@ -1170,8 +1169,8 @@ background-color: white;
 }
 
   /*---------------------------------------------------------------------------------Problem*/
-  #problem1 {
-    padding-top: 25%
+  .problemFront{
+    padding: 0 0 2% 0;
   }
 
   .problemInfo {
@@ -1258,13 +1257,6 @@ background-color: white;
     padding: 21% 2% 5%;
   }
 
-<<<<<<< HEAD
-=======
-
-
-  /*---------------------------------------------------------------------------------Sources*/
->>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
-
   /*---------------------------------------------------------------------------------Sources*/
 }
 
@@ -1328,7 +1320,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-    height: 8vh;
+    height: 11vw;
   }
 
   #skip {
