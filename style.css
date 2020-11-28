@@ -81,7 +81,7 @@ i {
 /*---------------------------------------------------------------------------------Header*/
 header {
   background-color: #222222;
-  min-height: 10vh;
+  min-height: 15vh;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -109,6 +109,13 @@ header {
   padding: 1%;
   width: 15vw;
 }
+
+/*.header::after {
+  content: '';
+  display: table;
+  clear: both;
+}*/
+
 
 /*Navigation bar*/
 #chosen {
@@ -839,6 +846,10 @@ background-color: white;
 /*---------------------------------------------------------------------------------Horizontal tablet*/
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   /*---------------------------------------------------------------------------------Header*/
+  header {
+    min-height: 0;
+    height: 10vh;
+  }
 
   /*---------------------------------------------------------------------------------Index*/
 
@@ -864,7 +875,8 @@ background-color: white;
   #privacy {
     padding: 15% 2%;
   }
-  
+
+
   /*---------------------------------------------------------------------------------Sources*/
 
 }
@@ -874,7 +886,8 @@ background-color: white;
   /*---------------------------------------------------------------------------------Header*/
   header {
     min-height: 0;
-    height: 10%;
+    height: 15vh;
+    background-color: #222222;
   }
 
   input[type=checkbox] {
@@ -1021,7 +1034,8 @@ background-color: white;
 >>>>>>> ba6d222d003674cf7e466bd7d20685a497268895
   /*---------------------------------------------------------------------------------Header*/
   header {
-    height: 17.5vh;
+    min-height: 0;
+    height: 17vh;
   }
 
   .logo {
@@ -1039,11 +1053,20 @@ background-color: white;
     opacity: 0;
   }
 
+  i h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .fas {
+    font-size: 2rem;
+  }
+
   #menu {
     display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 2%;
+    padding: 5%;
   }
 
   #toggle:focus ~ label #menu {
@@ -1261,31 +1284,31 @@ background-color: white;
 @media only screen and (max-width: 670px) and (orientation: portrait){
 
 /*---------------------------------------------------------------------------------AboutUs*/
-  #aboutTeam .personGruppe1 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .personGruppe2 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .person {
-    width: 85vw;
-    margin: 5% auto;
-  }
-  #aboutTeam .person img {
-    width: 40vw;
-  }
-
-  #aboutTeam {
-    flex-direction: column;
-  }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%;
-  }
+#aboutTeam .personGruppe1 {
+  flex-direction:column;
 }
 
+#aboutTeam .personGruppe2 {
+  flex-direction:column;
+}
+
+#aboutTeam .person {
+  width: 85vw;
+  margin: 5% auto;
+}
+#aboutTeam .person img {
+  width: 40vw;
+}
+
+
+#aboutTeam {
+  flex-direction: column;
+}
+
+#about3 .aboutBigPictureInfo {
+  width: 100%;
+}
+}
 
 /*---------------------------------------------------------------------------------Vertical mobile*/
 @media only screen and (max-width: 414px) and (orientation: portrait) {
@@ -1317,6 +1340,8 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Header*/
   header {
+    min-height: 0;
+    height: 8vh;
   }
 
   #skip {
@@ -1411,23 +1436,6 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Index*/
   /*---------------------------------------------------------------------------------AboutUs*/
-  #aboutTeam .personGruppe1 {
-    flex-direction:column;
-  }
-
-  #aboutTeam .person {
-    width: 40vw;
-    margin: 5% auto;
-  }
-
-  #aboutTeam .personGruppe2 {
-    flex-direction:column;
-  }
-
-  #about3 .aboutBigPictureInfo {
-    width: 100%;
-  }
-
   .contain h1{
     font-size: 25px;
   }
