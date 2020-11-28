@@ -1181,6 +1181,11 @@ background-color: white;
     width: 90vw;
   }
 
+  #about1 .aboutInfo {
+    flex-direction: column;
+
+  }
+
   #aboutTeam .personGruppe1 {
     flex-direction:column;
   }
