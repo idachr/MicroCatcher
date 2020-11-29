@@ -1620,7 +1620,7 @@ background-color: #222222;
   }
 
   #submit {
-    padding: 3%;
+    width: 20vw;
   }
 
 }
