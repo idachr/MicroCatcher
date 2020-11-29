@@ -60,16 +60,16 @@ i {
 }
 
 .button {
-  font-family:'Open Sans', sans-serif, Serif;
+  font-family:'Tenor Sans', sans-serif, Serif;
   background-color: #60c8cc;
-  color: black;
+  color: #222222;
   text-decoration: none;
   margin: 1% 0;
   padding: 1.5%;
   border-radius: 20px/20px;
   border: 0;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .button:hover {
