@@ -499,7 +499,7 @@ background-color: #222222;
   width: 22vw;
   background-color: white;
   border-radius: 15px/15px;
-  height: 50vh;
+  height: auto;
   overflow: scroll;
 }
 
@@ -514,6 +514,7 @@ background-color: #222222;
 }
 #about2 .person p {
   padding: 1%;
+  height: 200px;
 }
 
 #about3 {
@@ -926,7 +927,6 @@ background-color: #222222;
     width: 40vw;
     margin: 5% auto;
     overflow: scroll;
-    height: 90%;
   }
 
   #aboutTeam .person img {
@@ -1101,7 +1101,6 @@ background-color: #222222;
   }
 
   #aboutTeam .person {
-    height: 40vh;
     width: 40vw;
     margin: 5% auto;
     overflow: scroll;
