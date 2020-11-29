@@ -67,6 +67,7 @@ i {
   border-radius: 20px/20px;
   border: 0;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .button:hover {
@@ -232,7 +233,7 @@ footer .footerInfo ul li a {
 
 /*---------------------------------------------------------------------------------Index*/
 #index {
-  padding-top: 10%;
+  padding-top: 90px;
   padding-bottom: 10%;
   background-color: #222222;
   max-height: 100vh;
@@ -343,7 +344,7 @@ background-color: #222222;
 
 /*---------------------------------------------------------------------------------AboutUs*/
 #about {
-  padding-top: 10%;
+  padding-top: 90px;
   padding-bottom: 10%;
   background-color: #222222;
 }
@@ -576,11 +577,11 @@ background-color: white;
 .problemFront {
   display: block;
   margin: 0 auto;
-  padding: 10% 0 5% 0;
+  padding: 90px 0 5% 0;
   width: 80vw;
 }
 
-.problemFront img{
+.problemFront img {
   width: 100%;
   max-height: 100vh;
   display: block;
@@ -688,7 +689,7 @@ background-color: white;
 #solution1 #solutionFront{
   display: block;
   margin: 0 auto;
-  padding: 10% 0 5% 0;
+  padding: 90px 0 5% 0;
 }
 
 #solution1 #solutionFront img {
@@ -782,7 +783,7 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Privacy*/
 #privacy {
-  padding: 10% 20%;
+  padding: 90px 20%;
   background-color: #222222;
 }
 
@@ -816,7 +817,7 @@ background-color: white;
 #sources {
   text-align: center;
   background-color: #222222;
-  padding: 10% 0;
+  padding: 90px 0;
   margin: 0;
 }
 
@@ -909,13 +910,13 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Index*/
   #index {
-    padding-top: 25%
+    padding-top: 90px;
   }
 
   /*---------------------------------------------------------------------------------AboutUs*/
 
   #about {
-    padding-top: 25%;
+    padding-top: 90px;
   }
 
   #aboutTeam .personGruppe1 {
@@ -939,7 +940,7 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   #problem1 {
-    padding-top: 15%;
+    padding-top: 90px;
   }
   .problemInfo .problemInfoText {
     padding-left: 0;
@@ -947,7 +948,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 {
-    padding-top: 25%;
+    padding-top: 90px;
   }
 
   #solution1 #solutionFront img{
@@ -986,7 +987,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Index*/
   #index {
-    padding-top: 25%
+    padding-top: 90px;
   }
 
   .contain {
@@ -1087,7 +1088,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Problem*/
   .problemFront{
-    padding: 0 0 2% 0;
+    padding: 90px 0 2% 0;
   }
 
   .problemInfo {
