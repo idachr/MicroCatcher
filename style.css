@@ -567,10 +567,6 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Problem*/
-#bodyProblem{
-  margin: auto 5%;
-}
-
 #problem1 {
   width: 100%;
   background-color: #222222;
@@ -599,6 +595,7 @@ background-color: white;
 .problemInfo{
   display: flex;
   flex-direction: row;
+  padding: 2% 5%
 }
 
 .problemInfo .problemInfoText h1{
@@ -626,7 +623,6 @@ background-color: white;
 
 .problemInfo .problemInfoText p{
   text-align: justify;
-  margin: 20px;
 }
 
 .problemInfo .problemInfoText .problemInfoTextBox {
@@ -709,7 +705,7 @@ background-color: white;
 .solutionInfo {
   display: flex;
   flex-direction: row;
-  padding: 0 5%;
+  padding: 2% 5%;
 }
 
 .solutionInfo .solutionText h1, h2 {
