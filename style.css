@@ -1416,14 +1416,37 @@ background-color: #222222;
   }
 }
 
+
 @media only screen and (max-height: 17em) {
   /*---------------------------------------------------------------------------------Header*/
   header {
     position: unset;
   }
 
+  nav li {
+    margin: 0;
+  }
+
+  #toggle:checked ~ nav {
+    height: 250vh;
+  }
+
   /*---------------------------------------------------------------------------------Index*/
   #index2 {
+    height: 170vh;
+  }
+
+  /*---------------------------------------------------------------------------------Problem*/
+  #problem3 #problemSeeThroughPicture {
+    height: 170vh;
+  }
+
+  /*---------------------------------------------------------------------------------Solution*/
+  #solutionBigPicture {
+    height: 180vh;
+  }
+
+  #solutionBigPictureBackground {
     height: 170vh;
   }
 }
