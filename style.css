@@ -162,7 +162,7 @@ nav a:hover::before{
 }
 
 /*Hamburger menu*/
-i h2 {
+i p {
   color: white;
   margin: 0;
   font-family: "Open Sans", sans-serif, Serif;
@@ -194,7 +194,7 @@ input[type=checkbox] {
   padding: 0;
 }
 
-#labeltoggle #menu h2 {
+#labeltoggle #menu p {
   width: 100%;
   font: 1rem;
 }
@@ -1259,11 +1259,11 @@ background-color: #222222;
     height: auto;
   }
 
-  #labeltoggle #menu h2 {
+  #labeltoggle #menu p {
     font-size: 1.2rem;
   }
 
-  #labeltoggle #close h2 {
+  #labeltoggle #close p {
     font-size: 1.2rem;
   }
 
@@ -1349,9 +1349,11 @@ background-color: #222222;
     padding-top: 7%;
   }
 
-  h2 {
+  h2  {
     font-size: 1.8rem;
   }
+
+
 
 
   /*---------------------------------------------------------------------------------Header*/
