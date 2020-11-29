@@ -306,7 +306,7 @@ footer .footerInfo ul li a {
   justify-content: center;
   text-align: center;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px/15px;
   height: 100%;
 }
