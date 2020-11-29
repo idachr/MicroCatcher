@@ -312,7 +312,7 @@ footer .footerInfo ul li a {
   width: 50%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px/15px;
-  height: 100%;
+  height: auto;
 }
 
 #index2 .indexBigPictureInfo2 {
@@ -1524,6 +1524,7 @@ background-color: #222222;
     height: 70vh;
     width: 95vw;
     margin: 5% auto;
+    background-attachment:
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
