@@ -985,8 +985,9 @@ background-color: #222222;
 
   #index .contain {
     margin: auto;
-    width: auto;
+    width: 80%;
     padding-bottom: 5%;
+
   }
 
   #index .indexBigLogo {
@@ -1009,7 +1010,7 @@ background-color: #222222;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95vw;
+
   }
 
   #index2 .indexBigPictureInfo{
@@ -1025,14 +1026,24 @@ background-color: #222222;
     width: 0;
   }
 
+  #index3 .indexInfo {
+    flex-direction: column;
+  }
+
+
+
   #index3 .indexInfo img {
     margin-bottom: 2%;
-    width: 60vw;
+    width: 55vw;
   }
 
   #index3 .indexInfo .indexBigLogo {
     margin: 0;
     width: 100%;
+  }
+
+  #index3 .indexInfo .indexBigLogo h2 {
+    width: 90%;
   }
 
   /*---------------------------------------------------------------------------------AboutUs*/
@@ -1052,11 +1063,13 @@ background-color: #222222;
   #about1 .aboutInfo {
     flex-direction: column;
     width: 100%;
+    padding: 0;
 
   }
 
   #about1 .aboutInfo .aboutBigLogo{
     width: 100%;
+    padding: 0;
   }
 
   #about1 .aboutInfo .aboutBigLogo .contain{
@@ -1101,6 +1114,7 @@ background-color: #222222;
     flex-direction: column;
     width: 100%;
     margin: auto;
+    padding: 0;
   }
 
   .problemInfoBilde {
@@ -1113,11 +1127,14 @@ background-color: #222222;
 
   .problemInfo .problemInfoBilde img {
     width: 69vw;
+    margin: auto auto 5% auto;
+
   }
 
   .problemInfo .problemInfoText {
-    width: 95vw;
-    padding-left: 0;
+    width: 90vw;
+    margin: auto;
+    padding: 0;
   }
 
   #problemInfo .problemInfoText {
@@ -1153,10 +1170,15 @@ background-color: #222222;
   .solutionInfo .solutionText {
     width: 87vw;
     text-align: left;
+    padding: 0;
   }
 
-  #solutionImages img {
-    width: 90vw;
+  .solutionInfo #solutionImages {
+    width: 100%;
+  }
+
+  .solutionInfo #solutionImages img {
+    width: 85vw;
   }
 
   #solutionBigPicture {
@@ -1239,17 +1261,23 @@ background-color: #222222;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
+
   #aboutTeam .personGruppe1 {
     flex-direction:column;
+    padding: 0;
+    margin: 0;
   }
 
   #aboutTeam .personGruppe2 {
     flex-direction:column;
+    padding: 0;
+    margin: 0;
   }
 
   #aboutTeam .person {
     width: 85vw;
     margin: 5% auto;
+    padding: 0;
   }
   #aboutTeam .person img {
     width: 40vw;
@@ -1331,7 +1359,7 @@ background-color: #222222;
   #aboutTeam .person {
     width: 85vw;
     margin: 5% auto;
-    height: 70vh;
+    height: auto;
   }
 
   #aboutTeam .person img {
