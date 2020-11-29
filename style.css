@@ -423,7 +423,7 @@ background-color: white;
   border-radius: 15px/15px;
   display: block;
   margin-left: 20px;
-  margin-right: auto;
+  margin-right: 30px;
   margin-bottom: 5vw;
 }
 
@@ -629,10 +629,21 @@ background-color: white;
   text-align: center;
 }
 
+.problemInfoText a {
+  color: black;
+  text-decoration: black underline;
+  font-family: "Open Sans", sans-serif, Serif;
+}
+
+.problemInfoText a:hover {
+  text-decoration: #60c8cc underline;
+}
+
 #problem3{
   background-color: #222222;
   padding: 5% 0;
 }
+
 #problem3 #problemSeeThroughPicture{
   /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
   background-image: url(image/fishingShoalsCoralreef.jpeg);
