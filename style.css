@@ -731,6 +731,24 @@ background-color: #222222;
   text-align: left;
 }
 
+.solutionInfo .solutionText h2:not(#ft) {
+  margin-bottom: 0;
+}
+
+#ft{
+  margin: 0;}
+
+#ft a {
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif, Serif;
+  color: #60c8cc;
+}
+
+
+.solutionInfo .solutionText #ft a:hover {
+  color: black;
+}
+
 .solutionInfo .solutionText{
   width: 60vw;
   color: black;
@@ -1186,6 +1204,11 @@ background-color: #222222;
 
   .solutionInfo {
     flex-direction: column;
+  }
+
+  .solutionInfo .solutionText a {
+    color: black;
+    font-family: "Open Sans", sans-serif, Serif;
   }
 
   .solutionInfo .solutionText {
