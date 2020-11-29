@@ -909,6 +909,7 @@ background-color: white;
   #aboutTeam .person {
     width: 40vw;
     margin: 5% auto;
+    overflow: scroll;
   }
 
   #aboutTeam .person img {
@@ -1270,8 +1271,14 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
+
+
+  .aboutHeaderText{
+    margin: auto;
+  }
   .contain h1{
     font-size: 25px;
+    width: 85vw;
   }
   .aboutInfo{
     flex-direction: column;
@@ -1305,8 +1312,9 @@ background-color: white;
   }
 
   #aboutTeam .person {
-    width: 75vw;
+    width: 85vw;
     margin: 5% auto;
+    height: 70vh;
   }
 
   #aboutTeam .person img {
