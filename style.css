@@ -104,8 +104,8 @@ header {
   left: 0;
 }
 
-header .logo {
-  padding: 1%;
+.logo {
+  padding: 7%;
   width: 15vw;
 }
 
@@ -116,7 +116,7 @@ header .logo {
 
 nav {
   width: 70vw;
-  padding-left: 10%;
+  padding-left: 7%;
 }
 
 nav ul {
@@ -177,7 +177,6 @@ input[type=checkbox] {
 
 #menu, #close {
   display: none;
-  float: right;
   padding: 0;
 }
 
@@ -559,8 +558,7 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Problem*/
 #bodyProblem{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: auto 5%;
 }
 
 #problem1 {
@@ -586,7 +584,6 @@ background-color: white;
 .problemInfo{
   display: flex;
   flex-direction: row;
-  margin: 5% auto;
 }
 
 .problemInfo .problemInfoText h1{
@@ -603,22 +600,20 @@ background-color: white;
 
 .problemInfo .problemInfoBilde img {
   width: 35vw;
-  margin-top: 40px;
   max-height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 15px/15px;
 }
 
 .problemInfo .problemInfoText {
-  width: 50vw;
-  padding-left: 5%;
+  width: 60vw;
+  padding-right: 5%;
 }
 
 .problemInfo .problemInfoText p{
   text-align: justify;
   margin: 20px;
 }
+
 .problemInfo .problemInfoText .problemInfoTextBox {
   width: 45vw;
   margin: auto;
@@ -675,31 +670,26 @@ background-color: white;
 
 
 /*---------------------------------------------------------------------------------Solution*/
-#solution1 {
+#solutionFront{
   max-width: 100vw;
   background-color: #222222;
-}
-
-#solution1 #solutionFront{
-  display: block;
   margin: 0 auto;
   padding: 10% 0 5% 0;
 }
 
-#solution1 #solutionFront img {
+#solutionFront img {
   width: 80vw;
   height: 70vh;
   display: block;
-  margin: 0 auto;
   border-radius: 15px/15px;
   color: white;
+  margin: auto;
 }
 
 .solutionInfo {
   display: flex;
   flex-direction: row;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 0 5%;
 }
 
 .solutionInfo .solutionText h1, h2 {
@@ -719,7 +709,7 @@ background-color: white;
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 2%;
+  padding-right: 5%;
 }
 
 .solutionInfo #solutionImages{
@@ -735,7 +725,7 @@ background-color: white;
 }
 
 #solutionBigPicture{
-  padding: 2.5vw;
+  padding: 5% 2vw;
   background-color: #222222;
   max-width: 100vw;
   height: auto;
@@ -745,7 +735,7 @@ background-color: white;
   /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
   background-image: url(image/pollutedBeach.png);
   display: flex;
-  height: 80vh;
+  height: 70vh;
   width: 95vw;
   background-attachment: fixed;
   background-repeat: no-repeat;
