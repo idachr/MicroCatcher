@@ -1514,10 +1514,6 @@ background-color: #222222;
 @supports (-webkit-touch-callout: none) {
   /* CSS specific to iOS devices */
 
-  header{
-    background-color: green;
-  }
-
   #index2 {
     display: flex;
     flex-direction: row;
@@ -1531,6 +1527,50 @@ background-color: #222222;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px/15px;
+  }
+
+  #about3 .aboutBigPicture {
+    /* https://pxhere.com/no/photo/952291 gammelt bilde*/
+    /*Wikipedia. (2006). Norwegian Fjord. [Photograph]. Wikipedia. https://commons.wikimedia.org/wiki/File:Norwegian_Fjord.jpg*/
+    background-image: url(image/fjord.jpg); /*alternativt barcode(litt mye som skjer bak teksten, fjord(fin), norwegianNature (litt dårlig kvalitet)*/
+    height: auto;
+    width: 95vw;
+    margin: 0 auto;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px/15px;
+  }
+
+  #problem3 #problemSeeThroughPicture{
+    /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
+    background-image: url(image/fishingShoalsCoralreef.jpeg);
+    height: 70vh;
+    width: 95vw;
+    margin: 0 auto;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px/15px;
+  }
+
+  #solutionBigPictureBackground {
+    /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
+    background-image: url(image/pollutedBeach.png);
+    display: flex;
+    height: 70vh;
+    width: 95vw;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px/15px;
+  }
+
+  #aboutTeam .person {
+    height: 60vh;
   }
 
 }
