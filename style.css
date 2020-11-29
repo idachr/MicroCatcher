@@ -1365,7 +1365,12 @@ background-color: #222222;
 
   /*---------------------------------------------------------------------------------Index*/
 
-
+  #index2 {
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   /*---------------------------------------------------------------------------------AboutUs*/
 
@@ -1427,6 +1432,13 @@ background-color: #222222;
     width: 100%;
   }
 
+  #about3 .aboutBigPicture{
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
   /*---------------------------------------------------------------------------------Problem*/
   #problemSeeThroughPicture {
@@ -1438,6 +1450,12 @@ background-color: #222222;
     margin: auto;
   }
 
+  #problem3 #problemSeeThroughPicture {
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img {
@@ -1451,6 +1469,13 @@ background-color: #222222;
   .solutionInfo .solutionImage img {
     width: 90vw;
     margin: 5vw;
+  }
+
+  #solutionBigPictureBackground {
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /*---------------------------------------------------------------------------------Privacy*/
