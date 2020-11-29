@@ -397,14 +397,13 @@ background-color: #222222;
 }
 
 #about1 {
-padding-top: 10%;
-background-color: white;
+  background-color: white;
 }
 
 .aboutInfo{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  padding: 2% 5%;
 }
 
 .aboutInfo p {
@@ -415,32 +414,22 @@ background-color: white;
   color: black;
 }
 
-.aboutInfo p {
-  padding: 4%;
-  border-radius: 15px/15px;
-}
-
 .aboutInfo .aboutImage{
-  /*width: 50vw;*/
+  width: 40vw;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .aboutInfo .aboutImage img {
-  width: 45vw;
+  width: 35vw;
   border-radius: 15px/15px;
   display: block;
-  margin-left: 20px;
-  margin-right: 30px;
-  margin-bottom: 5vw;
 }
 
 .aboutBigLogo{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50vw;
+  padding-right: 5%;
+  width: 60vw;
 }
 
 .aboutBigLogo .contain {
@@ -450,8 +439,7 @@ background-color: white;
   align-items: center;
   flex-direction: column;
   margin: auto;
-  height: auto; /*100%*/
-  width: 45vw;
+  height: auto;
 }
 
 .aboutBigLogo img {
