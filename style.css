@@ -955,8 +955,9 @@ background-color: white;
   /*---------------------------------------------------------------------------------Problem*/
 
   #problem1 {
-    padding-top: 90px;
+    padding: 0 0 20% 0;
   }
+
   .problemInfo .problemInfoText {
     padding-left: 0;
   }
@@ -1003,19 +1004,29 @@ background-color: white;
   /*---------------------------------------------------------------------------------Index*/
   #index {
     padding-top: 90px;
+    height: auto;
   }
 
-  .contain {
-    padding: 2%;
+  #index .contain {
+    margin: auto;
+    width: auto;
+    padding-bottom: 5%;
   }
 
-  .indexInfo{
+  #index .indexBigLogo {
+    margin: 0;
+    width: 100%;
+  }
+
+  #index .indexInfo{
+    margin: 0;
     display: flex;
     flex-direction: column;
   }
 
-  .indexInfo img {
+  #index .indexInfo img {
     width: 85vw;
+    margin: auto;
   }
 
   #index2 .indexBigLogo{
@@ -1051,10 +1062,15 @@ background-color: white;
   /*---------------------------------------------------------------------------------AboutUs*/
   .aboutHeader {
     flex-direction: column;
+    margin-top: 0;
   }
 
   .aboutHeader img {
     width: 90vw;
+  }
+
+  .aboutHeader .aboutHeaderText {
+    width: 100%;
   }
 
   #about1 .aboutInfo {
@@ -1103,7 +1119,7 @@ background-color: white;
 
   /*---------------------------------------------------------------------------------Problem*/
   .problemFront{
-    padding: 90px 0 2% 0;
+    padding: 90px 0 10% 0;
   }
 
   .problemInfo {
@@ -1147,6 +1163,10 @@ background-color: white;
 
 
   /*---------------------------------------------------------------------------------Solution*/
+  #solution1 #solutionFront {
+    padding-top: 0;
+  }
+
   #solution1 #solutionFront img {
     height: 40vh;
   }
@@ -1251,6 +1271,9 @@ background-color: white;
   #toggle:checked ~ nav a {
     padding: 5% 20%;
   }
+
+  /*------------------------------------------------------------------------------------------Index -*/
+
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
