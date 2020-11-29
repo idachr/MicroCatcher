@@ -236,7 +236,7 @@ footer .footerInfo ul li a {
 /*---------------------------------------------------------------------------------Index*/
 #index {
   padding-top: 90px;
-  padding-bottom: 10%;
+  padding-bottom: 1%;
   background-color: #222222;
   height: 80vh;
 }
@@ -322,8 +322,8 @@ footer .footerInfo ul li a {
 }
 
 #index3 {
-padding-top: 10%;
-padding-bottom: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
 background-color: #222222;
 }
 
@@ -349,7 +349,7 @@ background-color: #222222;
 /*---------------------------------------------------------------------------------AboutUs*/
 #about {
   padding-top: 90px;
-  padding-bottom: 10%;
+  padding-bottom: 1%;
   background-color: #222222;
 }
 
@@ -677,7 +677,7 @@ background-color: #222222;
   max-width: 100vw;
   background-color: #222222;
   margin: 0 auto;
-  padding: 10% 0;
+  padding: 10% 0px 5%
 }
 
 #solutionFront h1 {
@@ -980,6 +980,7 @@ background-color: #222222;
   /*---------------------------------------------------------------------------------Index*/
   #index {
     padding-top: 90px;
+    padding-bottom: 30px;
     height: auto;
   }
 
@@ -1019,7 +1020,7 @@ background-color: #222222;
 
   #index3 {
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
   }
 
   #index2 .indexBigPictureInfo2 {
@@ -1297,6 +1298,7 @@ background-color: #222222;
 @media only screen and (max-width: 26em){
   h1 {
     font-size: 2.2rem;
+    padding-top: 7%;
   }
 
   h2 {
@@ -1383,7 +1385,7 @@ background-color: #222222;
   }
 
   #problem2 .problemInfo .problemInfoText {
-    margin: 0;
+    margin: auto;
   }
 
 
