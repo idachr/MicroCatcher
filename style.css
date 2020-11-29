@@ -1103,7 +1103,6 @@ background-color: #222222;
   #aboutTeam .person {
     width: 40vw;
     margin: 5% auto;
-    overflow: scroll;
   }
 
   #aboutTeam .personGruppe2 {
