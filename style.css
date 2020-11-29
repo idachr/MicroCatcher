@@ -70,6 +70,7 @@ i {
   border: 0;
   font-weight: bold;
   font-size: 1.1rem;
+  width: auto;
 }
 
 .button:hover {
@@ -1504,5 +1505,14 @@ background-color: #222222;
 
   #solutionBigPictureBackground {
     background-attachment: scroll;
+  }
+}
+
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+
+  header{
+    background-color: green;
   }
 }
