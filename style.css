@@ -1203,15 +1203,6 @@ background-color: #222222;
 
 @media only screen and (max-width: 670px) and (orientation: portrait){
   /*---------------------------------------------------------------------------------Header*/
-  header {
-    height: 50px;
-  }
-
-  .logo {
-    width: 27%;
-    padding-top: 2%;
-  }
-
   nav {
     display: none;
     background-color: #222222;
@@ -1248,7 +1239,7 @@ background-color: #222222;
     width: 100vw;
     height: 100vh;
     left: 0;
-    top: 49px;
+    top: 79px;
     display: block;
   }
 
@@ -1261,11 +1252,7 @@ background-color: #222222;
   }
 
   #toggle:checked ~ nav li {
-    margin: 10%;
-  }
-
-  #toggle:checked ~ nav a {
-    padding: 5% 20%;
+    margin: 10% auto;
   }
 
   /*------------------------------------------------------------------------------------------Index -*/
