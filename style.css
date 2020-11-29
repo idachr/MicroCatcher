@@ -184,8 +184,6 @@ input[type=checkbox] {
 }
 
 #menu {
-
-
 }
 
 #menu.fas.fa-bars::before {
@@ -255,7 +253,7 @@ footer .footerInfo ul li a {
   padding-top: 90px;
   padding-bottom: 1%;
   background-color: #222222;
-  height: 80vh;
+  height: 90vh;
 }
 
 .indexInfo{
