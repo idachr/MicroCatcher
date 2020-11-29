@@ -1613,6 +1613,12 @@ background-color: #222222;
     border-radius: 15px/15px;
   }
 
+  #problem2 .problemInfoText a {
+    color: black;
+    text-decoration: black underline;
+    font-family: "Open Sans", sans-serif, Serif;
+  }
+
   #submit {
     padding: 3%;
   }
