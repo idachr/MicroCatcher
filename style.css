@@ -43,12 +43,14 @@ input {
   font-family: 'Tenor Sans', sans-serif, Serif;
   border: 2px solid white;
   border-radius: 10px/10px;
+  font-size: 0.9rem;
 }
 
 textarea {
   font-family: 'Tenor Sans', sans-serif, Serif;
   border: 2px solid white;
   border-radius: 10px/10px;
+  font-size: 0.9rem;
 }
 
 i {
@@ -106,7 +108,7 @@ header {
 }
 
 header .logo {
-  padding: 1%;
+  padding: 1% 1% 1% 4%;
   width: 15vw;
 }
 
@@ -580,7 +582,7 @@ background-color: white;
 .problemFront {
   display: block;
   margin: 0 auto;
-  padding: 90px 0 5% 0;
+  padding: 90px 0 10% 0;
   width: 80vw;
 }
 
