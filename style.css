@@ -70,6 +70,7 @@ i {
   border: 0;
   font-weight: bold;
   font-size: 1.1rem;
+  width: auto;
 }
 
 .button:hover {
@@ -281,6 +282,7 @@ footer .footerInfo ul li a {
 }
 .indexBigLogo .contain h1 {
   margin-bottom: 0;
+  color: white;
 }
 .indexBigLogo .contain h2 {
   text-align: center;
@@ -573,7 +575,7 @@ background-color: #222222;
   width: 80vw;
 }
 
-.problemFront h1 {
+#problem1 .problemFront h1 {
   color: white;
   text-align: center;
 }
@@ -1505,4 +1507,27 @@ background-color: #222222;
   #solutionBigPictureBackground {
     background-attachment: scroll;
   }
+}
+
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+
+  header{
+    background-color: green;
+  }
+
+  #index2 {
+    display: flex;
+    flex-direction: row;
+    /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
+    background-image: url(image/fishingShoals.jpg);
+    height: 70vh;
+    width: 95vw;
+    margin: 5% auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px/15px;
+  }
+
 }
