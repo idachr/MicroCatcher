@@ -236,12 +236,14 @@ footer .footerInfo ul li a {
   padding-top: 90px;
   padding-bottom: 10%;
   background-color: #222222;
-  max-height: 100vh;
+  height: 80vh;
 }
 
 .indexInfo{
   display: flex;
   flex-direction: row;
+  margin-top:8%;
+  margin-bottom: 10%;
   width: 100%;
 }
 
@@ -357,6 +359,8 @@ background-color: #222222;
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top:8%;
+  margin-bottom: 10%;
 }
 
 .aboutHeader img {
@@ -565,8 +569,7 @@ background-color: white;
 
 /*---------------------------------------------------------------------------------Problem*/
 #bodyProblem{
-  margin-left: 5%;
-  margin-right: 5%;
+
 }
 
 #problem1 {
@@ -579,6 +582,11 @@ background-color: white;
   margin: 0 auto;
   padding: 90px 0 5% 0;
   width: 80vw;
+}
+
+.problemFront h1 {
+  color: white;
+  text-align: center;
 }
 
 .problemFront img {
@@ -689,12 +697,17 @@ background-color: white;
 #solution1 #solutionFront{
   display: block;
   margin: 0 auto;
-  padding: 90px 0 5% 0;
+  padding: 10% 0 10% 0;
+}
+
+#solution1 #solutionFront h1 {
+  color: white;
+  text-align: center;
 }
 
 #solution1 #solutionFront img {
   width: 80vw;
-  height: 70vh;
+  max-height: 70vh;
   display: block;
   margin: 0 auto;
   border-radius: 15px/15px;
