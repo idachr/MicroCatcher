@@ -279,7 +279,9 @@ footer .footerInfo ul li a {
   display: block;
   width: 40%;
 }
-
+.indexBigLogo .contain h1 {
+  margin-bottom: 0;
+}
 .indexBigLogo .contain h2 {
   text-align: center;
   color: white;
@@ -411,7 +413,7 @@ background-color: #222222;
 }
 
 .aboutInfo p {
-  text-align: justify;
+  text-align: left;
 }
 
 .aboutInfo h1 {
@@ -614,7 +616,7 @@ background-color: #222222;
 }
 
 .problemInfo .problemInfoText p{
-  text-align: justify;
+  text-align: left;
 }
 
 .problemInfo .problemInfoText .problemInfoTextBox {
@@ -707,7 +709,7 @@ background-color: #222222;
 }
 
 .solutionInfo .solutionText p {
-  text-align: justify;
+  text-align: left;
 }
 
 .solutionInfo .solutionText{
