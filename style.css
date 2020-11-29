@@ -989,7 +989,6 @@ background-color: #222222;
     margin: auto;
     width: 80%;
     padding-bottom: 5%;
-
   }
 
   #index .indexBigLogo {
@@ -1412,6 +1411,18 @@ background-color: #222222;
   /*---------------------------------------------------------------------------------Sources*/
   #sources {
     padding: 15% 3%;
+  }
+}
+
+@media only screen and (max-height: 17em) {
+  /*---------------------------------------------------------------------------------Header*/
+  header {
+    position: unset;
+  }
+
+  /*---------------------------------------------------------------------------------Index*/
+  #index2 {
+    height: 170vh;
   }
 }
 
