@@ -633,6 +633,7 @@ background-color: #222222;
 .problemInfo .problemInfoText {
   width: 60vw;
   padding-right: 5%;
+  align-self: center;
 }
 
 .problemInfo .problemInfoText p{
