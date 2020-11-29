@@ -164,6 +164,7 @@ nav a:hover::before{
 i h2 {
   color: white;
   margin: 0;
+  font-family: "Open Sans", sans-serif, Serif;
 }
 
 .fas{
@@ -246,6 +247,7 @@ footer .footerInfo ul li a {
   margin-top:8%;
   margin-bottom: 10%;
   width: 100%;
+  color: white;
 }
 
 #index .indexInfo img {
@@ -255,7 +257,6 @@ footer .footerInfo ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  color: white;
 }
 
 .indexBigLogo{
@@ -371,6 +372,7 @@ background-color: #222222;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 .aboutHeaderText{
@@ -1085,7 +1087,6 @@ background-color: #222222;
     margin: auto;
   }
 
-
   #aboutTeam .personGruppe1 {
     flex-direction:column;
   }
@@ -1100,9 +1101,9 @@ background-color: #222222;
     flex-direction:column;
   }
 
-#about3 .aboutBigPictureInfo {
-  width: 100%;
-}
+  #about3 .aboutBigPictureInfo {
+    width: 100%;
+  }
 
   /*---------------------------------------------------------------------------------Problem*/
   .problemFront{
