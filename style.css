@@ -864,7 +864,7 @@ background-color: #222222;
 
 /*---------------------------------------------------------------------------------Media*/
 /*---------------------------------------------------------------------------------Horizontal tablet*/
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (max-width: 64em){
   /*---------------------------------------------------------------------------------Header*/
 
 
@@ -895,7 +895,7 @@ background-color: #222222;
 }
 
 /*---------------------------------------------------------------------------------Horizontal mobile*/
-@media only screen and (max-width: 896px)  and (orientation: landscape) {
+@media only screen and (max-width: 56em){
   /*---------------------------------------------------------------------------------Header*/
 
 
@@ -966,7 +966,7 @@ background-color: #222222;
 
 
 /*---------------------------------------------------------------------------------Vertical tablet*/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 48em) {
   /*---------------------------------------------------------------------------------Header*/
 
 
@@ -1202,7 +1202,7 @@ background-color: #222222;
 
 }
 
-@media only screen and (max-width: 670px) and (orientation: portrait){
+@media only screen and (max-width: 42em){
   /*---------------------------------------------------------------------------------Header*/
   nav {
     display: none;
@@ -1294,7 +1294,7 @@ background-color: #222222;
 }
 
 /*---------------------------------------------------------------------------------Vertical mobile*/
-@media only screen and (max-width: 414px) and (orientation: portrait) {
+@media only screen and (max-width: 26em){
   h1 {
     font-size: 2.2rem;
   }
