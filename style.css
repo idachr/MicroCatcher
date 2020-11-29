@@ -1625,6 +1625,10 @@ background-color: #222222;
     border-radius: 15px/15px;
   }
 
+  #solutionBigPicture {
+    height: 100%;
+  }
+
   #solutionBigPictureBackground {
     /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
     background-image: url(image/pollutedBeach.png);
@@ -1639,7 +1643,7 @@ background-color: #222222;
     border-radius: 15px/15px;
   }
 
-  #solutionBigPictureTextBox {
+  #solutionBigPictureBackground #solutionBigPictureTextBox {
     height: 70vh;
   }
 
