@@ -1524,6 +1524,7 @@ background-color: #222222;
     height: 70vh;
     width: 95vw;
     margin: 5% auto;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 15px/15px;
