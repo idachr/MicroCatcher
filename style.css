@@ -224,7 +224,9 @@ footer .footerInfo ul li a {
 }
 
 .footerInfo a:hover {
-  text-decoration: underline white;
+  border: solid 1px #aaaaaa;
+  padding: 0;
+  text-decoration: none;
 }
 
 
