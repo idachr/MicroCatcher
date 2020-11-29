@@ -1515,4 +1515,18 @@ background-color: #222222;
   header{
     background-color: green;
   }
+
+  #index2 {
+    display: flex;
+    flex-direction: row;
+    /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
+    background-image: url(image/fishingShoals.jpg);
+    height: 70vh;
+    width: 95vw;
+    margin: 5% auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px/15px;
+  }
+
 }
