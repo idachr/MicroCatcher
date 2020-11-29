@@ -499,11 +499,12 @@ background-color: #222222;
   width: 22vw;
   background-color: white;
   border-radius: 15px/15px;
-  height: 90vh;
+  height: 50vh;
+  overflow: scroll;
 }
 
 #about2 .person img {
-  width: 95%;
+  width: 85%;
   border-radius: 50%;
   margin: 5% auto;
 }
@@ -917,13 +918,15 @@ background-color: #222222;
   }
 
   #aboutTeam .personGruppe1 {
-    flex-direction:column;
+    flex-direction: column;
+    height: 100%;
   }
 
   #aboutTeam .person {
     width: 40vw;
     margin: 5% auto;
     overflow: scroll;
+    height: 90%;
   }
 
   #aboutTeam .person img {
@@ -1098,9 +1101,10 @@ background-color: #222222;
   }
 
   #aboutTeam .person {
-    height: 85vh;
+    height: 50vh;
     width: 40vw;
     margin: 5% auto;
+    overflow: scroll;
   }
 
   #aboutTeam .personGruppe2 {
@@ -1570,7 +1574,8 @@ background-color: #222222;
   }
 
   #aboutTeam .person {
-    height: 60vh;
+    height: 50vh;
+    overflow: scroll;
   }
 
 }
