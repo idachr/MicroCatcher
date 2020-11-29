@@ -1610,6 +1610,9 @@ background-color: #222222;
     background-size: cover;
     border-radius: 15px/15px;
   }
+  #solutionBigPictureTextBox {
+    height: 70vh;
+  }
 
   #problem2 .problemInfoText a {
     color: black;
