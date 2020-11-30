@@ -736,11 +736,17 @@ background-color: #222222;
 .solutionInfo .solutionText #ft a {
   font-size: 3rem;
   font-family: "Open Sans", sans-serif, Serif;
-  color: #60c8cc;
+  color: black;
+  text-decoration:underline;
+  margin: 0;
+  padding: 0;
 }
 
 .solutionInfo .solutionText #ft a:hover {
-  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .solutionInfo .solutionText{
@@ -1471,7 +1477,7 @@ background-color: #222222;
   #toggle:checked ~ nav {
     height: 250vh;
   }
-  
+
 
   /*---------------------------------------------------------------------------------Index*/
   #index2 {
