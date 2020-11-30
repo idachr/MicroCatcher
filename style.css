@@ -74,7 +74,8 @@ i {
 }
 
 #about3 form .button {
-  width:16vw;
+  width:auto;
+  padding: 3%;
 }
 
 .button:hover {
@@ -1473,7 +1474,7 @@ background-color: #222222;
   #privacy {
     padding: 15% 3%;
   }
-  
+
 
   /*---------------------------------------------------------------------------------Sources*/
   #sources {
