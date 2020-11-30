@@ -895,7 +895,7 @@ background-color: #222222;
 }
 
 #sources ul li a:hover {
-  text-decoration: underline #60c8cc;
+  text-decoration: none;
 }
 
 #sources .sourcesBox {
