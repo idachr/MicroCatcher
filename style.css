@@ -1060,8 +1060,6 @@ background-color: #222222;
     flex-direction: column;
   }
 
-
-
   #index3 .indexInfo img {
     margin-bottom: 2%;
     width: 55vw;
@@ -1075,6 +1073,7 @@ background-color: #222222;
   #index3 .indexInfo .indexBigLogo h2 {
     width: 90%;
   }
+
 
   /*---------------------------------------------------------------------------------AboutUs*/
   .aboutHeader {
@@ -1094,7 +1093,6 @@ background-color: #222222;
     flex-direction: column;
     width: 100%;
     padding: 0;
-
   }
 
   #about1 .aboutInfo .aboutBigLogo{
@@ -1108,7 +1106,6 @@ background-color: #222222;
 
   #about1 .aboutInfo .aboutImage {
     width: 100%;
-
   }
 
   #about1 .aboutInfo .aboutImage img {
@@ -1134,6 +1131,7 @@ background-color: #222222;
     width: 100%;
   }
 
+
   /*---------------------------------------------------------------------------------Problem*/
   .problemFront{
     padding: 90px 0 10% 0;
@@ -1157,7 +1155,6 @@ background-color: #222222;
   .problemInfo .problemInfoBilde img {
     width: 69vw;
     margin: auto auto 5% auto;
-
   }
 
   .problemInfo .problemInfoText {
@@ -1230,10 +1227,6 @@ background-color: #222222;
   #solutionEmpty {
     width: 0;
   }
-
-
-  /*---------------------------------------------------------------------------------Privacy*/
-
 }
 
 @media only screen and (max-width: 42em){
@@ -1309,9 +1302,6 @@ background-color: #222222;
     margin: 10% auto;
   }
 
-  /*------------------------------------------------------------------------------------------Index -*/
-
-
 
   /*---------------------------------------------------------------------------------AboutUs*/
 
@@ -1336,7 +1326,6 @@ background-color: #222222;
     width: 40vw;
   }
 
-
   #aboutTeam {
     flex-direction: column;
   }
@@ -1359,17 +1348,7 @@ background-color: #222222;
   }
 
 
-
-
-  /*---------------------------------------------------------------------------------Header*/
-
-
-
-  /*---------------------------------------------------------------------------------Footer*/
-
-
   /*---------------------------------------------------------------------------------Index*/
-
   #index2 {
     background-attachment: inherit;
     background-position: center;
@@ -1377,20 +1356,22 @@ background-color: #222222;
     background-size: cover;
   }
 
+
   /*---------------------------------------------------------------------------------AboutUs*/
-
-
   .aboutHeaderText{
     margin: auto;
   }
+
   .contain h1{
     font-size: 25px;
     width: 85vw;
   }
+
   .aboutInfo{
     flex-direction: column;
     width: auto;
   }
+
   .aboutInfo .aboutImage{
     width: auto;
     display: block;
@@ -1462,6 +1443,7 @@ background-color: #222222;
     background-size: cover;
   }
 
+
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img {
     height: 25vh;
@@ -1487,6 +1469,7 @@ background-color: #222222;
   #privacy {
     padding: 15% 3%;
   }
+  
 
   /*---------------------------------------------------------------------------------Sources*/
   #sources {
