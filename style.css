@@ -41,35 +41,35 @@ label {
 
 input {
   font-family: 'Tenor Sans', sans-serif, Serif;
+  font-size: 0.9rem;
   border: 2px solid white;
   border-radius: 10px/10px;
-  font-size: 0.9rem;
 }
 
 textarea {
   font-family: 'Tenor Sans', sans-serif, Serif;
+  font-size: 0.9rem;
   border: 2px solid white;
   border-radius: 10px/10px;
-  font-size: 0.9rem;
 }
 
 i {
+  font-family: "Open Sans", sans-serif, Serif;
   padding: 0 5%;
   cursor: pointer;
-  font-family: "Open Sans", sans-serif, Serif;
 }
 
 .button {
   font-family:'Tenor Sans', sans-serif, Serif;
+  font-size: 1.1rem;
+  font-weight: bold;
   background-color: #60c8cc;
   color: #222222;
   text-decoration: none;
   margin: 1% 0;
   padding: 1.5%;
-  border-radius: 20px/20px;
   border: 0;
-  font-weight: bold;
-  font-size: 1.1rem;
+  border-radius: 20px/20px;
   width: auto;
 }
 
@@ -98,7 +98,6 @@ header {
 }
 
 /*Skip to content button*/
-/*Ryan, P, 2020*/
 #skip {
   position: absolute;
   left: -50%;
@@ -144,7 +143,7 @@ nav a {
   color: white;
   font-size: 1.5rem;
   white-space: nowrap;
-  width:auto;
+  width: auto;
 }
 
 nav a:hover {
@@ -168,9 +167,9 @@ nav a:hover::before{
 
 /*Hamburger menu*/
 i p {
+  font-family: "Open Sans", sans-serif, Serif;
   color: white;
   margin: 0;
-  font-family: "Open Sans", sans-serif, Serif;
 }
 
 .fas{
@@ -197,13 +196,13 @@ input[type=checkbox] {
 
 /*---------------------------------------------------------------------------------Footer*/
 footer{
+  font-family:'Tenor Sans', sans-serif, Serif;
   display: flex;
   flex-direction: row;
   background-color: black;
   text-align: center;
   text-transform: uppercase;
   color: #dddddd;
-  font-family:'Tenor Sans', sans-serif, Serif;
   width: 100%;
 }
 
@@ -253,7 +252,7 @@ footer .footerInfo ul li a {
 .indexInfo{
   display: flex;
   flex-direction: row;
-  margin-top:8%;
+  margin-top: 8%;
   margin-bottom: 10%;
   width: 100%;
   color: white;
@@ -375,7 +374,7 @@ background-color: #222222;
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top:8%;
+  margin-top: 8%;
   margin-bottom: 10%;
 }
 
@@ -489,15 +488,15 @@ background-color: #222222;
   display: flex;
   flex-direction:row;
   width: 100%;
-  margin-left:2%;
+  margin-left: 2%;
   margin-right: 0;
 }
 
 #aboutTeam .personGruppe2 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   width: 100%;
-  margin-left:0;
+  margin-left: 0;
   margin-right: 2%;
 }
 
@@ -731,14 +730,14 @@ background-color: #222222;
 }
 
 .solutionInfo .solutionText #ft{
-  margin: 0;}
+  margin: 0;
+}
 
 .solutionInfo .solutionText #ft a {
   font-size: 3rem;
   font-family: "Open Sans", sans-serif, Serif;
   color: #60c8cc;
 }
-
 
 .solutionInfo .solutionText #ft a:hover {
   color: black;
@@ -840,6 +839,7 @@ background-color: #222222;
   text-decoration: underline #60c8cc;
 }
 
+
 /*--------------------------------------------------------------------------------- Sources*/
 #sources {
   text-align: center;
@@ -898,17 +898,7 @@ background-color: #222222;
 
 
 /*---------------------------------------------------------------------------------Media*/
-/*---------------------------------------------------------------------------------Horizontal tablet*/
 @media only screen and (max-width: 64em){
-  /*---------------------------------------------------------------------------------Header*/
-
-
-  /*---------------------------------------------------------------------------------Index*/
-
-  /*---------------------------------------------------------------------------------AboutUs*/
-
-  /*---------------------------------------------------------------------------------Problem*/
-
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img {
     height: 60vh;
@@ -921,26 +911,17 @@ background-color: #222222;
   #solutionBigPictureBackground {
     height: 50vh;
   }
-
-
-  /*---------------------------------------------------------------------------------Privacy*/
-
-  /*---------------------------------------------------------------------------------Sources*/
-
 }
 
-/*---------------------------------------------------------------------------------Horizontal mobile*/
+
 @media only screen and (max-width: 56em){
-  /*---------------------------------------------------------------------------------Header*/
-
-
   /*---------------------------------------------------------------------------------Index*/
   #index {
     padding-top: 90px;
   }
 
-  /*---------------------------------------------------------------------------------AboutUs*/
 
+  /*---------------------------------------------------------------------------------AboutUs*/
   #about {
     padding-top: 90px;
   }
@@ -963,6 +944,7 @@ background-color: #222222;
     flex-direction:column;
   }
 
+
   /*---------------------------------------------------------------------------------Problem*/
 
   #problem1 {
@@ -972,6 +954,7 @@ background-color: #222222;
   .problemInfo .problemInfoText {
     padding-left: 0;
   }
+
 
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 {
@@ -991,26 +974,16 @@ background-color: #222222;
   #solutionBigPictureBackground {
     height: 60vh;
   }
-
-
-  /*---------------------------------------------------------------------------------Privacy*/
-
-  /*---------------------------------------------------------------------------------Sources*/
-
 }
 
 
-/*---------------------------------------------------------------------------------Vertical tablet*/
 @media only screen and (max-width: 48em) {
-  /*---------------------------------------------------------------------------------Header*/
-
-
-
   /*---------------------------------------------------------------------------------Footer*/
   footer{
     display: flex;
     flex-direction: column;
   }
+
 
   /*---------------------------------------------------------------------------------Index*/
   #index {
@@ -1045,7 +1018,6 @@ background-color: #222222;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   #index2 .indexBigPictureInfo{
@@ -1120,7 +1092,7 @@ background-color: #222222;
   }
 
   #aboutTeam .personGruppe1 {
-    flex-direction:column;
+    flex-direction: column;
   }
 
   #aboutTeam .person {
@@ -1129,7 +1101,7 @@ background-color: #222222;
   }
 
   #aboutTeam .personGruppe2 {
-    flex-direction:column;
+    flex-direction: column;
   }
 
   #about3 .aboutBigPictureInfo {
@@ -1309,15 +1281,14 @@ background-color: #222222;
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
-
   #aboutTeam .personGruppe1 {
-    flex-direction:column;
+    flex-direction: column;
     padding: 0;
     margin: 0;
   }
 
   #aboutTeam .personGruppe2 {
-    flex-direction:column;
+    flex-direction: column;
     padding: 0;
     margin: 0;
   }
@@ -1327,6 +1298,7 @@ background-color: #222222;
     margin: 5% auto;
     padding: 0;
   }
+
   #aboutTeam .person img {
     width: 40vw;
   }
@@ -1341,7 +1313,6 @@ background-color: #222222;
 }
 
 
-/*---------------------------------------------------------------------------------Vertical mobile*/
 @media only screen and (max-width: 26em){
   h1 {
     font-size: 2.2rem;
@@ -1384,7 +1355,7 @@ background-color: #222222;
 
   .aboutInfo .aboutImage img {
     width: 80vw;
-    display: grid;
+      display: flex;
     margin-left: auto;
   }
 
@@ -1397,11 +1368,11 @@ background-color: #222222;
   }
 
   #aboutTeam .personGruppe1 {
-    flex-direction:column;
+    flex-direction: column;
   }
 
   #aboutTeam .personGruppe2 {
-    flex-direction:column;
+    flex-direction: column;
   }
 
   #aboutTeam .person {
@@ -1470,6 +1441,7 @@ background-color: #222222;
     background-size: cover;
   }
 
+
   /*---------------------------------------------------------------------------------Privacy*/
   #privacy {
     padding: 15% 3%;
@@ -1496,6 +1468,7 @@ background-color: #222222;
   #toggle:checked ~ nav {
     height: 250vh;
   }
+  
 
   /*---------------------------------------------------------------------------------Index*/
   #index2 {
