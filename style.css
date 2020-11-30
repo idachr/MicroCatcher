@@ -1206,7 +1206,7 @@ background-color: #222222;
   }
 }
 
-@media only screen and (max-width: 42em){
+@media only screen and (max-width: 42em) and (orientation: portrait){
   /*---------------------------------------------------------------------------------Header*/
   header {
     display: flex;
