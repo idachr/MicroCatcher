@@ -1,3 +1,9 @@
+/*Newcomer, P, n.d.*/
+/*Caron, M, 2017*/
+/*Divinector, 2019*/
+/*Ryan, P, 2020*/
+
+
 body {
   margin: 0;
   padding: 0;
@@ -299,7 +305,7 @@ footer .footerInfo ul li a {
 #index2 {
   display: flex;
   flex-direction: row;
-  /*  https://pixabay.com/no/photos/dyr-akvarium-akvatiske-blå-coral-21668/*/
+  /*PublicDomainPictures, 2012*/
   background-image: url(image/fishingShoals.jpg);
   height: 70vh;
   width: 95vw;
