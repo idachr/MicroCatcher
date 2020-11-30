@@ -735,10 +735,10 @@ background-color: #222222;
   margin-bottom: 0;
 }
 
-#ft{
+.solutionInfo .solutionText #ft{
   margin: 0;}
 
-#ft a {
+.solutionInfo .solutionText #ft a {
   font-size: 3rem;
   font-family: "Open Sans", sans-serif, Serif;
   color: #60c8cc;
