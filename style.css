@@ -73,6 +73,10 @@ i {
   width: auto;
 }
 
+#about3 form .button {
+  width:16vw;
+}
+
 .button:hover {
   transform: scale(1.2);
 }
@@ -1662,10 +1666,6 @@ background-color: #222222;
     color: black;
     text-decoration: black underline;
     font-family: "Open Sans", sans-serif, Serif;
-  }
-
-  #submit {
-    width: 20vw;
   }
 
 }
