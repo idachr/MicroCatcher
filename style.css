@@ -540,7 +540,7 @@ background-color: #222222;
 }
 
 #about3 .aboutBigPicture {
-  /*Wikipedia. (2006). Norwegian Fjord. [Photograph]. Wikipedia. https://commons.wikimedia.org/wiki/File:Norwegian_Fjord.jpg*/
+  /*Wikipedia, 2006*/
   background-image: url(image/fjord.jpg);
   height: auto;
   width: 95vw;
@@ -664,7 +664,7 @@ background-color: #222222;
 }
 
 #problem3 #problemSeeThroughPicture{
-  /* https://pixabay.com/no/photos/fisk-underwater-koraller-havet-378286/ */
+  /*Joakant, 2014*/
   background-image: url(image/fishingShoalsCoralreef.jpeg);
   height: 70vh;
   width: 95vw;
@@ -786,7 +786,7 @@ background-color: #222222;
 }
 
 #solutionBigPictureBackground {
-  /*  https://www.123rf.com/photo_144078040_micro-plastics-mixed-in-the-sand-in-famara-beach-lanzarote.html */
+  /*123rf, n.d.*/
   background-image: url(image/pollutedBeach.png);
   display: flex;
   height: 70vh;
