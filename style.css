@@ -1603,7 +1603,7 @@ background-color: #222222;
 
   #problem2 .problemInfo .problemInfoText a {
     color: black;
-    text-decoration: underline;
+    border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif, Serif;
   }
 
