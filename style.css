@@ -536,7 +536,7 @@ background-color: #222222;
 #about3 .aboutBigPicture {
   /* https://pxhere.com/no/photo/952291 gammelt bilde*/
   /*Wikipedia. (2006). Norwegian Fjord. [Photograph]. Wikipedia. https://commons.wikimedia.org/wiki/File:Norwegian_Fjord.jpg*/
-  background-image: url(image/fjord.jpg); /*alternativt barcode(litt mye som skjer bak teksten, fjord(fin), norwegianNature (litt dårlig kvalitet)*/
+  background-image: url(image/fjord.jpg);
   height: auto;
   width: 95vw;
   margin: 0 auto;
@@ -736,11 +736,17 @@ background-color: #222222;
 .solutionInfo .solutionText #ft a {
   font-size: 3rem;
   font-family: "Open Sans", sans-serif, Serif;
-  color: #60c8cc;
+  color: black;
+  text-decoration:underline;
+  margin: 0;
+  padding: 0;
 }
 
 .solutionInfo .solutionText #ft a:hover {
-  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .solutionInfo .solutionText{
@@ -889,7 +895,7 @@ background-color: #222222;
 }
 
 #sources ul li a:hover {
-  text-decoration: underline #60c8cc;
+  text-decoration: none;
 }
 
 #sources .sourcesBox {
@@ -1471,7 +1477,7 @@ background-color: #222222;
   #toggle:checked ~ nav {
     height: 250vh;
   }
-  
+
 
   /*---------------------------------------------------------------------------------Index*/
   #index2 {
