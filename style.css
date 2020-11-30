@@ -1601,9 +1601,9 @@ background-color: #222222;
     height: 70vh;
   }
 
-  #problem2 .problemInfoText a {
+  #problem2 .problemInfo .problemInfoText a {
     color: black;
-    text-decoration: black underline;
+    text-decoration: underline;
     font-family: "Open Sans", sans-serif, Serif;
   }
 
