@@ -735,11 +735,12 @@ background-color: #222222;
 
 .solutionInfo .solutionText #ft a {
   font-size: 3rem;
-  font-family: "Open Sans", sans-serif, Serif;
+  font-family: "Tenor Sans", sans-serif, Serif;
   color: black;
   text-decoration:underline;
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 .solutionInfo .solutionText #ft a:hover {
