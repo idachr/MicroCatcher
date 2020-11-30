@@ -57,7 +57,7 @@
       <workItem from="1605990587146" duration="17355000" />
       <workItem from="1606057489803" duration="6129000" />
       <workItem from="1606411588756" duration="51795000" />
-      <workItem from="1606730736608" duration="352000" />
+      <workItem from="1606730736608" duration="1010000" />
     </task>
     <servers />
   </component>
@@ -65,6 +65,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606730949887">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606730949887" />
     <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605788676805">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
