@@ -827,6 +827,7 @@ background-color: #222222;
 
 #privacy h1{
   color: white;
+  text-align: center;
 }
 
 .privacyItem {
@@ -837,18 +838,14 @@ background-color: #222222;
   border-radius: 15px/15px;
 }
 
-.privacyItem h2 {
-  color: black;
-  font-size: 1.7rem;
-}
-
-.privacyItem a {
+#privacy .privacyItem a {
   color: black;
   text-decoration: underline;
 }
 
-.privacyItem a:hover {
-  text-decoration: underline #60c8cc;
+#privacy .privacyItem a:hover {
+  text-decoration: none;
+  border: solid black 1px;
 }
 
 
