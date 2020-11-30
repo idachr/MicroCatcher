@@ -534,7 +534,6 @@ background-color: #222222;
 }
 
 #about3 .aboutBigPicture {
-  /* https://pxhere.com/no/photo/952291 gammelt bilde*/
   /*Wikipedia. (2006). Norwegian Fjord. [Photograph]. Wikipedia. https://commons.wikimedia.org/wiki/File:Norwegian_Fjord.jpg*/
   background-image: url(image/fjord.jpg);
   height: auto;
