@@ -180,15 +180,6 @@ input[type=checkbox] {
   display: none;
 }
 
-#labeltoggle{
-}
-
-#menu {
-}
-
-#menu.fas.fa-bars::before {
-}
-
 #menu, #close {
   display: none;
   padding: 0;
@@ -196,7 +187,6 @@ input[type=checkbox] {
 
 #labeltoggle #menu p {
   width: 100%;
-  font: 1rem;
 }
 
 
@@ -1580,12 +1570,8 @@ background-color: #222222;
     position: relative;
   }
 
-  nav ul {
-    margin: 0;
-  }
-
 /*Background pictures*/
-  #index2 {
+  /*#index2 {
     background-attachment: scroll;
   }
 
@@ -1599,7 +1585,7 @@ background-color: #222222;
 
   #solutionBigPictureBackground {
     background-attachment: scroll;
-  }
+  }*/
 }
 
 
