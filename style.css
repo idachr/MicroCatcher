@@ -1600,7 +1600,7 @@ background-color: #222222;
     height: 70vh;
   }
 
-  #problem2 .problemInfo .problemInfoText a {
+  #bodyProblem #problem2 .problemInfo .problemInfoText a {
     color: black;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif, Serif;
