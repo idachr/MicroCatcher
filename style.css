@@ -1550,29 +1550,11 @@ background-color: #222222;
   nav ul li a::before {
     position: relative;
   }
-
-/*Background pictures*/
-  /*#index2 {
-    background-attachment: scroll;
-  }
-
-  #about3 .aboutBigPicture {
-    background-attachment: scroll;
-  }
-
-  #problem3 .problemSeeThroughPicture {
-    background-attachment: scroll;
-  }
-
-  #solutionBigPictureBackground {
-    background-attachment: scroll;
-  }*/
 }
 
 
+/* CSS specific to iOS devices */
 @supports (-webkit-touch-callout: none) {
-  /* CSS specific to iOS devices */
-
   #index2 {
     display: flex;
     flex-direction: row;
@@ -1581,7 +1563,7 @@ background-color: #222222;
     height: 70vh;
     width: 95vw;
     margin: 5% auto;
-    background-attachment:inherit;
+    background-attachment: inherit;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1637,12 +1619,13 @@ background-color: #222222;
     height: 70vh;
   }
 
-
-
   #problem2 .problemInfoText a {
     color: black;
     text-decoration: black underline;
     font-family: "Open Sans", sans-serif, Serif;
   }
 
+  #submit {
+    width: 20vw;
+  }
 }
