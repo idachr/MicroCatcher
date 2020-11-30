@@ -1064,8 +1064,6 @@ background-color: #222222;
     flex-direction: column;
   }
 
-
-
   #index3 .indexInfo img {
     margin-bottom: 2%;
     width: 55vw;
@@ -1079,6 +1077,7 @@ background-color: #222222;
   #index3 .indexInfo .indexBigLogo h2 {
     width: 90%;
   }
+
 
   /*---------------------------------------------------------------------------------AboutUs*/
   .aboutHeader {
@@ -1098,7 +1097,6 @@ background-color: #222222;
     flex-direction: column;
     width: 100%;
     padding: 0;
-
   }
 
   #about1 .aboutInfo .aboutBigLogo{
@@ -1112,7 +1110,6 @@ background-color: #222222;
 
   #about1 .aboutInfo .aboutImage {
     width: 100%;
-
   }
 
   #about1 .aboutInfo .aboutImage img {
@@ -1138,6 +1135,7 @@ background-color: #222222;
     width: 100%;
   }
 
+
   /*---------------------------------------------------------------------------------Problem*/
   .problemFront{
     padding: 90px 0 10% 0;
@@ -1161,7 +1159,6 @@ background-color: #222222;
   .problemInfo .problemInfoBilde img {
     width: 69vw;
     margin: auto auto 5% auto;
-
   }
 
   .problemInfo .problemInfoText {
@@ -1234,24 +1231,20 @@ background-color: #222222;
   #solutionEmpty {
     width: 0;
   }
-
-
-  /*---------------------------------------------------------------------------------Privacy*/
-
 }
 
 @media only screen and (max-width: 42em){
   /*---------------------------------------------------------------------------------Header*/
   header {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:flex-end;
-    height:auto;
+    justify-content: flex-end;
+    height: 60px;
   }
 
   header .logo {
-    width: 45vw;
+    width: 40vw;
   }
 
   nav {
@@ -1276,14 +1269,6 @@ background-color: #222222;
     height: auto;
   }
 
-  #labeltoggle #menu p {
-    font-size: 1.2rem;
-  }
-
-  #labeltoggle #close p {
-    font-size: 1.2rem;
-  }
-
   #toggle:focus ~ label #menu {
     outline: solid #60c8cc;
   }
@@ -1305,7 +1290,7 @@ background-color: #222222;
     width: 100vw;
     height: 100vh;
     left: 0;
-    top: 79px;
+    top: 59px;
     display: block;
   }
 
@@ -1320,9 +1305,6 @@ background-color: #222222;
   #toggle:checked ~ nav li {
     margin: 10% auto;
   }
-
-  /*------------------------------------------------------------------------------------------Index -*/
-
 
 
   /*---------------------------------------------------------------------------------AboutUs*/
@@ -1348,7 +1330,6 @@ background-color: #222222;
     width: 40vw;
   }
 
-
   #aboutTeam {
     flex-direction: column;
   }
@@ -1371,17 +1352,7 @@ background-color: #222222;
   }
 
 
-
-
-  /*---------------------------------------------------------------------------------Header*/
-
-
-
-  /*---------------------------------------------------------------------------------Footer*/
-
-
   /*---------------------------------------------------------------------------------Index*/
-
   #index2 {
     background-attachment: inherit;
     background-position: center;
@@ -1389,20 +1360,22 @@ background-color: #222222;
     background-size: cover;
   }
 
+
   /*---------------------------------------------------------------------------------AboutUs*/
-
-
   .aboutHeaderText{
     margin: auto;
   }
+
   .contain h1{
     font-size: 25px;
     width: 85vw;
   }
+
   .aboutInfo{
     flex-direction: column;
     width: auto;
   }
+
   .aboutInfo .aboutImage{
     width: auto;
     display: block;
@@ -1474,6 +1447,7 @@ background-color: #222222;
     background-size: cover;
   }
 
+
   /*---------------------------------------------------------------------------------Solution*/
   #solution1 #solutionFront img {
     height: 25vh;
@@ -1499,6 +1473,7 @@ background-color: #222222;
   #privacy {
     padding: 15% 3%;
   }
+  
 
   /*---------------------------------------------------------------------------------Sources*/
   #sources {
