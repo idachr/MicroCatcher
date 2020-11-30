@@ -880,7 +880,7 @@ background-color: #222222;
   padding: 0;
 }
 
-#sources ul li {
+#sources .sourcesBox ul li {
   list-style: none;
   color: black;
   font-family: 'Open Sans', sans-serif;
@@ -888,14 +888,14 @@ background-color: #222222;
   padding: 0 2%;
 }
 
-#sources ul li a {
+#sources .sourcesBox ul li a {
   color: black;
   text-decoration: underline black;
   font-family: 'Open sans', sans-serif;
   word-break: break-word;
 }
 
-#sources ul li a:hover {
+#sources .sourcesBox ul li a:hover {
   text-decoration: none;
 }
 
