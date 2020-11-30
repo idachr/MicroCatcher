@@ -1239,15 +1239,15 @@ background-color: #222222;
 @media only screen and (max-width: 42em){
   /*---------------------------------------------------------------------------------Header*/
   header {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:flex-end;
-    height:auto;
+    justify-content: flex-end;
+    height: 60px;
   }
 
   header .logo {
-    width: 45vw;
+    width: 40vw;
   }
 
   nav {
@@ -1272,14 +1272,6 @@ background-color: #222222;
     height: auto;
   }
 
-  #labeltoggle #menu p {
-    font-size: 1.2rem;
-  }
-
-  #labeltoggle #close p {
-    font-size: 1.2rem;
-  }
-
   #toggle:focus ~ label #menu {
     outline: solid #60c8cc;
   }
@@ -1301,7 +1293,7 @@ background-color: #222222;
     width: 100vw;
     height: 100vh;
     left: 0;
-    top: 79px;
+    top: 59px;
     display: block;
   }
 
